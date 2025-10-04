@@ -1,0 +1,163 @@
+/* ==========================================================
+   Fadi Al Machot — Academic Website
+   Clean professional theme (white + blue)
+   Last updated: October 2025
+   ========================================================== */
+
+:root {
+  --primary-color: #004c99;
+  --secondary-color: #007bff;
+  --text-color: #222;
+  --light-bg: #f9f9f9;
+  --footer-bg: #003366;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background: #fff;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 2.4em;
+  margin: 0;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #cfe2ff;
+  margin-top: 8px;
+}
+
+/* Navigation */
+nav {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Layout container */
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Section titles */
+section h2 {
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--secondary-color);
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+/* Home layout (photo + intro) */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.profile img {
+  width: 220px;
+  height: 220px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 3px solid var(--primary-color);
+}
+
+.profile-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Highlighted boxes */
+.highlight {
+  background: var(--light-bg);
+  padding: 15px;
+  border-left: 4px solid var(--secondary-color);
+  margin: 20px 0;
+}
+
+/* Footer */
+footer {
+  background: var(--footer-bg);
+  color: #fff;
+  text-align: center;
+  padding: 25px 15px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #cfe2ff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Footer icons */
+.footer-icons {
+  margin-top: 10px;
+}
+
+.footer-icons a {
+  display: inline-block;
+  margin: 0 8px;
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.footer-icons a:hover {
+  color: #ffeb3b;
+}
+
+/* Contact info */
+.contact-box {
+  background: var(--light-bg);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+  }
+}

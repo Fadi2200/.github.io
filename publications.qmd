@@ -1,0 +1,655 @@
+---
+title: "Publications"
+toc: false
+---
+
+<p style="font-size:0.9rem;color:#6c757d;margin-bottom:0.5rem;">
+All publications with links to full text. Filter by research theme, application domain, or type.
+<a href="https://scholar.google.com/citations?user=5ivk5WQAAAAJ&hl=en" target="_blank">Google Scholar</a> ·
+<a href="https://www.researchgate.net/profile/Fadi-Al-Machot" target="_blank">ResearchGate</a> ·
+<a href="https://www.scopus.com/authid/detail.uri?authorId=37010953300" target="_blank">Scopus</a> ·
+<a href="https://orcid.org/0000-0002-1239-9261" target="_blank">ORCID</a>
+</p>
+
+<div id="pub-app"></div>
+
+<script>
+const PUBS = [
+  // ── 2026 ──────────────────────────────────────────────
+  {y:2026,t:"Genomic Prediction of Feed Efficiency in Boars by Deep Learning",
+   au:"Onabanjo O., Meuwissen T., Gjøen H.M., Al Machot F., van Son M., Berg P.",
+   v:"G3: Genes, Genomes, Genetics · Oxford Academic",
+   url:"https://academic.oup.com/g3journal/article/16/1/jkaf274/8323593",
+   r:["dl"],a:["bio"],tp:"J"},
+
+  {y:2026,t:"Family Matters: A Systematic Study of Spatial vs. Frequency Masking for Continual Test-Time Adaptation",
+   au:"Doloriel C.T.C., Zhang Y., Yu Y., Rafi T.H., Siddiqui M.S., Stevik T.K., Ullah H., Al Machot F., Liland K.H.",
+   v:"Transactions on Machine Learning Research (TMLR)",
+   url:"https://arxiv.org/pdf/2512.08048",r:["trust","dl"],a:[],tp:"J"},
+
+  {y:2026,t:"Towards Sustainable Universal Deepfake Detection with Frequency-Domain Masking",
+   au:"Doloriel C.T.C., Ullah H., Liland K.H., Al Machot F., Cheung N-M.",
+   v:"ACM Transactions on Multimedia Computing, Communications and Applications (TOMM)",
+   url:"https://arxiv.org/abs/2512.08042",r:["trust","dl"],a:[],tp:"J"},
+
+  {y:2026,t:"Risk-Aware Dynamic Ensembling for Time-Series Forecasting under Concept Drift: A Frugal Adaptation Framework",
+   au:"Ahmad H., Mortazavi S.K., Benarbia T., Al Machot F., Kyamakya K.",
+   v:"Procedia Computer Science",
+   url:"#",r:["eff"],a:[],tp:"C"},
+
+  {y:2026,t:"PG-NODE^TB: Physics-Guided Neural Ordinary Differential Equations for Tuberculosis Transmission Dynamics",
+   au:"Kasereka S., Mafuta E., Al Machot F., Kyamakya K.",
+   v:"Preprint",
+   url:"#",r:["eff","dl"],a:["health"],tp:"C"},
+
+  // ── 2025 ──────────────────────────────────────────────
+  {y:2025,t:"Deep Learning-Based Models for Paddy Disease Classification and Segmentation: An Experimental Review",
+   au:"Tasfe M., Nivrito A., Al Machot F., Ullah M., Cheikh F.A., Ullah H.",
+   v:"IEEE Access",
+   url:"https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11126076",r:["dl"],a:["agri"],tp:"J"},
+
+  {y:2025,t:"Advances in Computational Intelligence for Floating Offshore Wind Turbines Aerodynamics: Current State Review and Future Potential",
+   au:"Mian H.H., Al Machot F., Ullah H., Keprate A., Siddiqui M.S.",
+   v:"Renewable and Sustainable Energy Reviews · Vol. 224, p.116098 · Elsevier",
+   url:"https://www.sciencedirect.com/science/article/abs/pii/S1364032125007713",
+   r:["eff"],a:["energy"],tp:"J",award:"Q1 · IF 16.3"},
+
+  {y:2025,t:"Designing the Conceptual Landscape for a XAIR Validation Infrastructure",
+   au:"Al Machot F., Horsch M.T., Scholze S.",
+   v:"Lecture Notes in Networks and Systems (LNNS) · Springer",
+   url:"https://link.springer.com/book/9783031892738",r:["trust"],a:[],tp:"B"},
+
+  {y:2025,t:"GraphX-Forecast: A Unified Survey on the Synergy of GNNs, Uncertainty, and XAI for Multi-Horizon Time Series Forecasting",
+   au:"Ahmad H., Mortazavi S.K., Benarbia T., Al Machot F. et al.",
+   v:"Preprint",
+   url:"#",r:["eff","trust"],a:[],tp:"C"},
+
+  {y:2025,t:"FragFM: Fragmented Fourier Matrix for Multi-Seasonality Extraction in Univariate Long-Term Time Series Forecasting",
+   au:"Dey A., Kusch J., Al Machot F.",
+   v:"Norwegian ICT Conference for Research and Education (NIKT)",
+   url:"https://www.ntnu.no/ojs/index.php/nikt/article/view/6532",
+   r:["eff"],a:[],tp:"C",award:"Best Paper Award NIKT 2025"},
+
+  {y:2025,t:"NASP-T: A Fuzzy Neuro-Symbolic Transformer for Logic-Constrained Aviation Safety Report Classification",
+   au:"Al Machot F., Al Machot F.",
+   v:"arXiv:2510.05451",
+   url:"https://arxiv.org/abs/2510.05451",r:["trust"],a:[],tp:"C"},
+
+  {y:2025,t:"SEER-ZSL: Semantic Encoder-Enhanced Representations for Generalized Zero-Shot Learning",
+   au:"Heyden W., Ullah H., Siddiqui M.S., Al Machot F.",
+   v:"WACV 2025 Workshop — CV4Smalls",
+   url:"https://openaccess.thecvf.com/content/WACV2025W/CV4Small/papers/Heyden_SEER-ZSL_Semantic_Encoder-Enhanced_Representations_for_Generalized_Zero-Shot_Learning_WACVW_2025_paper.pdf",
+   r:["trust"],a:[],tp:"C"},
+
+  {y:2025,t:"RevCD: Reversed Conditional Diffusion for Generalized Zero-Shot Learning",
+   au:"Heyden W., Ullah H., Siddiqui M.S., Al Machot F.",
+   v:"International Conference on Deep Learning Theory and Applications (DELTA) · Springer",
+   url:"https://link.springer.com/chapter/10.1007/978-3-032-04339-9_20",r:["trust","dl"],a:[],tp:"C"},
+
+  {y:2025,t:"Few-Shot Learning for Hand-Based Micro Activity Recognition",
+   au:"Demrozi F., Al Machot F.",
+   v:"IEEE International Conference on Omni-layer Intelligent Systems (COINS) 2025",
+   url:"https://ieeexplore.ieee.org/abstract/document/11125749/",r:["trust"],a:["health"],tp:"C"},
+
+  {y:2025,t:"A Representative Sampling Approach to Few-Shot Transfer Learning",
+   au:"Dewage R.C.H., Ullah H., Siddiqui M.S., Islam R., Al Machot F.",
+   v:"Norwegian ICT Conference for Research and Education (NIKT)",
+   url:"https://www.ntnu.no/ojs/index.php/nikt/article/download/6541/5826",r:["trust"],a:["agri"],tp:"C"},
+
+  {y:2025,t:"Uncertainty Estimation and Calibration of a Few-Shot Transfer Learning Model for Lettuce Phenotyping",
+   au:"Dewage R.C.H., Ullah H., Siddiqui M.S., Islam R., Al Machot F.",
+   v:"7th International Conference on Knowledge Discovery and Information Retrieval (KDIR)",
+   url:"#",r:["trust"],a:["agri"],tp:"C"},
+
+  {y:2025,t:"CLAW: Complex Low-rank and Wavelet Transform for Univariate Long-term Time Series Forecasting",
+   au:"Dey A., Kusch J., Al Machot F.",
+   v:"FAIEMA 2025 — 3rd International Conference on Frontiers of AI, Ethics, and Multidisciplinary Applications",
+   url:"#",r:["eff"],a:[],tp:"C"},
+
+  {y:2025,t:"HADL: A Haar-DCT and Low-Rank Framework for Noise-Resilient Long-Term Time Series Forecasting",
+   au:"Dey A., Kusch J., Al Machot F.",
+   v:"International Conference on Time Series and Forecasting (ITISE 2025)",
+   url:"#",r:["eff"],a:[],tp:"C"},
+
+  {y:2025,t:"Lightweight and Resource-Efficient Battery Degradation Prediction Using Teacher-Informed Cellular Neural Networks (TICeNN)",
+   au:"Samarathunga L.S.W., Dey A., Horsch M.T., Al Machot F.",
+   v:"FAIEMA 2025",
+   url:"#",r:["eff"],a:["energy"],tp:"C"},
+
+  {y:2025,t:"Towards Explainable Ensemble Learning: Adaptive Feature Space Pruning and Optimized Classifier Selection",
+   au:"Uzair M., Jan Z., Khan S.D., Al Machot F., Ullah H.",
+   v:"DCLXVI 2025 · Springer Chapter",
+   url:"#",r:["trust"],a:[],tp:"Ch"},
+
+  {y:2025,t:"Scope of Physics-Based Simulation Artefacts",
+   au:"Horsch M.T., Al Machot F., Vrabec J.",
+   v:"DCLXVI 2025 · Springer Chapter",
+   url:"https://arxiv.org/pdf/2412.06077",r:["trust"],a:["energy"],tp:"Ch"},
+
+  // ── 2024 ──────────────────────────────────────────────
+  {y:2024,t:"Recent Advances in Machine Learning Techniques and Sensor Applications for Human Emotion, Activity Recognition and Support",
+   au:"Kyamakya K., Al Machot F., Ullah H., Demrozi F.",
+   v:"Studies in Computational Intelligence (SCI Vol.1175) · Springer",
+   url:"https://link.springer.com/book/9783031718205",r:["dl"],a:["health"],tp:"B"},
+
+  {y:2024,t:"Deep Learning Based Models for Paddy Disease Identification and Classification: A Systematic Survey",
+   au:"Tasfe M., Nivrito A., Al Machot F., Ullah M., Ullah H.",
+   v:"IEEE Access",
+   url:"https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10574294",r:["dl"],a:["agri"],tp:"J"},
+
+  {y:2024,t:"Hydrodynamic Response of Semi-Submersible FOWT Floaters: A Numerical Investigation of Wave and Mooring Parameter Dependencies",
+   au:"Mian H.H., Siddiqui M.S., Stoevesandt B., Ullah H., Al Machot F.",
+   v:"Journal of Physics Conference Series (TORQUE)",
+   url:"https://iopscience.iop.org/article/10.1088/1742-6596/2767/6/062029/pdf",r:["eff"],a:["energy"],tp:"J"},
+
+  {y:2024,t:"A Graph Attention Network Based System for Robust Analog Circuits' Structure Recognition Involving a Novel Data Augmentation Technique",
+   au:"Deeb A., Salem M., Ibrahim A., Pichler J., Tkachov S., Karaj A., Al Machot F., Kyamakya K.",
+   v:"IEEE Access",
+   url:"https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10440102",r:["dl"],a:["auto"],tp:"J"},
+
+  {y:2024,t:"A Robust Automated Analog Circuits Classification Involving a Graph Neural Network and a Novel Data Augmentation Strategy",
+   au:"Kambale W.V., Salem M., Benarbia T., Al Machot F., Kyamakya K.",
+   v:"Symmetry · MDPI",
+   url:"https://www.mdpi.com/2073-8994/16/2/241",r:["dl"],a:["auto"],tp:"J"},
+
+  {y:2024,t:"Comprehensive Sensitivity Analysis Framework for Transfer Learning Performance Assessment for Time Series Forecasting",
+   au:"Kambale W.V., Salem M., Benarbia T., Al Machot F., Kyamakya K.",
+   v:"Symmetry · MDPI",
+   url:"#",r:["eff"],a:[],tp:"J"},
+
+  {y:2024,t:"Building Trustworthy AI: Transparent AI Systems via Large Language Models, Ontologies, and Logical Reasoning (TRANSPNET)",
+   au:"Al Machot F., Horsch M.T., Ullah H.",
+   v:"DCLXVI International Workshop · Kaiserslautern · arXiv:2411.08469",
+   url:"https://arxiv.org/pdf/2411.08469",r:["trust"],a:[],tp:"C"},
+
+  {y:2024,t:"Symbolic-AI-Fusion Deep Learning (SAIF-DL): Encoding Knowledge into Training with ASP Loss Penalties by a Novel Loss Function Approach",
+   au:"Al Machot F., Horsch M.T., Ullah H.",
+   v:"DCLXVI International Workshop · Kaiserslautern · arXiv:2411.08463",
+   url:"https://arxiv.org/pdf/2411.08463",r:["trust"],a:[],tp:"C"},
+
+  {y:2024,t:"Bridging Logic and Learning: A Neural-Symbolic Approach for Enhanced Reasoning in Neural Models (ASPER)",
+   au:"Al Machot F.",
+   v:"DCLXVI International Workshop · Kaiserslautern",
+   url:"https://arxiv.org/pdf/2312.11651",r:["trust"],a:[],tp:"C"},
+
+  {y:2024,t:"An Enhanced Subject-Independent Approach for Hand-Based Micro Activities Recognition",
+   au:"Demrozi F., Al Machot F.",
+   v:"IEEE International Conference on Omni-layer Intelligent Systems (COINS) · London",
+   url:"https://ieeexplore.ieee.org/abstract/document/10622123/",r:["trust","dl"],a:["health"],tp:"C"},
+
+  {y:2024,t:"Enhanced Time Series Forecasting: Integrating PatchTST with BERT Layers",
+   au:"Ahmad H., Mortazavi S.K., El Bahnasawi M., Al Machot F., Kambale W.V., Kyamakya K.",
+   v:"IEEE International Conference on Applied Mathematics & Computer Science (ICAMCS)",
+   url:"https://ieeexplore.ieee.org/abstract/document/10771354",r:["eff"],a:[],tp:"C"},
+
+  {y:2024,t:"Towards Explainable Ensemble Learning: Adaptive Feature Space Pruning and Optimized Classifier Selection",
+   au:"Uzair M., Jan Z., Khan S.D., Al Machot F., Ullah H.",
+   v:"DCLXVI International Workshop · Kaiserslautern",
+   url:"#",r:["trust"],a:[],tp:"C"},
+
+  {y:2024,t:"Benchmarking Deep Learning Models for Explainable IoT Intrusion Detection on Diverse Datasets",
+   au:"Waqas A., Khan S.D., Ullah Z., Al Machot F., Ullah H.",
+   v:"DCLXVI International Workshop · Kaiserslautern",
+   url:"#",r:["trust","dl"],a:[],tp:"C"},
+
+  {y:2024,t:"Exploration of Core Concepts Required for Mid- and Domain-Level Ontology Development to Facilitate Explainable-AI-Readiness of Data and Models",
+   au:"Horsch M.T., Chiacchiera S., Todorov I.T., Correia A.T., Dey A., Konchakova N.A., Scholze S., Stephan S., Tøndel K., Sarkar A., Al Machot F. et al.",
+   v:"DAO-XAI @ ECAI 2024 · Spain",
+   url:"https://www.researchgate.net/publication/382742643",r:["trust"],a:[],tp:"C"},
+
+  {y:2024,t:"Battery Manufacturing Knowledge Infrastructure Requirements for Multicriteria Optimization Based Decision Support in Design of Simulation",
+   au:"Horsch M.T., Romanov D., Valseth E., Belouettar S., Al Machot F. et al.",
+   v:"International Workshop on Semantic Materials Science (SeMatS 2024) · Amsterdam",
+   url:"https://www.researchgate.net/publication/382659131",r:["trust"],a:["energy"],tp:"C"},
+
+  {y:2024,t:"A Metadata-Augmented Technique for Time Series Forecasting and Transfer Learning",
+   au:"Kambale W.V., Hamed M., El Bahnasawi M., Al Machot F. et al.",
+   v:"Conference Paper",
+   url:"#",r:["eff"],a:[],tp:"C"},
+
+  {y:2024,t:"ECG-Based Human Emotion Recognition Using Generative Models",
+   au:"Gunnarshaug O.G., Al Machot F.",
+   v:"Recent Advances in ML Techniques and Sensor Applications · Springer SCI",
+   url:"https://link.springer.com/chapter/10.1007/978-3-031-71821-2_3",r:["dl"],a:["health"],tp:"Ch"},
+
+  {y:2024,t:"An Interactive Metamodel Integration Approach (IMIA) for Active and Assisted Living Systems",
+   au:"Elkobaisi M.R., Al Machot F.",
+   v:"Recent Advances in ML Techniques and Sensor Applications · Springer SCI",
+   url:"https://link.springer.com/chapter/10.1007/978-3-031-71821-2_9",r:["trust"],a:["health"],tp:"Ch"},
+
+  {y:2024,t:"Recognizing Hand-Based Micro Activities Using Wrist-Worn Inertial Sensors: A Zero-Shot Learning Approach",
+   au:"Al Machot F., Ullah H., Demrozi F.",
+   v:"The Combined Power of Research, Education, and Dissemination · Springer LNCS",
+   url:"https://link.springer.com/chapter/10.1007/978-3-031-73887-6_16",r:["trust"],a:["health"],tp:"Ch"},
+
+  // ── 2023 ──────────────────────────────────────────────
+  {y:2023,t:"An Integral Projection-Based Semantic Autoencoder for Zero-Shot Learning",
+   au:"Heyden W., Ullah H., Siddiqui M.S., Al Machot F.",
+   v:"IEEE Access",
+   url:"https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10213991",r:["trust"],a:[],tp:"J"},
+
+  {y:2023,t:"Bridging Logic and Learning: A Neural-Symbolic Approach for Enhanced Reasoning in Neural Models (ASPER) — arXiv",
+   au:"Al Machot F.",
+   v:"arXiv:2312.11651",
+   url:"https://arxiv.org/pdf/2312.11651",r:["trust"],a:[],tp:"J"},
+
+  {y:2023,t:"A Robust Automated Analog Circuits Classification Involving a Graph Neural Network and a Novel Data Augmentation Strategy",
+   au:"Deeb A., Ibrahim A., Salem M., Pichler J., Tkachov S., Karaj A., Al Machot F., Kyamakya K.",
+   v:"Sensors · MDPI",
+   url:"https://www.mdpi.com/1424-8220/23/6/2989/pdf",r:["dl"],a:["auto"],tp:"J"},
+
+  {y:2023,t:"Deep Learning Based Speech Emotion Recognition for Parkinson Patient",
+   au:"Khan H., Ullah M., Al Machot F., Cheikh F.A., Sajjad M.",
+   v:"Electronic Imaging · Society for Imaging Science and Technology",
+   url:"#",r:["dl"],a:["health"],tp:"J"},
+
+  {y:2023,t:"Modeling and Simulation of Shared Electric Automated and Connected Mobility Systems with Autonomous Repositioning",
+   au:"Benarbia T., Kyamakya K., Al Machot F., Kambale W.V.",
+   v:"Sustainability · MDPI",
+   url:"https://www.mdpi.com/2071-1050/15/1/881/pdf",r:["eff"],a:["auto"],tp:"J"},
+
+  {y:2023,t:"Sensitivity Analysis for an Ensemble Transfer Learning Scheme for Time Series Forecasting — Case-Study of a Shallow Neural Network Architecture",
+   au:"Kambale W.V., Kyamakya K., Al Machot F., Benarbia T.",
+   v:"IST-Africa Conference · Tshwane, South Africa",
+   url:"https://ieeexplore.ieee.org/abstract/document/10187750",r:["eff"],a:[],tp:"C"},
+
+  {y:2023,t:"A Comprehensive Review of Automated Data Annotation Techniques in Human Activity Recognition",
+   au:"Demrozi F., Turetta C., Al Machot F. et al.",
+   v:"Preprint",
+   url:"#",r:["trust","dl"],a:["health"],tp:"C"},
+
+  {y:2023,t:"Transformers in Time Series Forecasting: A Brief Analysis of the Autoformer Transfer Learning Performance",
+   au:"Kambale W.V., Kadurha D.K., Deeb A., Al Machot F., Kyamakya K.",
+   v:"Conference Paper",
+   url:"#",r:["eff"],a:[],tp:"C"},
+
+  {y:2023,t:"Ensemble Transfer Learning for Time Series Forecasting: A Comparative Sensitivity Analysis of Two Shallow Networks",
+   au:"Kambale W.V., Deeb A., Benarbia T., Al Machot F., Kyamakya K.",
+   v:"Conference Paper",
+   url:"#",r:["eff"],a:[],tp:"C"},
+
+  {y:2023,t:"A Boxplot Metadata Configuration Impact on Time Series Forecasting and Transfer Learning",
+   au:"Kambale W.V., Deeb A., Benarbia T., Al Machot F., Kyamakya K.",
+   v:"Conference Paper",
+   url:"#",r:["eff"],a:[],tp:"C"},
+
+  {y:2023,t:"Transformers in Time Series Forecasting: A Brief Transfer Learning Performance Analysis",
+   au:"Kambale W.V., Kadurha D.K., El Bahnasawi M., Al Machot F. et al.",
+   v:"Conference Paper",
+   url:"#",r:["eff"],a:[],tp:"C"},
+
+  {y:2023,t:"A Vertical Systematic Generalization Towards Real IP Analog-Mixed-Signal AMS Schematics Structure Recognition",
+   au:"Salem M., Deeb A., Ibrahim A., Al Machot F., Kyamakya K.",
+   v:"Conference Paper",
+   url:"#",r:["dl"],a:["auto"],tp:"C"},
+
+  {y:2023,t:"A Comprehensive Generalization of a GAT-Based System Towards Real IP Analog-Mixed-Signal AMS Schematics Structure Recognition",
+   au:"Deeb A., Salem M., Ibrahim A., Al Machot F., Kyamakya K.",
+   v:"Conference Paper",
+   url:"#",r:["dl"],a:["auto"],tp:"C"},
+
+  {y:2023,t:"The Past and Future of Lipidomics Bioinformatics",
+   au:"Kopczynski D., Krause D., Al Machot F., Schwudke D., Hoffmann N., Ahrends R.",
+   v:"Mass Spectrometry for Lipidomics: Methods and Applications · Wiley-VCH",
+   url:"https://onlinelibrary.wiley.com/doi/abs/10.1002/9783527836512.ch10",r:["dl"],a:["bio"],tp:"Ch"},
+
+  // ── 2022 ──────────────────────────────────────────────
+  {y:2022,t:"HFM: A Hybrid Feature Model Based on Conditional Auto Encoders for Zero-Shot Learning",
+   au:"Al Machot F., Ullah M., Ullah H.",
+   v:"Journal of Imaging · MDPI",
+   url:"https://www.mdpi.com/2313-433X/8/6/171/pdf",r:["trust","dl"],a:[],tp:"J"},
+
+  {y:2022,t:"Toward Authentication of Videos: Integer Transform Based Motion Vector Watermarking",
+   au:"Ullah R., Khan S.D., Ullah M., Al Machot F., Ullah H.",
+   v:"IEEE Access",
+   url:"https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9831442",r:["dl"],a:[],tp:"J"},
+
+  {y:2022,t:"A Current Encyclopedia of Bioinformatics Tools, Data Formats and Resources for Mass Spectrometry Lipidomics",
+   au:"Hoffmann N., Mayer G., Has C., Kopczynski D., Al Machot F., Schwudke D., Ahrends R. et al.",
+   v:"Metabolites · MDPI",
+   url:"https://www.mdpi.com/2218-1989/12/7/584/pdf",r:["dl"],a:["bio"],tp:"J"},
+
+  {y:2022,t:"Human Emotion: A Survey Focusing on Languages, Ontologies, Datasets, and Systems",
+   au:"Elkobaisi M.R., Al Machot F., Mayr H.C.",
+   v:"SN Computer Science · Springer",
+   url:"https://link.springer.com/content/pdf/10.1007/s42979-022-01116-x.pdf",r:["trust"],a:["health"],tp:"J"},
+
+  // ── 2021 ──────────────────────────────────────────────
+  {y:2021,t:"Human Emotion Modeling (HEM): An Interface for IoT Systems",
+   au:"Elkobaisi M.R., Al Machot F.",
+   v:"Journal of Ambient Intelligence and Humanized Computing · Springer",
+   url:"https://link.springer.com/content/pdf/10.1007/s12652-021-03437-w.pdf",r:["trust"],a:["health"],tp:"J"},
+
+  {y:2021,t:"Document-Image Related Visual Sensors and Machine Learning Techniques",
+   au:"Kyamakya K., Haj Mosa A., Al Machot F., Chedjou J.C.",
+   v:"Sensors · MDPI Books",
+   url:"https://www.mdpi.com/books/book/6885",r:["dl"],a:[],tp:"B"},
+
+  {y:2021,t:"Intelligent Transportation-Related Complex Systems and Sensors",
+   au:"Kyamakya K., Chedjou J.C., Al Machot F., Haj Mosa A., Bagula A.",
+   v:"Sensors · MDPI Books",
+   url:"https://www.mdpi.com/books/book/4071",r:["eff","dl"],a:["auto"],tp:"B"},
+
+  {y:2021,t:"Emotion and Stress Recognition Related Sensors and Machine Learning Technologies",
+   au:"Kyamakya K., Al Machot F., Haj Mosa A., Bouchachia H., Chedjou J.C., Bagula A.",
+   v:"Sensors · MDPI Books",
+   url:"https://www.mdpi.com/books/book/3959",r:["dl"],a:["health"],tp:"B"},
+
+  // ── 2020 ──────────────────────────────────────────────
+  {y:2020,t:"Zero-Shot Human Activity Recognition Using Non-Visual Sensors",
+   au:"Al Machot F., Elkobaisi M.R., Kyamakya K.",
+   v:"Sensors · MDPI",
+   url:"https://www.mdpi.com/1424-8220/20/3/825/pdf",r:["trust"],a:["health"],tp:"J"},
+
+  {y:2020,t:"A Domain-Independent Classification Model for Sentiment Analysis Using Neural Models",
+   au:"Jnoub N., Al Machot F., Klas W.",
+   v:"Applied Sciences · MDPI",
+   url:"https://www.mdpi.com/2076-3417/10/18/6221/pdf",r:["trust","dl"],a:[],tp:"J"},
+
+  // ── 2019 ──────────────────────────────────────────────
+  {y:2019,t:"A Deep-Learning Model for Subject-Independent Human Emotion Recognition Using Electrodermal Activity Sensors",
+   au:"Al Machot F., Elmachot A., Ali M., Al Machot E., Kyamakya K.",
+   v:"Sensors · MDPI",
+   url:"https://www.mdpi.com/1424-8220/19/7/1659/pdf",r:["dl"],a:["health"],tp:"J"},
+
+  // ── 2018 ──────────────────────────────────────────────
+  {y:2018,t:"IoT-based Human Action Prediction",
+   au:"Lunardi G.M., Al Machot F., Machado G.M., Maran V., Machado A., Mayr H., Shekhovtsov V., Palazzo J.",
+   v:"Internet of Things · Elsevier",
+   url:"https://www.sciencedirect.com/science/article/abs/pii/S2542660518300647",r:["trust"],a:["health"],tp:"J"},
+
+  {y:2018,t:"The HBMS Story: Past and Future of an Active Assistance Approach",
+   au:"Michael J., Steinberger C., Shekhovtsov V., Al Machot F., Ranasinghe S., Morak G.",
+   v:"International Journal for Conceptual Modeling (EMISAJ) · GI",
+   url:"https://emisa-journal.org/emisa/article/view/200",r:["trust"],a:["health"],tp:"J"},
+
+  {y:2018,t:"A Globally Generalized Emotion Recognition System Involving Different Physiological Signals",
+   au:"Ali M., Al Machot F., Haj Mosa A., Jdeed M., Al Machot E., Kyamakya K.",
+   v:"Sensors · MDPI",
+   url:"https://www.mdpi.com/1424-8220/18/6/1905/pdf",r:["dl"],a:["health"],tp:"J"},
+
+  {y:2018,t:"Special Issue on Conceptual Modelling in Honour of Heinrich C. Mayr",
+   au:"Michael J., Steinberger C., Shekhovtsov V.A., Ranasinghe S., Al Machot F.",
+   v:"Enterprise Modelling and Information Systems Architectures (EMISAJ)",
+   url:"#",r:["trust"],a:[],tp:"B"},
+
+  {y:2018,t:"Probabilistic Ontology Reasoning in Ambient Assistance: Predicting Human Actions",
+   au:"Lunardi G.M., Machado G.M., Al Machot F., Maran V., Machado A., Mayr H., Shekhovtsov V., Palazzo J.",
+   v:"32nd International Conference on Advanced Information Networking and Applications (AINA)",
+   url:"https://ieeexplore.ieee.org/document/8432294",r:["trust"],a:["health"],tp:"C"},
+
+  {y:2018,t:"Improving Subject-independent Human Emotion Recognition Using Electrodermal Activity Sensors for Active and Assisted Living",
+   au:"Al Machot F., Ali M., Ranasinghe S., Haj Mosa A., Kyamakya K.",
+   v:"11th ACM International Conference on PErvasive Technologies Related to Assistive Environments (PETRA)",
+   url:"https://dl.acm.org/doi/abs/10.1145/3197768.3201523",r:["dl"],a:["health"],tp:"C"},
+
+  {y:2018,t:"Human Activity Recognition Based on Real Life Scenarios",
+   au:"Al Machot F., Ranasinghe S., Plattner J., Jnoub N.",
+   v:"CoMoRea Workshop @ IEEE International Conference on Pervasive Computing and Communications (PerCom)",
+   url:"https://ieeexplore.ieee.org/abstract/document/8480138",r:["trust","dl"],a:["health"],tp:"C"},
+
+  {y:2018,t:"A Hybrid Reasoning Approach for Activity Recognition Based on Answer Set Programming and Dempster-Shafer Theory",
+   au:"Al Machot F., Mayr H.C., Ranasinghe S.",
+   v:"Recent Advances in Nonlinear Dynamics and Synchronization · Springer SSDC",
+   url:"https://link.springer.com/chapter/10.1007/978-3-319-58996-1_14",r:["trust"],a:["health"],tp:"Ch"},
+
+  // ── 2017 ──────────────────────────────────────────────
+  {y:2017,t:"Activity Recognition in Sensor Data Streams for Active and Assisted Living Environments",
+   au:"Al Machot F., Haj Mosa A., Ali M., Kyamakya K.",
+   v:"IEEE Transactions on Circuits and Systems for Video Technology",
+   url:"https://ieeexplore.ieee.org/document/8076880",r:["trust","dl"],a:["health"],tp:"J"},
+
+  {y:2017,t:"Emotion Recognition Involving Physiological and Speech Signals: A Comprehensive Review",
+   au:"Ali M., Haj Mosa A., Al Machot F., Kyamakya K.",
+   v:"Advances in Computational Intelligence · Springer",
+   url:"https://link.springer.com/chapter/10.1007/978-3-319-58996-1_13",r:["dl"],a:["health"],tp:"Ch"},
+
+  // ── 2016 ──────────────────────────────────────────────
+  {y:2016,t:"A Review on Applications of Activity Recognition Systems with Regard to Performance and Evaluation",
+   au:"Ranasinghe S., Al Machot F., Mayr H.C.",
+   v:"International Journal of Distributed Sensor Networks (IJDSN)",
+   url:"https://journals.sagepub.com/doi/epub/10.1177/1550147716665520",r:["trust"],a:["health"],tp:"J"},
+
+  {y:2016,t:"Real-Time Raindrop Detection Based on Cellular Neural Networks for ADAS",
+   au:"Al Machot F., Ali M., Haj Mosa A., Schwarzlmueller C., Gutmann M., Kyamakya K.",
+   v:"Journal of Real-Time Image Processing · Springer",
+   url:"https://link.springer.com/content/pdf/10.1007/s11554-016-0569-z.pdf",r:["eff","dl"],a:["auto"],tp:"J"},
+
+  {y:2016,t:"Soft Radial Basis Cellular Neural Network (SRB-CNN) Based Robust Low-Cost Truck Detection Using a Single Presence Detection Sensor",
+   au:"Haj Mosa A., Kyamakya K., Junghans R., Ali M., Al Machot F., Gutmann M.",
+   v:"Transportation Research Part C: Emerging Technologies · Elsevier",
+   url:"https://www.sciencedirect.com/science/article/abs/pii/S0968090X16302091",r:["eff","dl"],a:["auto"],tp:"J"},
+
+  {y:2016,t:"HCM-L: Domain-Specific Modeling for Active and Assisted Living",
+   au:"Mayr H.C., Al Machot F., Michael J., Morak G., Ranasinghe S., Shekhovtsov V., Steinberger C.",
+   v:"Domain-Specific Conceptual Modeling: Concepts, Methods and Tools · Springer",
+   url:"https://link.springer.com/chapter/10.1007/978-3-319-39417-6_24",r:["trust"],a:["health"],tp:"Ch"},
+
+  {y:2016,t:"A Windowing Approach for Activity Recognition in Sensor Data Streams",
+   au:"Al Machot F., Mayr H.C., Ranasinghe S.",
+   v:"8th IEEE International Conference on Ubiquitous and Future Networks (ICUFN) · Vienna",
+   url:"https://ieeexplore.ieee.org/abstract/document/7536937",r:["trust"],a:["health"],tp:"C"},
+
+  {y:2016,t:"CNN Based Subject-independent Driver Emotion Recognition System Involving Physiological Signals for ADAS",
+   au:"Ali M., Al Machot F., Haj Mosa A., Kyamakya K.",
+   v:"20th International Forum on Advanced Microsystems for Automotive Applications (AMAA) · Springer",
+   url:"https://link.springer.com/chapter/10.1007/978-3-319-44766-7_11",r:["dl"],a:["auto","health"],tp:"C"},
+
+  {y:2016,t:"EEG-Based Emotion Recognition Approach for E-Healthcare Applications",
+   au:"Ali M., Haj Mosa A., Al Machot F., Kyamakya K.",
+   v:"8th IEEE ICUFN · Vienna",
+   url:"https://ieeexplore.ieee.org/abstract/document/7536936",r:["dl"],a:["health"],tp:"C"},
+
+  {y:2016,t:"Improving Human Activity Recognition by Smart Windowing and Spatio-Temporal Feature Analysis",
+   au:"Al Machot F., Mayr H.C.",
+   v:"9th ACM International Conference on PErvasive Technologies Related to Assistive Environments (PETRA)",
+   url:"https://dl.acm.org/doi/abs/10.1145/2910674.2910697",r:["trust"],a:["health"],tp:"C"},
+
+  {y:2016,t:"A Novel EEG-Based Emotion Recognition Approach for E-Healthcare Applications",
+   au:"Ali M., Al Machot F., Haj Mosa A., Kyamakya K.",
+   v:"31st Annual ACM Symposium on Applied Computing",
+   url:"https://dl.acm.org/doi/abs/10.1145/2851613.2851916",r:["dl"],a:["health"],tp:"C"},
+
+  // ── 2015 ──────────────────────────────────────────────
+  {y:2015,t:"ADOxx Based Tool Support for a Behavior-Centered Modeling Approach",
+   au:"Michael J., Al Machot F., Mayr H.C.",
+   v:"8th ACM International Conference on PErvasive Technologies Related to Assistive Environments (PETRA)",
+   url:"https://dl.acm.org/doi/abs/10.1145/2769493.2769503",r:["trust"],a:["health"],tp:"C"},
+
+  {y:2015,t:"Neurocomputing-Based Matrix Inversion Involving Cellular Neural Networks: Blackbox Training Concept",
+   au:"Haj Mosa A., Kyamakya K., Ali M., Al Machot F., Chedjou J.C.",
+   v:"Autonomous Systems Workshop",
+   url:"#",r:["eff"],a:[],tp:"C"},
+
+  // ── 2014 ──────────────────────────────────────────────
+  {y:2014,t:"Behavior Modeling and Reasoning for Ambient Support: HCM-L Modeler",
+   au:"Al Machot F., Mayr H.C., Michael J.",
+   v:"27th International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE) · Springer LNAI",
+   url:"https://link.springer.com/chapter/10.1007/978-3-319-07467-2_41",r:["trust"],a:["health"],tp:"C"},
+
+  {y:2014,t:"A Behavior Centered Modeling Tool Based on ADOxx",
+   au:"Michael J., Al Machot F., Mayr H.C.",
+   v:"Joint Proceedings of the CAiSE Forum and CAiSE Doctoral Consortium · CEUR Workshop Proceedings",
+   url:"https://ceur-ws.org/Vol-1164/PaperDemo03.pdf",r:["trust"],a:["health"],tp:"C"},
+
+  {y:2014,t:"A Review of Object Classification for Video Surveillance Systems",
+   au:"Ali M., Al Machot F., Haj Mosa A. et al.",
+   v:"7th GI Workshop Autonomous Systems",
+   url:"#",r:["dl"],a:[],tp:"C"},
+
+  {y:2014,t:"A Computerized Method to Diagnose Strabismus",
+   au:"Haj Mosa A., Ali M., Al Machot F., Kyamakya K.",
+   v:"7th GI Workshop Autonomous Systems",
+   url:"#",r:["dl"],a:["health"],tp:"C"},
+
+  // ── 2011 ──────────────────────────────────────────────
+  {y:2011,t:"Real-Time Complex Event Detection Based on Answer Set Programming",
+   au:"Al Machot F., Kyamakya K.",
+   v:"ISAST Transactions on Computers and Intelligent Systems · University of Jyväskylä",
+   url:"https://www.researchgate.net/publication/281640173",r:["trust"],a:[],tp:"J"},
+
+  {y:2011,t:"Real-Time Complex Event Detection for Resource-Limited Multimedia Sensor Networks",
+   au:"Al Machot F., Kyamakya K., Dieber B., Rinner B.",
+   v:"8th IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS)",
+   url:"https://ieeexplore.ieee.org/abstract/document/6027378",r:["trust","eff"],a:[],tp:"C"},
+
+  {y:2011,t:"Smart Resource-Aware Multimedia Sensor Network for Automatic Detection of Complex Events",
+   au:"Al Machot F., Tasso C., Dieber B., Kyamakya K. et al.",
+   v:"8th IEEE AVSS",
+   url:"https://ieeexplore.ieee.org/abstract/document/6027362",r:["trust","eff"],a:[],tp:"C"},
+
+  {y:2011,t:"A Novel Real-Time Emotion Detection System from Audio Streams Based on Bayesian Quadratic Discriminate Classifier for ADAS",
+   au:"Al Machot F., Haj Mosa A., Dabbour K., Fasih A., Schwarzlmüller C.",
+   v:"Joint INDS'11 & ISTET'11 · Aachen",
+   url:"https://ieeexplore.ieee.org/abstract/document/6024783",r:["dl"],a:["auto","health"],tp:"C"},
+
+  {y:2011,t:"Adaptive Contrast Enhancement Involving CNN-Based Processing for Foggy Weather Conditions",
+   au:"Schwarzlmüller C., Al Machot F., Kyamakya K., Fasih A.",
+   v:"Joint INDS'11 & ISTET'11",
+   url:"https://ieeexplore.ieee.org/abstract/document/6024782",r:["eff","dl"],a:["auto"],tp:"C"},
+
+  {y:2011,t:"CNN Based High-Performance Computing for Real-Time Image Processing on GPU",
+   au:"Potluri S., Fasih A., Vutukuru L.K., Al Machot F., Kyamakya K.",
+   v:"Joint INDS'11 & ISTET'11",
+   url:"https://ieeexplore.ieee.org/abstract/document/6024781",r:["eff","dl"],a:[],tp:"C"},
+
+  {y:2011,t:"Non-intrusive Car Driver's Emotion Recognition Using Thermal Camera",
+   au:"Kolli A., Fasih A., Al Machot F., Kyamakya K.",
+   v:"Joint INDS'11 & ISTET'11",
+   url:"https://ieeexplore.ieee.org/abstract/document/6024802",r:["dl"],a:["auto","health"],tp:"C"},
+
+  {y:2011,t:"Fine-Grained Diagnostics of Ontologies with Assurance",
+   au:"Rass S., Al Machot F., Kyamakya K.",
+   v:"INTECH Open Access Publisher",
+   url:"#",r:["trust"],a:[],tp:"Ch"},
+
+  {y:2011,t:"Enabling a Driver-Specific 'Real-Time Road Safety' Assessment Through an 'Extended Floating Car Data' and Visualization System",
+   au:"Kyamakya K., Chedjou J.C., Al Machot F., Fasih A.",
+   v:"Autonomous Systems: Developments and Trends · Springer",
+   url:"https://link.springer.com/chapter/10.1007/978-3-642-24806-1_22",r:["eff"],a:["auto"],tp:"Ch"},
+
+  // ── 2010 ──────────────────────────────────────────────
+  {y:2010,t:"A Novel Support Vector Machine Classification Approach Involving CNN for Raindrop Detection",
+   au:"Schwarzlmüller C., Al Machot F., Fasih A., Kyamakya K.",
+   v:"ISAST Transactions on Computers and Intelligent Systems · University of Jyväskylä",
+   url:"#",r:["eff","dl"],a:["auto"],tp:"J"},
+
+  {y:2010,t:"Video Enhancement for ADAS Systems Based on FPGA and CNN Platform",
+   au:"Fasih A., Schwarzlmüller C., Kyamakya K., Al Machot F.",
+   v:"International Journal of Signal and Image Processing",
+   url:"#",r:["eff","dl"],a:["auto"],tp:"J"},
+
+  {y:2010,t:"Camera-Based System for Tracking and Position Estimation of Humans",
+   au:"Hartmann R., Al Machot F., Mahr P., Bobda C.",
+   v:"IEEE Conference on Design & Architectures for Signal & Image Processing (DASIP) · Edinburgh",
+   url:"https://ieeexplore.ieee.org/abstract/document/5706247",r:["dl"],a:[],tp:"C"},
+];
+
+const TOTAL = PUBS.length;
+
+const RTAG={trust:'Trustworthy, Generalizable AI & Neural-Symbolic',eff:'Efficient Learning & Temporal Data',dl:'Deep Learning & Computer Vision'};
+const ATAG={health:'Healthcare & AAL',auto:'Automotive & ADAS',agri:'Smart Agriculture',energy:'Energy & Engineering',bio:'Bioinformatics'};
+const RC={trust:'background:#EEEDFE;color:#3C3489',eff:'background:#E1F5EE;color:#085041',dl:'background:#E6F1FB;color:#0C447C'};
+const AC={health:'background:#FAECE7;color:#712B13',auto:'background:#F1EFE8;color:#444441',agri:'background:#EAF3DE;color:#27500A',energy:'background:#FAEEDA;color:#633806',bio:'background:#FBEAF0;color:#72243E'};
+
+let fR='all',fA='all',fT='all';
+
+function matches(p){
+  return (fR==='all'||p.r.includes(fR)) && (fA==='all'||p.a.includes(fA)) && (fT==='all'||p.tp===fT);
+}
+
+function pill(label,style,extra=''){
+  return `<span style="font-size:10px;padding:2px 8px;border-radius:20px;font-weight:500;${style}${extra}">${label}</span>`;
+}
+
+function render(){
+  const vis=PUBS.filter(matches);
+  document.getElementById('pub-total').innerHTML=`Showing <strong>${vis.length}</strong> of <strong>${TOTAL}</strong> publications`;
+
+  const counts={trust:0,eff:0,dl:0,health:0,auto:0,agri:0,energy:0,bio:0};
+  vis.forEach(p=>{
+    p.r.forEach(r=>{if(counts[r]!==undefined)counts[r]++});
+    p.a.forEach(a=>{if(counts[a]!==undefined)counts[a]++});
+  });
+  let cr='';
+  Object.entries({...RTAG,...ATAG}).forEach(([k,v])=>{
+    cr+=`<span style="font-size:11px;padding:3px 9px;border-radius:6px;background:#f7f9fc;color:#6c757d;border:1px solid #dde4ed;">${v}: <strong style="color:#1a3a5c">${counts[k]||0}</strong></span> `;
+  });
+  document.getElementById('pub-counts').innerHTML=cr;
+
+  const byYear={};
+  vis.forEach(p=>{(byYear[p.y]=byYear[p.y]||[]).push(p)});
+  const years=Object.keys(byYear).sort((a,b)=>b-a);
+  let html='';
+  years.forEach(y=>{
+    html+=`<div style="background:#f7f9fc;border-left:4px solid #2d7dd2;padding:3px 10px;font-size:12px;font-weight:600;color:#1a3a5c;margin:20px 0 6px;border-radius:0 4px 4px 0;">${y}</div>`;
+    byYear[y].forEach(p=>{
+      let badges='';
+      p.r.forEach(r=>{badges+=pill(RTAG[r],RC[r],';margin-right:4px;margin-top:4px;display:inline-block')});
+      p.a.forEach(a=>{badges+=pill(ATAG[a],AC[a],';margin-right:4px;margin-top:4px;display:inline-block')});
+      if(p.tp==='J') badges+=pill('Journal','background:#e8f1fb;color:#0c447c',';margin-right:4px;margin-top:4px;display:inline-block');
+      if(p.tp==='C') badges+=pill('Conference','background:#f1efe8;color:#444441',';margin-right:4px;margin-top:4px;display:inline-block');
+      if(p.tp==='B') badges+=pill('Book','background:#eaf3de;color:#27500a',';margin-right:4px;margin-top:4px;display:inline-block');
+      if(p.tp==='Ch') badges+=pill('Chapter','background:#fbeaf0;color:#72243e',';margin-right:4px;margin-top:4px;display:inline-block');
+      if(p.award) badges+=pill('★ '+p.award,'background:#FAEEDA;color:#633806',';margin-right:4px;margin-top:4px;display:inline-block');
+      const href=p.url&&p.url!='#'?`href="${p.url}" target="_blank"`:'';
+      html+=`<div style="padding:10px 0;border-bottom:1px solid #eef0f4;">
+        <div style="font-size:14px;font-weight:600;color:#1a3a5c;margin-bottom:3px;line-height:1.4;">
+          ${href?`<a ${href} style="color:#1a3a5c;text-decoration:none;" onmouseover="this.style.color='#2d7dd2'" onmouseout="this.style.color='#1a3a5c'">${p.t}</a>`:p.t}
+        </div>
+        <div style="font-size:12px;color:#6c757d;margin-bottom:2px;">${p.au}</div>
+        <div style="font-size:12px;font-style:italic;color:#2d7dd2;margin-bottom:4px;">${p.v}</div>
+        <div>${badges}</div>
+      </div>`;
+    });
+  });
+  document.getElementById('pub-list').innerHTML=html||'<p style="color:#6c757d;padding:16px 0;font-size:13px;">No publications match the selected filters.</p>';
+}
+
+function setF(el,f,v){
+  document.querySelectorAll('[data-fg="'+f+'"]').forEach(x=>{
+    x.style.background='white';x.style.color='#6c757d';x.style.borderColor='#dde4ed';
+  });
+  el.style.background='#1a3a5c';el.style.color='white';el.style.borderColor='#1a3a5c';
+  if(f==='r')fR=v; else if(f==='a')fA=v; else fT=v;
+  render();
+}
+
+function fpill(label,f,v,active){
+  const base='font-size:11px;padding:4px 10px;border-radius:20px;border:1px solid #dde4ed;cursor:pointer;transition:all 0.15s;';
+  const style=active?'background:#1a3a5c;color:white;border-color:#1a3a5c;':'background:white;color:#6c757d;';
+  return `<span data-fg="${f}" style="${base}${style}" onclick="setF(this,'${f}','${v}')">${label}</span>`;
+}
+
+document.getElementById('pub-app').innerHTML=`
+  <div style="margin-bottom:6px;display:flex;flex-wrap:wrap;gap:5px;align-items:center;">
+    <span style="font-size:11px;font-weight:600;color:#6c757d;min-width:90px;">Research</span>
+    ${fpill('All','r','all',true)}
+    ${fpill('Trustworthy, Generalizable AI &amp; Neural-Symbolic','r','trust',false)}
+    ${fpill('Efficient Learning &amp; Temporal Data','r','eff',false)}
+    ${fpill('Deep Learning &amp; Computer Vision','r','dl',false)}
+  </div>
+  <div style="margin-bottom:6px;display:flex;flex-wrap:wrap;gap:5px;align-items:center;">
+    <span style="font-size:11px;font-weight:600;color:#6c757d;min-width:90px;">Application</span>
+    ${fpill('All','a','all',true)}
+    ${fpill('Healthcare &amp; AAL','a','health',false)}
+    ${fpill('Automotive &amp; ADAS','a','auto',false)}
+    ${fpill('Smart Agriculture','a','agri',false)}
+    ${fpill('Energy &amp; Engineering','a','energy',false)}
+    ${fpill('Bioinformatics','a','bio',false)}
+  </div>
+  <div style="margin-bottom:16px;display:flex;flex-wrap:wrap;gap:5px;align-items:center;">
+    <span style="font-size:11px;font-weight:600;color:#6c757d;min-width:90px;">Type</span>
+    ${fpill('All types','t','all',true)}
+    ${fpill('Journal','t','J',false)}
+    ${fpill('Conference','t','C',false)}
+    ${fpill('Book','t','B',false)}
+    ${fpill('Chapter','t','Ch',false)}
+  </div>
+  <div id="pub-counts" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;"></div>
+  <div id="pub-total" style="font-size:13px;color:#6c757d;margin-bottom:4px;"></div>
+  <div id="pub-list"></div>
+`;
+
+render();
+</script>

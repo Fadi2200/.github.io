@@ -1,0 +1,118 @@
+---
+title: "Research Projects"
+toc: true
+---
+
+Funded projects from Horizon Europe, the Norwegian Research Council, Marie Skłodowska-Curie Actions, and other national and European agencies.
+
+---
+
+## Active Projects
+
+<!-- ============================================================
+     TO ADD A PROJECT: copy a .project-card block below.
+     Set data-status="active" or "completed"
+     ============================================================ -->
+
+::: {.project-card}
+::: {.project-meta}
+[2025–2028]{.badge-funder} [Research Council of Norway]{.badge-funder} [Active]{.badge-active}
+:::
+### UTFORSK DIP-Farm Edu
+**Digital Innovation Program for Research-based Education in Agricultural Robotics, Plant Breeding and Sustainable Food Production**  
+Norway–Brazil collaboration: NMBU, UFMT, IFMT, Graminor, AgriHub, FAPEMAT, and 14 agribusiness and tech companies. Ranked 4th out of 198 UTFORSK 2024 applications.  
+[Project info](https://www.cge.mt.gov.br/web/sedec/w/governo-de-mt-integra-projeto-com-pesquisadores-da-noruega-para-impulsionar-rob%C3%B3tica-e-ia-no-agro)
+:::
+
+::: {.project-card}
+::: {.project-meta}
+[2024–2027]{.badge-funder} [Research Council of Norway]{.badge-funder} [Active]{.badge-active}
+:::
+### AI-Based Plant Status Monitoring Using Few-Shot Learning
+Development of an AI-based image analysis system for monitoring plant status — approved by Akershus Fylkeskommune.  
+[Project info](https://www.nmbu.no/en/research/projects/advancing-controlled-environment-agriculture-using-artificial-intelligence)
+:::
+
+::: {.project-card}
+::: {.project-meta}
+[2024–2027]{.badge-funder} [Horizon Europe · HORIZON-CL5-2023-D2-01 · No. 101137725]{.badge-funder} [Active]{.badge-active}
+:::
+### BATCAT — Battery Cell Assembly Twin
+Digital twin for battery cell assembly manufacturing.  
+[batcat.info](http://batcat.info)
+:::
+
+::: {.project-card}
+::: {.project-meta}
+[2024–2027]{.badge-funder} [Horizon Europe · HORIZON-CL4-2023-RESILIENCE-01 · No. 101138510]{.badge-funder} [Active]{.badge-active}
+:::
+### DigiPass — Digital Materials & Product Passport
+Harmonization of Advanced Materials Ecosystems serving strategic Innovation Markets.  
+[ms.hereon.de/digipass](https://ms.hereon.de/digipass/)
+:::
+
+::: {.project-card}
+::: {.project-meta}
+[2024–2025]{.badge-funder} [Akershus Kommune]{.badge-funder} [Active]{.badge-active}
+:::
+### Advancing Controlled Environment Agriculture Using Artificial Intelligence
+Industrial PhD in collaboration with RiftLabs and NMBU, accepted by the Norwegian Research Council.  
+[Project info](https://www.nmbu.no/en/research/projects/advancing-controlled-environment-agriculture-using-artificial-intelligence)
+:::
+
+::: {.project-card}
+::: {.project-meta}
+[2023–2026]{.badge-funder} [NMBU]{.badge-funder} [Active]{.badge-active}
+:::
+### ZSL++ — Zero/Few-Shot Learning using Multimodal Sensors
+Research into zero- and few-shot learning approaches leveraging multimodal sensor data.  
+[GitHub](https://github.com/william-heyden/IP-SAE)
+:::
+
+::: {.project-card}
+::: {.project-meta}
+[2023–2026]{.badge-funder} [Marie Skłodowska-Curie Actions · No. 101106619]{.badge-funder} [Active]{.badge-active}
+:::
+### Marie Curie Fellowship — Supercritical CO₂ Cycle Heat Exchangers
+Evaluation of thermohydraulic characteristics of printed circuit heat exchangers in the pseudocritical region for supercritical CO₂ cycles.
+:::
+
+---
+
+## Completed Projects
+
+::: {.project-card}
+::: {.project-meta}
+[2017–2021]{.badge-funder} [BMBF Germany]{.badge-funder} [Completed]{.badge-completed}
+:::
+### LIFS — Lipidomics Informatics for Life Sciences
+Research Center Borstel – Leibniz Center for Medicine and Biosciences · Federal Ministry of Education and Research, Germany.  
+[lifs-tools.org](https://lifs-tools.org/)
+:::
+
+::: {.project-card}
+::: {.project-meta}
+[2013–2018]{.badge-funder} [Klaus Tschira Stiftung]{.badge-funder} [Completed]{.badge-completed}
+:::
+### HBMS — Human Behavior Modeling and Support
+University of Klagenfurt, Austria · Klaus Tschira Stiftung, Germany.  
+[Project info](https://austria.omilab.org/psm/content/hcml/info)
+:::
+
+::: {.project-card}
+::: {.project-meta}
+[2010–2013]{.badge-funder} [FFG – Austrian Research Promotion Agency]{.badge-funder} [Completed]{.badge-completed}
+:::
+### RoSiT — Robust Sensors in Traffic
+University of Klagenfurt, Austria · Swarco Traffic System GmbH · Led to European Research Patent No. EP2790165.  
+[Patent](https://patents.google.com/patent/EP2790165A1/en)
+:::
+
+::: {.project-card}
+::: {.project-meta}
+[2010–2013]{.badge-funder} [Interreg IV Italy-Austria]{.badge-funder} [Completed]{.badge-completed}
+:::
+### SRSnet — Smart Resource-Aware Multi-Sensor Network
+University of Klagenfurt, Austria · Interreg IV program, Italy and Austria.  
+[Project info](https://ec.europa.eu/regional_policy/en/projects/italy/srsnet-a-network-of-smart-sun-powered-sensors-helps-national-park-managers)
+:::

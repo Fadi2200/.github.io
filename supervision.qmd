@@ -1,0 +1,150 @@
+---
+title: "Supervision"
+toc: true
+---
+
+PhD and Master's students supervised at NMBU (Norway) and the University of Klagenfurt (Austria).
+
+---
+
+## PhD Students
+
+### Graduated
+
+<div class="student-entry">
+<span class="student-name">Witesyavwirwa Vianney Kambale</span><br>
+<span class="student-topic">Contributions to Robust Time Series Forecasting Analysis and/or Forecasting Involving Advanced Deep Learning Concepts</span><br>
+<span class="student-inst">University of Klagenfurt, Austria · <strong>Completed</strong></span>
+</div>
+
+<div class="student-entry">
+<span class="student-name">Ali Deeb</span><br>
+<span class="student-topic">Artificial Intelligence-based Analog/Mixed Signals Designs Structure Recognition</span><br>
+<span class="student-inst">University of Klagenfurt & INFINEON, Austria · <strong>Completed</strong></span>
+</div>
+
+---
+
+### Current — Main Supervisor
+
+<div class="student-entry">
+<span class="student-name">Rusith Chamara Hathurusinghe Dewage · 2024–2027</span><br>
+<span class="student-topic">Advancing Controlled Environment Agriculture using Artificial Intelligence</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU), Norway</span>
+</div>
+
+<div class="student-entry">
+<span class="student-name">William Heyden · 2023–2027</span><br>
+<span class="student-topic">Zero/Few-Shot Learning (ZSL/FSL) using Multimodal Sensors (ZSL++)</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU), Norway</span>
+</div>
+
+<div class="student-entry">
+<span class="student-name">Aditya Dey · 2024–2027</span><br>
+<span class="student-topic">Real-Time Series Forecasting using Cellular Neural Networks</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU), Norway</span>
+</div>
+
+---
+
+### Current — Co-Supervisor
+
+<div class="student-entry">
+<span class="student-name">Haris Hameed Mian</span><br>
+<span class="student-topic">Intelligent CFD Methods for the Simulation of Aerodynamic Flow in Offshore Wind Turbines</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU), Norway</span>
+</div>
+
+<div class="student-entry">
+<span class="student-name">Chandler Timm C. Doloriel</span><br>
+<span class="student-topic">Enhancing Aquaculture Technologies Through Artificial Intelligence</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU), Norway</span>
+</div>
+
+<div class="student-entry">
+<span class="student-name">Hussein Ahmad</span><br>
+<span class="student-topic">Trustworthy Multi-Horizon Time Series Forecasting for Critical Infrastructures</span><br>
+<span class="student-inst">University of Klagenfurt, Austria</span>
+</div>
+
+<div class="student-entry">
+<span class="student-name">Mohamed Mohsen Ahmed Salem</span><br>
+<span class="student-topic">AI-Enabled Automation for the Future of Semiconductor Design and Development Workflows</span><br>
+<span class="student-inst">University of Klagenfurt, Austria</span>
+</div>
+
+<div class="student-entry">
+<span class="student-name">Abdalrahman Mahmoud A. M. Ibrahim</span><br>
+<span class="student-topic">The Cognitive Stack: Bridging Topological Perception and Semantic Reasoning for Grounded Embodied Intelligence</span><br>
+<span class="student-inst">University of Klagenfurt, Austria</span>
+</div>
+
+<div class="student-entry">
+<span class="student-name">Eliska Sieglova</span><br>
+<span class="student-topic">The Cognitive Stack: Bridging Topological Perception and Semantic Reasoning for Grounded Embodied Intelligence</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU), Norway</span>
+</div>
+
+---
+
+## Master's Students
+
+<div class="pub-year-heading">2025</div>
+
+<div class="student-entry">
+<span class="student-name">Siyi Hu</span><br>
+<span class="student-topic">Hand-Based Micro-Activity Recognition Using Wearable Devices</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU)</span>
+</div>
+
+<div class="pub-year-heading">2024</div>
+
+<div class="student-entry">
+<span class="student-name">Kim Næss Kynningsrud</span><br>
+<span class="student-topic">Evaluating the Impact of Similarity Measures on Transfer Learning in Economic Time Series Analysis</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU)</span>
+</div>
+
+<div class="student-entry">
+<span class="student-name">Ulrik Egge Husby</span><br>
+<span class="student-topic">Exploring Breast Cancer Diagnosis: A Study of SHAP and LIME in XAI-Driven Medical Imaging</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU)</span>
+</div>
+
+<div class="student-entry">
+<span class="student-name">Sushant Kumar Srivastava</span><br>
+<span class="student-topic">Semantic Enhancements in Image Captioning: Leveraging Neural Networks to Improve BLIP and GPT-2</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU)</span>
+</div>
+
+<div class="student-entry">
+<span class="student-name">Eljar Alihosseinzadeh</span><br>
+<span class="student-topic">Siamese Networks for Telecommunication Customer Churn Data in a Few-Shot Learning Context</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU)</span>
+</div>
+
+<div class="student-entry">
+<span class="student-name">Roy Erling Granheim</span><br>
+<span class="student-topic">Enhancing Exercise Recognition: Integrating Advanced Deep Learning Models for Human Activity Recognition</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU)</span>
+</div>
+
+<div class="pub-year-heading">2023</div>
+
+<div class="student-entry">
+<span class="student-name">Jorge Eduardo Hermoso Valle</span><br>
+<span class="student-topic">Safety Improvement in Rock Climbing Through AI-Powered Computer Vision System by Identifying Human Fault</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU)</span>
+</div>
+
+<div class="student-entry">
+<span class="student-name">Sigrid Knag</span><br>
+<span class="student-topic">Seagrass and Seaweed Detection Approaches Using Remote Sensing and Google Earth Engine</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU)</span>
+</div>
+
+<div class="student-entry">
+<span class="student-name">Ole Gilje Gunnarshaug</span><br>
+<span class="student-topic">ECG-based Human Emotion Recognition Using Generative Models</span><br>
+<span class="student-inst">Norwegian University of Life Sciences (NMBU)</span>
+</div>

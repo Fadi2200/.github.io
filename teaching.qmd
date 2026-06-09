@@ -1,0 +1,58 @@
+---
+title: "Teaching"
+toc: false
+---
+
+<p style="font-size:0.9rem;color:#6c757d;margin-bottom:2rem;">
+Teaching at the Norwegian University of Life Sciences (NMBU) since 2021, and previously at the University of Klagenfurt, Austria.
+</p>
+
+<h2>Current Courses at NMBU</h2>
+
+<div style="display:grid;gap:1rem;margin-bottom:2.5rem;">
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1.25rem 1.5rem;">
+<h3 style="margin:0 0 0.4rem;font-size:1rem;color:#1a3a5c;">
+<a href="https://gammel.nmbu.no/course/DAT200" target="_blank">DAT200 — Applied Machine Learning</a>
+</h3>
+<p style="font-size:0.82rem;color:#6c757d;margin-bottom:0.6rem;">NMBU · Spring semester · Annual · 250 hours workload</p>
+<p style="font-size:0.9rem;margin:0;">Introduction to machine learning methodology using modern computing tools. Topics: preprocessing, feature extraction (PCA, LDA), feature selection, visualisation, scaling, and data formatting. Heavy focus on practical applications.</p>
+</div>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1.25rem 1.5rem;">
+<h3 style="margin:0 0 0.4rem;font-size:1rem;color:#1a3a5c;">
+<a href="https://gammel.nmbu.no/course/DAT300" target="_blank">DAT300 — Applied Deep Learning</a>
+</h3>
+<p style="font-size:0.82rem;color:#6c757d;margin-bottom:0.6rem;">NMBU · Autumn semester · Annual · 250 hours workload</p>
+<p style="font-size:0.9rem;margin:0;">Builds on DAT200. Covers foundations of artificial neural networks, deep CNNs, RNNs, autoencoders, variational autoencoders, GANs, and transformers. Heavy focus on applications and real-data modelling.</p>
+</div>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1.25rem 1.5rem;">
+<h3 style="margin:0 0 0.4rem;font-size:1rem;color:#1a3a5c;">
+<a href="https://gammel.nmbu.no/emne/INF221" target="_blank">INF221 — Computer Science for Data Scientists</a>
+</h3>
+<p style="font-size:0.82rem;color:#6c757d;margin-bottom:0.6rem;">NMBU · Previous course</p>
+<p style="font-size:0.9rem;margin:0;">Foundations of computer science tailored for data science students — algorithms, data structures, and programming paradigms relevant to ML workflows.</p>
+</div>
+
+</div>
+
+<h2>Previous Courses — University of Klagenfurt, Austria</h2>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem 2rem;margin-bottom:2rem;">
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">Autonomous Systems</div>
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">Robotics Fundamentals</div>
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">Fundamentals of Image Processing</div>
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">Practical Introduction to Neural Networks and Deep Learning</div>
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">Data Mining and Neurocomputing</div>
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">Machine Vision in Intelligent Transportation</div>
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">Mobile Applications with Android</div>
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">GIS — Expert Systems in Transportation</div>
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">Data Mining in Intelligent Transportation and Logistics</div>
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">Data, Network and Web Technology: Tools and Automation</div>
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">Seminar on Data Mining and Pattern Recognition in Intelligent Vehicle Technologies</div>
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">Seminar Neuro- und Bioinformatics "Machine Learning"</div>
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">Lab on Machine Vision</div>
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">Lab on Machine Learning and Applications in Intelligent Vehicles</div>
+<div style="font-size:0.9rem;padding:0.4rem 0;border-bottom:1px dashed #dde4ed;">Lab on Robotics Fundamentals</div>
+</div>

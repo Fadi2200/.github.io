@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - assets/stats.json
+    - assets/profile.png
+
+website:
+  title: "Fadi Al Machot"
+  description: "Associate Professor in Machine Learning — NMBU"
+  site-url: "https://fadi2200.github.io"
+
+  navbar:
+    title: "Fadi Al Machot"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Supervision"
+        href: supervision.qmd
+      - text: "Service"
+        href: service.qmd
+      - text: "Media"
+        href: media.qmd
+      - text: "Contact"
+        href: contact.qmd
+    right:
+      - icon: google
+        href: "https://scholar.google.com/citations?user=5ivk5WQAAAAJ&hl=en"
+        aria-label: Google Scholar
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/fadi-al-machot-10885835/"
+        aria-label: LinkedIn
+      - icon: github
+        href: "https://github.com/Fadi2200"
+        aria-label: GitHub
+
+  page-footer:
+    left: "© 2026 Fadi Al Machot · Norwegian University of Life Sciences (NMBU)"
+    right:
+      - text: "fadi.al.machot@nmbu.no"
+        href: "mailto:fadi.al.machot@nmbu.no"
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/custom.scss]
+    toc: true
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-icon: false
+    link-external-newwindow: true
+    page-layout: article
+    grid:
+      body-width: 900px

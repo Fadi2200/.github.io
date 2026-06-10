@@ -147,11 +147,6 @@ const PUBS = [
    v:"IEEE Access",
    url:"https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10440102",r:["dl"],a:["auto"],tp:"J"},
 
-  {y:2024,t:"A Robust Automated Analog Circuits Classification Involving a Graph Neural Network and a Novel Data Augmentation Strategy",
-   au:"Kambale W.V., Salem M., Benarbia T., Al Machot F., Kyamakya K.",
-   v:"Symmetry · MDPI",
-   url:"https://www.mdpi.com/2073-8994/16/2/241",r:["dl"],a:["auto"],tp:"J"},
-
   {y:2024,t:"Comprehensive Sensitivity Analysis Framework for Transfer Learning Performance Assessment for Time Series Forecasting",
    au:"Kambale W.V., Salem M., Benarbia T., Al Machot F., Kyamakya K.",
    v:"Symmetry · MDPI",
@@ -181,11 +176,6 @@ const PUBS = [
    au:"Ahmad H., Mortazavi S.K., El Bahnasawi M., Al Machot F., Kambale W.V., Kyamakya K.",
    v:"IEEE International Conference on Applied Mathematics & Computer Science (ICAMCS)",
    url:"https://ieeexplore.ieee.org/abstract/document/10771354",r:["eff"],a:[],tp:"C"},
-
-  {y:2024,t:"Towards Explainable Ensemble Learning: Adaptive Feature Space Pruning and Optimized Classifier Selection",
-   au:"Uzair M., Jan Z., Khan S.D., Al Machot F., Ullah H.",
-   v:"DCLXVI International Workshop · Kaiserslautern",
-   url:"#",r:["trust"],a:[],tp:"C"},
 
   {y:2024,t:"Benchmarking Deep Learning Models for Explainable IoT Intrusion Detection on Diverse Datasets",
    au:"Waqas A., Khan S.D., Ullah Z., Al Machot F., Ullah H.",
@@ -538,6 +528,38 @@ const PUBS = [
    au:"Fasih A., Schwarzlmüller C., Kyamakya K., Al Machot F.",
    v:"International Journal of Signal and Image Processing",
    url:"#",r:["eff","dl"],a:["auto"],tp:"J"},
+
+
+  // ── Additional papers from ResearchGate ──────────────────────
+  {y:2024,t:"A Robust Automated Analog Circuits Classification Involving a GNN and Novel Data Augmentation Strategy",
+   au:"Kambale W.V., Salem M., Benarbia T., Al Machot F., Kyamakya K.",
+   v:"Symmetry · MDPI",
+   url:"https://www.mdpi.com/2073-8994/16/2/241",r:["dl"],a:["auto"],tp:"J"},
+
+  {y:2023,t:"Ensemble Transfer Learning for Time Series Forecasting: A Sensitivity Analysis Framework for a Shallow Neural Network",
+   au:"Kambale W.V., Deeb A., Benarbia T., Al Machot F., Kyamakya K.",
+   v:"IST-Africa Conference · Tshwane",
+   url:"#",r:["eff"],a:[],tp:"C"},
+
+  {y:2012,t:"A Novel Real-Time Emotion Detection System for Advanced Driver Assistance Systems",
+   au:"Al Machot F., Haj Mosa A., Fasih A., Schwarzlmüller C., Ali M., Kyamakya K.",
+   v:"Autonomous Systems: Developments and Trends · Springer",
+   url:"#",r:["dl"],a:["auto","health"],tp:"Ch"},
+
+  {y:2025,t:"Proceedings of NORA Annual Conference 2025",
+   au:"Halnes G., Javaid A., Solvang M., Al Machot F. et al.",
+   v:"Nordic Machine Intelligence",
+   url:"https://www.researchgate.net/publication/394285061",r:["dl"],a:[],tp:"C"},
+
+  {y:2024,t:"Towards Explainable Ensemble Learning: Adaptive Feature Space Pruning and Optimized Classifier Selection",
+   au:"Uzair M., Jan Z., Khan S.D., Al Machot F., Ullah H.",
+   v:"DCLXVI International Workshop · Kaiserslautern",
+   url:"#",r:["trust"],a:[],tp:"C"},
+
+  {y:2023,t:"A Comprehensive GAT-Based System for Real IP Analog-Mixed-Signal AMS Schematics Structure Recognition (IST-Africa version)",
+   au:"Salem M., Deeb A., Ibrahim A., Al Machot F., Kyamakya K.",
+   v:"IST-Africa Conference · Tshwane",
+   url:"#",r:["dl"],a:["auto"],tp:"C"},
 
   {y:2010,t:"Camera-Based System for Tracking and Position Estimation of Humans",
    au:"Hartmann R., Al Machot F., Mahr P., Bobda C.",

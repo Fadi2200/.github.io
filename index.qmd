@@ -39,7 +39,7 @@ Faculty of Science and Technology (REALTEK) &middot; Ås, Norway
 
 <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:2.5rem;">
 <div style="background:#f7f9fc;border-radius:8px;padding:1rem;text-align:center;">
-<div style="font-size:1.8rem;font-weight:700;color:#1a3a5c;" id="stat-pubs">114</div>
+<div style="font-size:1.8rem;font-weight:700;color:#1a3a5c;" id="stat-pubs">106</div>
 <div style="font-size:0.78rem;color:#6c757d;margin-top:2px;">Publications</div>
 </div>
 <div style="background:#f7f9fc;border-radius:8px;padding:1rem;text-align:center;">

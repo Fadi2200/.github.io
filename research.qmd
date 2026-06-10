@@ -24,7 +24,7 @@ const PROJECTS = [
   // ── Active ─────────────────────────────────────────────
   {cat:"active",
    title:"AID — Norwegian Centre on AI for Decisions",
-   role:"Work Package Leader",
+   role:"Work Package Leader (Proposal and Funding Phase)",
    funder:"Research Council of Norway · 'AI Billion' Initiative · 2025–2030",
    url:"https://www.ntnu.edu/aid",
    desc:"The AID Centre addresses challenges of applying AI in critical decision-making — balancing energy supply and demand, supporting personalised healthcare. Develops methods to make AI more effective, safe, and trustworthy, focusing on verification, regulatory compliance, and real-world applications in key sectors. Led by NTNU and SINTEF. <em>Note: Day-to-day WP coordination has been handed over to a colleague in the Department of Data Science to support the team's operational capacity.</em>"},

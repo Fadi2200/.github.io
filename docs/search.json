@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Teaching at the Norwegian University of Life Sciences (NMBU) since 2021, and previously at the University of Klagenfurt, Austria.\n\n\nCurrent Courses at NMBU\n\n\n\n\nDAT200 — Applied Machine Learning\n\n\nNMBU · Spring semester · Annual · 250 hours workload\n\n\nIntroduction to machine learning methodology using modern computing tools. Topics: preprocessing, feature extraction (PCA, LDA), feature selection, visualisation, scaling, and data formatting. Heavy focus on practical applications.\n\n\n\n\nDAT300 — Applied Deep Learning\n\n\nNMBU · Autumn semester · Annual · 250 hours workload\n\n\nBuilds on DAT200. Covers foundations of artificial neural networks, deep CNNs, RNNs, autoencoders, variational autoencoders, GANs, and transformers. Heavy focus on applications and real-data modelling.\n\n\n\n\nINF221 — Computer Science for Data Scientists\n\n\nNMBU · Previous course\n\n\nFoundations of computer science tailored for data science students — algorithms, data structures, and programming paradigms relevant to ML workflows.\n\n\n\n\nPrevious Courses — University of Klagenfurt, Austria\n\n\n\nAutonomous Systems\n\n\nRobotics Fundamentals\n\n\nFundamentals of Image Processing\n\n\nPractical Introduction to Neural Networks and Deep Learning\n\n\nData Mining and Neurocomputing\n\n\nMachine Vision in Intelligent Transportation\n\n\nMobile Applications with Android\n\n\nGIS — Expert Systems in Transportation\n\n\nData Mining in Intelligent Transportation and Logistics\n\n\nData, Network and Web Technology: Tools and Automation\n\n\nSeminar on Data Mining and Pattern Recognition in Intelligent Vehicle Technologies\n\n\nSeminar Neuro- und Bioinformatics “Machine Learning”\n\n\nLab on Machine Vision\n\n\nLab on Machine Learning and Applications in Intelligent Vehicles\n\n\nLab on Robotics Fundamentals"
+  },
+  {
+    "objectID": "service.html",
+    "href": "service.html",
+    "title": "Service & Activities",
+    "section": "",
+    "text": "Academic and professional service including leadership, peer review, programme committees, conference organisation, and examination roles.\n\n\nLeadership Roles\n\n\n2023–2026 · Program Board Leader, Data Science Department — NMBU Oversaw development and implementation of the department’s academic programmes. Coordinated with faculty, staff, and external stakeholders, and led programme meetings and departmental projects.\n\n\nMemberships\n\n\n\nMember, Knowledge Graph Alliance — Explainable-AI-Ready Data and Metadata Principles (XAIR)\n\n\nIEEE Member — Institute of Electrical and Electronics Engineers\n\n\nASAI Member — Austrian Society for Artificial Intelligence\n\n\n\nReviewing\n\n\nSince 2013 — Reviewer for leading journals and conferences, including:\n\n\n\nIEEE Transactions on Neural Networks and Learning Systems\n\n\nIEEE Transactions on Vehicular Technology\n\n\nIEEE Transactions on Circuits and Systems for Video Technology\n\n\nIEEE Transactions on Emerging Topics in Computational Intelligence\n\n\nPattern Recognition Letters\n\n\nIEEE International Conference on Robotics and Automation (ICRA 2025)\n\n\nIEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS 2026)\n\n\nThe 13th European Workshop on Visual Information Processing (EUVIP 2025)\n\n\n\nTrack Chair & Programme Committee\n\n\n\nTrack Chair — IEEE COINS 2026 Track 10: Human-Centered AI, Interaction, and Visualization\n\n\nProgramme Committee — OSETAI 2026 (part of JOWO 2026) Ontologies, Structured Explainability, and Trust in AI\n\n\nProgramme Committee — 1st International Conference on Human-Centric Artificial Intelligence (ICHCAI 2026) Institute for Energy Technology, Halden, Norway\n\n\nProgramme Committee — IEEE COINS 2024, 2025, 2026 International Conference on Omni-Layer Intelligent Systems\n\n\nProgramme Committee — FAIEMA 2025 3rd International Conference on Frontiers of AI, Ethics, and Multidisciplinary Applications — Research Track, PhD & Student Forum, PhD Symposium Track\n\n\nProgramme Committee — DELTA 2025 International Conference on Deep Learning Theory and Applications\n\n\nProgramme Committee — Nordic AI Young Researcher Symposium (NAIM)\n\n\nProgramme Committee — IEEE International Conference on Digital Health (ICDH 2024)\n\n\nProgramme Committee — IEEE World Congress on SERVICES 2024\n\n\nProgramme Committee / Co-Organiser — DCLXVI Workshop 2024 & 2025 Designing the Conceptual Landscape for an XAIR Validation Infrastructure\n\n\nWorkshop Organiser — AHA 2016 International Workshop on Conceptual Modeling for Ambient Assistance and Healthy Ageing (at ER 2016)\n\n\n\nConference Organisation\n\n\n\n2017, 2018, 2020 — Lipidomics Forum — Organisation Committee\n\n\n2016 — INFORMATIK 2016 — 46th Annual GI Conference, Klagenfurt, Austria — Organisation Committee\n\n\n\nExamination & Censor Roles\n\n\nExternal examiner and academic censor for Bachelor’s and Master’s theses across Norwegian universities. Responsibilities include independent assessment, oral examination participation, grading, and feedback.\n\n\nInstitutional collaborations:\n\n\n\nUniversity of Oslo\n\n\nSimula Research Laboratory\n\n\nAkershus University Hospital\n\n\nUniversity of Stavanger\n\n\nNorwegian University of Science and Technology (NTNU)\n\n\n\nEditorial Roles\n\n\n\nEditor — Designing the Conceptual Landscape for a XAIR Validation Infrastructure, Springer LNNS, 2025\n\n\nGuest Editor — Special Issue on Conceptual Modelling in Honour of Heinrich C. Mayr, EMISAJ, 2018"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "All publications with links to full text. Filter by research theme, application domain, or type. Google Scholar · ResearchGate · Scopus · ORCID"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nFadi Al Machot\n",
+    "section": "",
+    "text": "Assoc. Prof. PD. Dr. techn. habil. · Norwegian University of Life Sciences (NMBU) Faculty of Science and Technology (REALTEK) · Ås, Norway\n\n\nMachine Learning Zero/Few-Shot Learning Neural-Symbolic AI Explainable AI Temporal Data & Forecasting Lightweight Models Activity Recognition Smart Agriculture\n\n\n🎓 Google Scholar 🔬 ResearchGate 💼 LinkedIn 🆔 ORCID 📊 Scopus 💻 Papers with Code ▶ YouTube ✉ Email"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "\nFadi Al Machot\n",
+    "section": "About",
+    "text": "About\nI am Assoc. Prof. PD. Dr. techn. habil. Fadi Al Machot, specializing in Zero/Few-Shot Learning, Explainable AI, Temporal Data Analysis, and Neural-Symbolic Learning with Knowledge Representation. My research translates into impactful applications in healthcare and assisted living, automotive and ADAS, smart agriculture, and bioinformatics — developing lightweight and context-aware AI solutions that bridge logic, learning, and real-world needs.\n\nPatent · European Research Patent No. EP2790165 — Quality Determination in Data Acquisition (2013), in collaboration with Swarco Traffic Systems, Germany. Award · Best Practice Project Award 2013 — Smart Resource-Aware Multi-Sensor Network (SRSnet)."
+  },
+  {
+    "objectID": "index.html#academic-timeline",
+    "href": "index.html#academic-timeline",
+    "title": "\nFadi Al Machot\n",
+    "section": "Academic Timeline",
+    "text": "Academic Timeline\n\n\n\n\n\n\n\n\n\n2021 – present\n\n\nAssociate Professor in Data Science (Machine Learning)Norwegian University of Life Sciences (NMBU), REALTEK\n\n\n\n\n\n\n\n2017 – 2021\n\n\nSenior ResearcherResearch Center Borstel – Leibniz Lung Center, Germany\n\n\n\n\n\n\n\n2020\n\n\nHabilitation (PD) in Applied Computer ScienceUniversity of Lübeck, Germany\n\n\n\n\n\n\n\n2013\n\n\nDoctorate in Computer ScienceUniversity of Klagenfurt, Austria\n\n\n\n\n\n\n\n2010\n\n\nDiplom in Computer ScienceUniversity of Potsdam, Germany"
+  },
+  {
+    "objectID": "index.html#news-updates",
+    "href": "index.html#news-updates",
+    "title": "\nFadi Al Machot\n",
+    "section": "News & Updates",
+    "text": "News & Updates"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Email\n      fadi.al.machot@nmbu.no\n    \n    \n      Institution\n      Norwegian University of Life Sciences (NMBU)\n      Faculty of Science and Technology (REALTEK)\n      Department of Mathematical Sciences and Technology (IMT)\n      Universitetstunet 3, 1433 Ås, Norway\n    \n    \n      NMBU Profile\n      nmbu.no — Staff Page\n    \n  \n  \n    \n    \n      🎓 Google Scholar\n      🔬 ResearchGate\n      💼 LinkedIn\n      🆔 ORCID 0000-0002-1239-9261\n      📊 Scopus\n      💻 Papers with Code\n      ▶ YouTube Channel"
+  },
+  {
+    "objectID": "contact.html#send-a-message",
+    "href": "contact.html#send-a-message",
+    "title": "Contact",
+    "section": "Send a Message",
+    "text": "Send a Message\nYou can reach out directly by email or via the NMBU staff page.\nFor student inquiries (Master’s or PhD supervision), please include a brief description of your research interest and a CV.\nFor collaboration inquiries, please include your institutional affiliation and the topic you’d like to discuss."
+  },
+  {
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "Media & Talks",
+    "section": "",
+    "text": "Research talks, course lectures, and invited presentations on fundamental AI research topics.\n\n\nYouTube Channel\n\n\nLectures and research talks on machine learning, neural-symbolic AI, zero-shot learning, and temporal data analysis.\n\n\n ▶ Visit YouTube Channel \n\n\n\n\nTo embed a specific video, open media.qmd and replace YOUR_VIDEO_ID below with your YouTube video ID.\n\n\n\n\nFundamental Research Talks\n\n\nInvited presentations on core research themes: trustworthy AI, neural-symbolic learning, zero/few-shot generalization, and efficient temporal models.\n\n\n\nJanuary 2026 · University of Limerick\n\n\nFrom Seen to Unseen: Learning Beyond Data Abundance CRT-AI ML Week 2026, hosted by Prof. Tiziana Margaria. Topics: Zero-Shot Learning, knowledge-driven generalization, energy-efficient AI — why scaling data and parameters is not enough for rare and safety-critical scenarios.\n\n\n\n\nJanuary 2026 · Halden, Norway\n\n\nPanel: Human-Centric Artificial Intelligence 1st International Conference on Human-Centric AI (ICHCAI 2026), Institute for Energy Technology. Topics: Trustworthy AI, explainability, human-in-the-loop systems.\n\n\n\n\n2024 · Kaiserslautern, Germany\n\n\nBridging Logic and Learning: Neural-Symbolic Approach for Enhanced Reasoning (ASPER) DCLXVI International Workshop. Topics: Answer Set Programming, neural-symbolic integration, knowledge encoding in deep learning.\n\n\n\n\n2024 · Kaiserslautern, Germany\n\n\nSymbolic-AI-Fusion Deep Learning (SAIF-DL): Encoding Knowledge into Training DCLXVI International Workshop. Topics: ASP loss penalties, ontology-driven training, trustworthy deep learning.\n\n\n\n\nFebruary 2025 · DTE AICOMAS\n\n\nPredicting Battery Degradation Using Cellular Neural Network Model Digital Twin Technology for Battery Cell Manufacturing Symposium. Topics: Cellular neural networks, lightweight models, efficient temporal prediction."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research Projects",
+    "section": "",
+    "text": "Funded projects from Horizon Europe, the Norwegian Research Council, Marie Skłodowska-Curie Actions, and other national and European agencies."
+  },
+  {
+    "objectID": "research.html#active-projects",
+    "href": "research.html#active-projects",
+    "title": "Research Projects",
+    "section": "Active Projects",
+    "text": "Active Projects\n\n\n\n2025–2028 Research Council of Norway Active\n\n\nUTFORSK DIP-Farm Edu\nDigital Innovation Program for Research-based Education in Agricultural Robotics, Plant Breeding and Sustainable Food Production\nNorway–Brazil collaboration: NMBU, UFMT, IFMT, Graminor, AgriHub, FAPEMAT, and 14 agribusiness and tech companies. Ranked 4th out of 198 UTFORSK 2024 applications.\nProject info\n\n\n\n\n2024–2027 Research Council of Norway Active\n\n\nAI-Based Plant Status Monitoring Using Few-Shot Learning\nDevelopment of an AI-based image analysis system for monitoring plant status — approved by Akershus Fylkeskommune.\nProject info\n\n\n\n\n2024–2027 Horizon Europe · HORIZON-CL5-2023-D2-01 · No. 101137725 Active\n\n\nBATCAT — Battery Cell Assembly Twin\nDigital twin for battery cell assembly manufacturing.\nbatcat.info\n\n\n\n\n2024–2027 Horizon Europe · HORIZON-CL4-2023-RESILIENCE-01 · No. 101138510 Active\n\n\nDigiPass — Digital Materials & Product Passport\nHarmonization of Advanced Materials Ecosystems serving strategic Innovation Markets.\nms.hereon.de/digipass\n\n\n\n\n2024–2025 Akershus Kommune Active\n\n\nAdvancing Controlled Environment Agriculture Using Artificial Intelligence\nIndustrial PhD in collaboration with RiftLabs and NMBU, accepted by the Norwegian Research Council.\nProject info\n\n\n\n\n2023–2026 NMBU Active\n\n\nZSL++ — Zero/Few-Shot Learning using Multimodal Sensors\nResearch into zero- and few-shot learning approaches leveraging multimodal sensor data.\nGitHub\n\n\n\n\n2023–2026 Marie Skłodowska-Curie Actions · No. 101106619 Active\n\n\nMarie Curie Fellowship — Supercritical CO₂ Cycle Heat Exchangers\nEvaluation of thermohydraulic characteristics of printed circuit heat exchangers in the pseudocritical region for supercritical CO₂ cycles."
+  },
+  {
+    "objectID": "research.html#completed-projects",
+    "href": "research.html#completed-projects",
+    "title": "Research Projects",
+    "section": "Completed Projects",
+    "text": "Completed Projects\n\n\n2017–2021 BMBF Germany Completed\n\n\nLIFS — Lipidomics Informatics for Life Sciences\nResearch Center Borstel – Leibniz Center for Medicine and Biosciences · Federal Ministry of Education and Research, Germany.\nlifs-tools.org\n\n\n\n\n2013–2018 Klaus Tschira Stiftung Completed\n\n\nHBMS — Human Behavior Modeling and Support\nUniversity of Klagenfurt, Austria · Klaus Tschira Stiftung, Germany.\nProject info\n\n\n\n\n2010–2013 FFG – Austrian Research Promotion Agency Completed\n\n\nRoSiT — Robust Sensors in Traffic\nUniversity of Klagenfurt, Austria · Swarco Traffic System GmbH · Led to European Research Patent No. EP2790165.\nPatent\n\n\n\n\n2010–2013 Interreg IV Italy-Austria Completed\n\n\nSRSnet — Smart Resource-Aware Multi-Sensor Network\nUniversity of Klagenfurt, Austria · Interreg IV program, Italy and Austria.\nProject info"
+  },
+  {
+    "objectID": "supervision.html",
+    "href": "supervision.html",
+    "title": "Supervision",
+    "section": "",
+    "text": "PhD and Master’s students supervised at NMBU (Norway) and the University of Klagenfurt (Austria)."
+  },
+  {
+    "objectID": "supervision.html#phd-students",
+    "href": "supervision.html#phd-students",
+    "title": "Supervision",
+    "section": "PhD Students",
+    "text": "PhD Students\n\nGraduated\n\nWitesyavwirwa Vianney Kambale Contributions to Robust Time Series Forecasting Analysis and/or Forecasting Involving Advanced Deep Learning Concepts University of Klagenfurt, Austria · Completed\n\n\nAli Deeb Artificial Intelligence-based Analog/Mixed Signals Designs Structure Recognition University of Klagenfurt & INFINEON, Austria · Completed\n\n\n\n\nCurrent — Main Supervisor\n\nRusith Chamara Hathurusinghe Dewage · 2024–2027 Advancing Controlled Environment Agriculture using Artificial Intelligence Norwegian University of Life Sciences (NMBU), Norway\n\n\nWilliam Heyden · 2023–2027 Zero/Few-Shot Learning (ZSL/FSL) using Multimodal Sensors (ZSL++) Norwegian University of Life Sciences (NMBU), Norway\n\n\nAditya Dey · 2024–2027 Real-Time Series Forecasting using Cellular Neural Networks Norwegian University of Life Sciences (NMBU), Norway\n\n\n\n\nCurrent — Co-Supervisor\n\nHaris Hameed Mian Intelligent CFD Methods for the Simulation of Aerodynamic Flow in Offshore Wind Turbines Norwegian University of Life Sciences (NMBU), Norway\n\n\nChandler Timm C. Doloriel Enhancing Aquaculture Technologies Through Artificial Intelligence Norwegian University of Life Sciences (NMBU), Norway\n\n\nHussein Ahmad Trustworthy Multi-Horizon Time Series Forecasting for Critical Infrastructures University of Klagenfurt, Austria\n\n\nMohamed Mohsen Ahmed Salem AI-Enabled Automation for the Future of Semiconductor Design and Development Workflows University of Klagenfurt, Austria\n\n\nAbdalrahman Mahmoud A. M. Ibrahim The Cognitive Stack: Bridging Topological Perception and Semantic Reasoning for Grounded Embodied Intelligence University of Klagenfurt, Austria\n\n\nEliska Sieglova The Cognitive Stack: Bridging Topological Perception and Semantic Reasoning for Grounded Embodied Intelligence Norwegian University of Life Sciences (NMBU), Norway"
+  },
+  {
+    "objectID": "supervision.html#masters-students",
+    "href": "supervision.html#masters-students",
+    "title": "Supervision",
+    "section": "Master’s Students",
+    "text": "Master’s Students\n\n2025\n\n\nSiyi Hu Hand-Based Micro-Activity Recognition Using Wearable Devices Norwegian University of Life Sciences (NMBU)\n\n\n2024\n\n\nKim Næss Kynningsrud Evaluating the Impact of Similarity Measures on Transfer Learning in Economic Time Series Analysis Norwegian University of Life Sciences (NMBU)\n\n\nUlrik Egge Husby Exploring Breast Cancer Diagnosis: A Study of SHAP and LIME in XAI-Driven Medical Imaging Norwegian University of Life Sciences (NMBU)\n\n\nSushant Kumar Srivastava Semantic Enhancements in Image Captioning: Leveraging Neural Networks to Improve BLIP and GPT-2 Norwegian University of Life Sciences (NMBU)\n\n\nEljar Alihosseinzadeh Siamese Networks for Telecommunication Customer Churn Data in a Few-Shot Learning Context Norwegian University of Life Sciences (NMBU)\n\n\nRoy Erling Granheim Enhancing Exercise Recognition: Integrating Advanced Deep Learning Models for Human Activity Recognition Norwegian University of Life Sciences (NMBU)\n\n\n2023\n\n\nJorge Eduardo Hermoso Valle Safety Improvement in Rock Climbing Through AI-Powered Computer Vision System by Identifying Human Fault Norwegian University of Life Sciences (NMBU)\n\n\nSigrid Knag Seagrass and Seaweed Detection Approaches Using Remote Sensing and Google Earth Engine Norwegian University of Life Sciences (NMBU)\n\n\nOle Gilje Gunnarshaug ECG-based Human Emotion Recognition Using Generative Models Norwegian University of Life Sciences (NMBU)"
+  }
+]

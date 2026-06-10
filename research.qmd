@@ -1,0 +1,243 @@
+---
+title: "Research"
+toc: false
+---
+
+<p style="font-size:0.9rem;color:#6c757d;margin-bottom:1.5rem;">
+Research projects, funding, and international collaborations.
+</p>
+
+<div style="background:#e8f1fb;border:1px solid #b8d4f0;border-radius:8px;padding:1.25rem 1.5rem;margin-bottom:2rem;">
+<div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;">
+<span style="font-size:1.1rem;">🔬</span>
+<strong style="color:#1a3a5c;font-size:0.95rem;">Research Group Leader — TETRA AI</strong>
+</div>
+<p style="font-size:0.88rem;margin:0;color:#1a3a5c;line-height:1.6;">
+<a href="https://www.nmbu.no/en/research/groups/tetra-ai" target="_blank" style="font-weight:600;color:#1a3a5c;">Trustworthy and Efficient Transfer Learning AI (TETRA AI)</a> — a research group at NMBU dedicated to advancing methods that make AI models both trustworthy and highly efficient. Research focuses on zero/few-shot learning, neural-symbolic reasoning, and lightweight architectures for real-world deployment across healthcare, agriculture, energy, and automotive systems.
+</p>
+</div>
+
+<div id="research-app"></div>
+
+<script>
+const PROJECTS = [
+  // ── Active ─────────────────────────────────────────────
+  {cat:"active",
+   title:"AID — Norwegian Centre on AI for Decisions",
+   role:"Work Package Leader",
+   funder:"Research Council of Norway · 'AI Billion' Initiative · 2025–2030",
+   url:"https://www.ntnu.edu/aid",
+   desc:"The AID Centre addresses challenges of applying AI in critical decision-making — balancing energy supply and demand, supporting personalised healthcare. Develops methods to make AI more effective, safe, and trustworthy, focusing on verification, regulatory compliance, and real-world applications in key sectors. Led by NTNU and SINTEF. <em>Note: Day-to-day WP coordination has been handed over to a colleague in the Department of Data Science to support the team's operational capacity.</em>"},
+
+  {cat:"active",
+   title:"Advancing Controlled Environment Agriculture using Artificial Intelligence",
+   role:"Lead for NMBU",
+   funder:"Research Council of Norway · 2024–2027",
+   url:"https://www.nmbu.no/en/research/projects/advancing-controlled-environment-agriculture-using-artificial-intelligence",
+   desc:"Development of AI-driven methods to optimise crop growth and resource efficiency in controlled environment chambers, supporting sustainable and resilient agricultural practices. In collaboration with RIFT Labs AS."},
+
+  {cat:"active",
+   title:"AI-Based Image Analysis for Plant Monitoring using Few-Shot Learning",
+   role:"Lead for NMBU",
+   funder:"Akershus Kommune · 2024–2025",
+   url:"",
+   desc:"Development of few-shot learning techniques for plant image analysis in controlled environment chambers — enabling accurate monitoring and early detection with limited training data, advancing precision agriculture and local farming innovation. In collaboration with RIFT Labs AS."},
+
+  {cat:"active",
+   title:"BATCAT — Battery Cell Assembly Twin",
+   role:"Task Leader",
+   funder:"Horizon Europe RIA · GA 101137725 · 2024–2027",
+   url:"http://batcat.info",
+   desc:"Developing a digital twin for battery cell assembly, integrating advanced simulation and data-driven methods to optimise manufacturing processes."},
+
+  {cat:"active",
+   title:"DigiPass — Digital Materials & Product Passport",
+   role:"Co-applicant",
+   funder:"Horizon Europe CSA · GA 101138510 · 2024–2027",
+   url:"https://ms.hereon.de/digipass/",
+   desc:"Establishing a digital materials and product passport to support strategic innovation by harmonising advanced material ecosystems."},
+
+  {cat:"active",
+   title:"ZSL++ — Zero/Few-Shot Learning using Multimodal Sensors",
+   role:"Principal Investigator",
+   funder:"NMBU · 2022–2026",
+   url:"https://github.com/william-heyden/IP-SAE",
+   desc:"Research into zero- and few-shot learning approaches leveraging multimodal sensor data for activity and event recognition."},
+
+  {cat:"active",
+   title:"Marie Curie Fellowship — Supercritical CO₂ Cycle Heat Exchangers",
+   role:"Host Supervisor",
+   funder:"Marie Skłodowska-Curie Actions · No. 101106619 · 2023–2026",
+   url:"",
+   desc:"Evaluation of thermohydraulic characteristics of printed circuit heat exchangers in the pseudocritical region for supercritical CO₂ cycles."},
+
+  {cat:"active",
+   title:"UTFORSK DIP-Farm Edu",
+   role:"Lead",
+   funder:"Research Council of Norway · UTFORSK 2024 · Ranked 4th of 198 applications",
+   url:"https://www.cge.mt.gov.br/web/sedec/w/governo-de-mt-integra-projeto-com-pesquisadores-da-noruega-para-impulsionar-rob%C3%B3tica-e-ia-no-agro",
+   desc:"Digital Innovation Program for Research-based Education in Agricultural Robotics, Plant Breeding and Sustainable Food Production. Norway–Brazil collaboration: NMBU, UFMT, IFMT, Graminor, AgriHub, FAPEMAT, and 14 companies."},
+
+  // ── Completed ──────────────────────────────────────────
+  {cat:"completed",
+   title:"LIFS — Lipidomics Informatics for Life Sciences",
+   role:"Task Leader — Data Processing & ML",
+   funder:"BMBF Germany · Research Center Borstel – Leibniz Lung Center · 2017–2021",
+   url:"https://lifs-tools.org/",
+   desc:"Advanced informatics and data analysis in lipidomics to enhance understanding in life sciences. Led tasks in data processing and implementation of machine learning algorithms for lipidomics, contributing to bioinformatics pipelines and tools (LIFS platform)."},
+
+  {cat:"completed",
+   title:"HBMS — Human Behavior Modeling and Support",
+   role:"Task Leader — Data Analysis & Behavioural Modelling",
+   funder:"Klaus Tschira Stiftung, Germany · University of Klagenfurt · 2013–2018",
+   url:"https://austria.omilab.org/psm/content/hcml/info",
+   desc:"Human behaviour modelling for the development of supportive systems using sensor data and machine learning. Led core tasks in data analysis and behavioural modelling, resulting in the HCM-L domain-specific modelling language for AAL systems."},
+
+  {cat:"completed",
+   title:"RoSiT — Robust Sensors in Traffic",
+   role:"Task Leader — Sensor Network Development",
+   funder:"FFG Austria & Swarco Traffic Systems GmbH · 2010–2013",
+   url:"https://patents.google.com/patent/EP2790165A1/en",
+   desc:"Development of robust sensors for traffic monitoring and intelligent transportation systems. Led tasks in sensor network development and data reliability strategies. Resulted in European Patent No. EP2790165 — Quality Determination in Data Acquisition."},
+
+  {cat:"completed",
+   title:"SRSnet — Smart Resource-Aware Multi-Sensor Network",
+   role:"PhD Project",
+   funder:"Interreg IV Italy–Austria · University of Klagenfurt · 2010–2013",
+   url:"https://ec.europa.eu/regional_policy/en/projects/italy/srsnet-a-network-of-smart-sun-powered-sensors-helps-national-park-managers",
+   desc:"Design of a smart, resource-aware multi-sensor network for efficient data collection and monitoring. Core PhD research project, delivering real-time complex event detection for resource-limited sensor networks. Awarded Best Practice Project Award 2013."},
+
+  // ── Collaborations ─────────────────────────────────────
+  {cat:"collab",
+   title:"NTNU — Norwegian University of Science and Technology",
+   role:"Research Partner",
+   funder:"AID Centre · Norway",
+   url:"https://www.ntnu.edu",
+   desc:"Collaboration on the AID Centre (Norwegian Centre on AI for Decisions), focusing on trustworthy AI for critical decision-making in energy and healthcare."},
+
+  {cat:"collab",
+   title:"Helmholtz-Zentrum Hereon",
+   role:"Research Partner",
+   funder:"DigiPass CSA · Germany",
+   url:"https://www.hereon.de",
+   desc:"Collaboration on digital materials and product passports within the DigiPass Horizon Europe project."},
+
+  {cat:"collab",
+   title:"University of Verona",
+   role:"Research Partner & Visiting Researcher Host",
+   funder:"Italy",
+   url:"https://www.univr.it",
+   desc:"Hosted a visiting PhD student (01.03.2025–31.08.2025). Ongoing collaboration on AI and computer science research. PhD examination committee member (Cristian Turetta, 2025)."},
+
+  {cat:"collab",
+   title:"University of Stavanger",
+   role:"Research Partner",
+   funder:"Norway",
+   url:"https://www.uis.no",
+   desc:"Collaboration on AI and data science research, including joint examination and supervision activities."},
+
+  {cat:"collab",
+   title:"ELIXIR-DE / de.NBI — Deutsches Netzwerk für Bioinformatik-Infrastruktur",
+   role:"Research Partner",
+   funder:"Hosted at Forschungszentrum Jülich GmbH & CeBiTec · Germany",
+   url:"https://www.denbi.de",
+   desc:"Collaboration on European bioinformatics infrastructures. Annual lipidomics workshops (2017–2021) delivered in the frame of the de.NBI network, training postdoctoral fellows, researchers, and PhD candidates in machine learning for bioinformatics."},
+
+  {cat:"collab",
+   title:"Forschungszentrum Jülich GmbH",
+   role:"Research Partner",
+   funder:"Germany",
+   url:"https://www.fz-juelich.de",
+   desc:"Collaboration on bioinformatics infrastructure and semantic standards for AI-ready data within the ELIXIR-DE/de.NBI network."},
+
+  {cat:"collab",
+   title:"CeBiTec — Centrum für Biotechnologie, Bielefeld University",
+   role:"Research Partner",
+   funder:"Germany",
+   url:"https://www.cebitec.uni-bielefeld.de",
+   desc:"Collaboration on bioinformatics data analysis and machine learning pipelines within the de.NBI network."},
+
+  {cat:"collab",
+   title:"University of Johannesburg",
+   role:"External PhD Examiner",
+   funder:"South Africa",
+   url:"https://www.uj.ac.za",
+   desc:"External PhD examiner for two doctoral candidates in Electrical and Electronic Engineering: T. Paepae (2023) and A.K. Kayisu (2025)."},
+
+  {cat:"collab",
+   title:"Universidade Federal do Rio Grande do Sul (UFRGS)",
+   role:"Research Partner & Co-supervisor",
+   funder:"Brazil",
+   url:"https://www.ufrgs.br",
+   desc:"International co-supervision and research collaboration on AI and ambient assistance systems. Partner in the UTFORSK DIP-Farm Edu project."},
+
+  {cat:"collab",
+   title:"University of Vienna",
+   role:"Research Partner & Co-supervisor",
+   funder:"Austria",
+   url:"https://www.univie.ac.at",
+   desc:"International co-supervision and research collaboration on AI and knowledge representation."},
+
+  {cat:"collab",
+   title:"University of Udine",
+   role:"Research Partner & Examination Committee",
+   funder:"Italy",
+   url:"https://www.uniud.it",
+   desc:"Collaboration on AI research and member of MSc/PhD graduation committees."},
+
+  {cat:"collab",
+   title:"University of Klagenfurt (AAU)",
+   role:"Long-term Research Partner & Co-supervisor",
+   funder:"Austria",
+   url:"https://www.aau.at",
+   desc:"Long-standing collaboration since PhD studies (2010). Current co-supervision of PhD candidates in analog circuit recognition and time series forecasting. Joint publications in IEEE Access, Symmetry, and Sensors."},
+];
+
+const CATS = {
+  all:       "All",
+  active:    "Active Projects",
+  completed: "Completed Projects",
+  collab:    "Collaborations"
+};
+
+const CBADGE = {
+  active:    "background:#E1F5EE;color:#085041",
+  completed: "background:#f1efe8;color:#444441",
+  collab:    "background:#EEEDFE;color:#3C3489"
+};
+
+let activeCat = "all";
+
+function render() {
+  const filtered = PROJECTS.filter(i => activeCat === "all" || i.cat === activeCat);
+
+  const filters = Object.entries(CATS).map(([k,v]) => {
+    const on = activeCat === k;
+    const style = on
+      ? "background:#1a3a5c;color:white;border-color:#1a3a5c;"
+      : "background:white;color:#6c757d;border-color:#dde4ed;";
+    const count = k === "all" ? PROJECTS.length : PROJECTS.filter(i=>i.cat===k).length;
+    return `<span onclick="setCat('${k}')" style="font-size:11px;padding:4px 12px;border-radius:20px;border:1px solid;cursor:pointer;${style}">${v} <span style="opacity:0.7">(${count})</span></span>`;
+  }).join("");
+
+  const items = filtered.map(i => {
+    const badge = `<span style="font-size:9px;padding:2px 7px;border-radius:3px;font-weight:600;margin-right:6px;${CBADGE[i.cat]}">${CATS[i.cat]}</span>`;
+    const link = i.url ? `<a href="${i.url}" target="_blank" style="font-size:0.82rem;color:#2d7dd2;">More info →</a>` : "";
+    return `<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1.1rem 1.25rem;margin-bottom:0.75rem;">
+      <div style="font-size:0.78rem;color:#6c757d;margin-bottom:4px;">${badge}<strong style="color:#2d7dd2;">${i.role}</strong> · <span style="font-style:italic;">${i.funder}</span></div>
+      <div style="font-size:0.95rem;font-weight:600;color:#1a3a5c;margin-bottom:5px;">${i.title}</div>
+      <div style="font-size:0.85rem;color:#6c757d;line-height:1.6;margin-bottom:4px;">${i.desc}</div>
+      ${link}
+    </div>`;
+  }).join("");
+
+  document.getElementById("research-app").innerHTML = `
+    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;">${filters}</div>
+    <div style="font-size:12px;color:#6c757d;margin-bottom:12px;">Showing <strong>${filtered.length}</strong> of <strong>${PROJECTS.length}</strong> entries</div>
+    ${items}
+  `;
+}
+
+function setCat(cat) { activeCat = cat; render(); }
+render();
+</script>

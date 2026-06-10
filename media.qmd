@@ -1,0 +1,138 @@
+---
+title: "Media & Activities"
+toc: false
+---
+
+<p style="font-size:0.9rem;color:#6c757d;margin-bottom:1.5rem;">
+Invited talks, public activities, workshop calls, and media appearances.
+</p>
+
+<div id="media-app"></div>
+
+<script>
+const ITEMS = [
+  // ── Talks ──────────────────────────────────────────────
+  {cat:"talk", date:"April 2026", venue:"Homerton College, University of Cambridge",
+   title:"From Accuracy to Guarantees: Neuro-Symbolic Intelligence and Cyber-Graph Architectures for Safe, Real-Time Battery Systems",
+   desc:"Advanced Battery Manufacturing Workshop, co-organised by EU Horizon Europe projects BATTwin, AM4BAT, and BatCAT. How AI can move beyond average-case accuracy toward provable safety in real-time battery systems — combining learning-based models with structured constraint enforcement.",
+   url:""},
+
+  {cat:"talk", date:"January 2026", venue:"University of Limerick",
+   title:"From Seen to Unseen: Learning Beyond Data Abundance",
+   desc:"CRT-AI ML Week 2026, hosted by Prof. Tiziana Margaria. Zero-Shot Learning, knowledge-driven generalization, energy-efficient AI — why scaling data and parameters is not enough for rare and safety-critical scenarios.",
+   url:""},
+
+  // ── Workshop Calls ─────────────────────────────────────
+  {cat:"workshop", date:"2026", venue:"Part of JOWO 2026",
+   title:"Co-Organiser & PC — OSETAI 2026: Ontology and Semantics for Explainable and Trustworthy AI",
+   desc:"As AI systems are increasingly deployed in real-world and safety-critical environments, explainability, trustworthiness, accountability, and interpretability are becoming foundational requirements. Topics: causal reasoning, counterfactual explanations, explainable neural models, symbolic and neuro-symbolic reasoning, digital forensics, AI auditing, regulatory compliance, metadata and semantic standards, trust, provenance, and reproducibility in AI. Submission deadline: to be announced.",
+   url:"http://www.inprodat.de/events/osetai-2026"},
+
+  {cat:"workshop", date:"2024–2025", venue:"Kaiserslautern, Germany",
+   title:"Co-Organiser — DCLXVI Workshop 2024 & 2025",
+   desc:"Designing the Conceptual Landscape for an XAIR Validation Infrastructure. Part of the BATCAT Horizon Europe project.",
+   url:"https://batcat.info/dclxvi/"},
+
+  {cat:"workshop", date:"2016", venue:"Salzburg, Austria",
+   title:"Organiser — AHA Workshop at ER 2016",
+   desc:"International Workshop on Conceptual Modeling for Ambient Assistance and Healthy Ageing, co-located with the 35th International Conference on Conceptual Modeling (ER 2016).",
+   url:""},
+
+  // ── Competition ────────────────────────────────────────
+  {cat:"press", date:"2026", venue:"NMBU & Soundsensing",
+   title:"Scientific Judge — Battery RUL Estimation Competition",
+   desc:"Competition for estimation of remaining useful life of batteries with cash prizes totalling 50,000 NOK. Datasets from real battery sensors deployed across buildings in Norway. Scientific committee: Fadi Al Machot (NMBU), Mina Farmanbar (UiS), Kyandoghere Kyamakya (University of Klagenfurt), Habib Ullah (NMBU), Ibrahim Abdelfattah Abdelhameed (NMBU).",
+   url:"https://lnkd.in/eBs8D2A3"},
+
+
+  {cat:"press", date:"2025", venue:"NMBU Press Release",
+   title:"NMBU Joins Norwegian Centre on AI for Decisions (AID)",
+   desc:"Feature in NMBU press release announcing the university's role in the Norwegian Centre on AI for Decisions, funded by the Research Council of Norway 'AI Billion' initiative, led by NTNU and SINTEF.",
+   url:"https://www.nmbu.no"},
+
+  {cat:"press", date:"Austria", venue:"Long Night of Research (Lange Nacht der Forschung)",
+   title:"Public Science Outreach — Inspiring Young Students in AI & Robotics",
+   desc:"Contributions to the 'Long Night of Research' in Austria, a major public science event aimed at inspiring children and young students to engage with science and research. Presented AI and sensor technology in an accessible, hands-on format.",
+   url:"https://langenachtderforschung.at"},
+
+  {cat:"press", date:"Ongoing", venue:"LinkedIn",
+   title:"LinkedIn — Research Dissemination to 2,500+ Professional Contacts",
+   desc:"Regular dissemination of research results, project announcements, and AI developments to a professional network of 2,500+ contacts across academia, industry, and the public sector in Norway, Europe, and beyond.",
+   url:"https://www.linkedin.com/in/fadi-al-machot-10885835/"},
+
+  // ── YouTube ────────────────────────────────────────────
+  {cat:"press", date:"Ongoing", venue:"YouTube",
+   title:"YouTube Channel — Lectures & Research Talks",
+   desc:"Course lectures, research demonstrations, and talks on machine learning, neural-symbolic AI, zero-shot learning, and temporal data analysis.",
+   url:"https://www.youtube.com/channel/UC82GJ66Ax6AEORXeGI4P6ig"},
+];
+
+const CATS = {
+  all:      "All",
+  talk:     "Invited Talks",
+  workshop: "Workshop & Calls",
+  press:    "Media & Press"
+};
+
+const CBADGE = {
+  talk:     "background:#E1F5EE;color:#085041",
+  workshop: "background:#e8f1fb;color:#0c447c",
+  press:    "background:#FAEEDA;color:#633806"
+};
+
+let activeCat = "all";
+
+function render() {
+  const filtered = ITEMS.filter(i => activeCat === "all" || i.cat === activeCat);
+
+  const filters = Object.entries(CATS).map(([k,v]) => {
+    const on = activeCat === k;
+    const style = on
+      ? "background:#1a3a5c;color:white;border-color:#1a3a5c;"
+      : "background:white;color:#6c757d;border-color:#dde4ed;";
+    const count = k === "all" ? ITEMS.length : ITEMS.filter(i=>i.cat===k).length;
+    return `<span onclick="setCat('${k}')" style="font-size:11px;padding:4px 12px;border-radius:20px;border:1px solid;cursor:pointer;${style}">${v} <span style="opacity:0.7">(${count})</span></span>`;
+  }).join("");
+
+  const items = filtered.map(i => {
+    const badge = `<span style="font-size:9px;padding:2px 7px;border-radius:3px;font-weight:600;margin-right:6px;${CBADGE[i.cat]}">${CATS[i.cat]}</span>`;
+    const link = i.url ? `<a href="${i.url}" target="_blank" style="font-size:0.82rem;color:#2d7dd2;">More info →</a>` : "";
+    return `<div style="padding:1rem 0;border-bottom:1px solid #eef0f4;">
+      <div style="font-size:0.78rem;color:#6c757d;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px;">${badge}${i.date} · ${i.venue}</div>
+      <div style="font-size:0.95rem;font-weight:600;color:#1a3a5c;margin-bottom:4px;">${i.title}</div>
+      <div style="font-size:0.85rem;color:#6c757d;line-height:1.6;margin-bottom:4px;">${i.desc}</div>
+      ${link}
+    </div>`;
+  }).join("");
+
+  document.getElementById("media-app").innerHTML = `
+    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;">${filters}</div>
+    <div style="font-size:12px;color:#6c757d;margin-bottom:12px;">Showing <strong>${filtered.length}</strong> of <strong>${ITEMS.length}</strong> items</div>
+    ${items}
+  `;
+}
+
+function setCat(cat) { activeCat = cat; render(); }
+render();
+</script>
+
+<h2 style="margin-top:2.5rem;">YouTube Channel</h2>
+
+<p>Course lectures and research talks available on YouTube.</p>
+
+<div style="margin:1rem 0 2rem;">
+<a href="https://www.youtube.com/channel/UC82GJ66Ax6AEORXeGI4P6ig" target="_blank"
+   style="display:inline-flex;align-items:center;gap:0.6rem;background:#ff0000;color:white;padding:0.6rem 1.4rem;border-radius:6px;font-weight:600;font-size:0.9rem;text-decoration:none;">
+&#9654; Visit YouTube Channel
+</a>
+</div>
+
+<!--
+TO EMBED A SPECIFIC VIDEO: uncomment below and replace YOUR_VIDEO_ID
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;margin-bottom:2rem;">
+<iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+  allowfullscreen loading="lazy" title="Research talk">
+</iframe>
+</div>
+-->

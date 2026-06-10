@@ -1,0 +1,179 @@
+---
+title: "Teaching"
+toc: false
+---
+
+<p style="font-size:0.9rem;color:#6c757d;margin-bottom:1.5rem;">
+Teaching at the Norwegian University of Life Sciences (NMBU) since 2021, and previously at the University of Klagenfurt, Austria.
+</p>
+
+<div id="teaching-app"></div>
+
+<script>
+const COURSES = [
+
+  // ── Pedagogical Training ───────────────────────────────
+  {cat:"pedagogy", code:"", title:"Basic Course in Higher Education Pedagogies",
+   url:"https://www.uis.no",
+   meta:"University of Stavanger · 200 hours · 2022–2023",
+   desc:"Formal training in university pedagogy covering theoretical perspectives on teaching and learning, curriculum design, digital tools for education, and assessment methods."},
+
+  {cat:"pedagogy", code:"PPVE400", title:"Master and PhD Supervision",
+   url:"https://www.nmbu.no",
+   meta:"NMBU · 5 ECTS · Spring 2023",
+   desc:"Structured competence in supervising graduate and doctoral research, including milestone planning, feedback strategies, and research integrity."},
+
+  // ── Workshops ──────────────────────────────────────────
+  {cat:"workshop", code:"", title:"Annual Lipidomics Workshop — de.NBI / LIFS Network",
+   url:"https://www.denbi.de",
+   meta:"Research Center Borstel – Leibniz Lung Center · 2017–2021 (annual)",
+   desc:"Annual international workshops training postdoctoral fellows, researchers, and PhD candidates in advanced machine learning tools for bioinformatics and lipidomics applications. Part of the German BMBF-funded LIFS project and the de.NBI network."},
+
+  {cat:"nmbu", code:"DAT200", title:"Applied Machine Learning",
+   url:"https://gammel.nmbu.no/course/DAT200",
+   meta:"NMBU · Spring semester · Annual",
+   desc:"Introduction to machine learning methodology using modern computing tools. Topics: preprocessing, feature extraction (PCA, LDA), feature selection, visualisation, scaling, and data formatting. Heavy focus on practical applications."},
+
+
+  // ── Pedagogical Training ───────────────────────────────
+  {cat:"pedagogy", code:"", title:"Basic Course in Higher Education Pedagogies",
+   url:"https://www.uis.no",
+   meta:"University of Stavanger · 200 hours · 2022–2023",
+   desc:"Formal training in university pedagogy covering theoretical perspectives on teaching and learning, curriculum design, digital tools for education, and assessment methods."},
+
+  {cat:"pedagogy", code:"PPVE400", title:"Master and PhD Supervision",
+   url:"https://www.nmbu.no",
+   meta:"NMBU · 5 ECTS · Spring 2023",
+   desc:"Structured competence in supervising graduate and doctoral research, including milestone planning, feedback strategies, and research integrity."},
+
+  // ── Workshops ──────────────────────────────────────────
+  {cat:"workshop", code:"", title:"Annual Lipidomics Workshop — de.NBI / LIFS Network",
+   url:"https://www.denbi.de",
+   meta:"Research Center Borstel – Leibniz Lung Center · 2017–2021 (annual)",
+   desc:"Annual international workshops training postdoctoral fellows, researchers, and PhD candidates in advanced machine learning tools for bioinformatics and lipidomics applications. Part of the German BMBF-funded LIFS project and the de.NBI network."},
+
+  {cat:"nmbu", code:"DAT300", title:"Applied Deep Learning",
+   url:"https://gammel.nmbu.no/course/DAT300",
+   meta:"NMBU · Autumn semester · Annual",
+   desc:"Builds on DAT200. Covers foundations of artificial neural networks, deep CNNs, RNNs, autoencoders, variational autoencoders, GANs, and transformers. Heavy focus on applications and real-data modelling."},
+
+
+  // ── Pedagogical Training ───────────────────────────────
+  {cat:"pedagogy", code:"", title:"Basic Course in Higher Education Pedagogies",
+   url:"https://www.uis.no",
+   meta:"University of Stavanger · 200 hours · 2022–2023",
+   desc:"Formal training in university pedagogy covering theoretical perspectives on teaching and learning, curriculum design, digital tools for education, and assessment methods."},
+
+  {cat:"pedagogy", code:"PPVE400", title:"Master and PhD Supervision",
+   url:"https://www.nmbu.no",
+   meta:"NMBU · 5 ECTS · Spring 2023",
+   desc:"Structured competence in supervising graduate and doctoral research, including milestone planning, feedback strategies, and research integrity."},
+
+  // ── Workshops ──────────────────────────────────────────
+  {cat:"workshop", code:"", title:"Annual Lipidomics Workshop — de.NBI / LIFS Network",
+   url:"https://www.denbi.de",
+   meta:"Research Center Borstel – Leibniz Lung Center · 2017–2021 (annual)",
+   desc:"Annual international workshops training postdoctoral fellows, researchers, and PhD candidates in advanced machine learning tools for bioinformatics and lipidomics applications. Part of the German BMBF-funded LIFS project and the de.NBI network."},
+
+  {cat:"nmbu", code:"INF221", title:"Computer Science for Data Scientists",
+   url:"https://gammel.nmbu.no/emne/INF221",
+   meta:"NMBU · Previous course",
+   desc:"Foundations of computer science tailored for data science students — algorithms, data structures, and programming paradigms relevant to ML workflows."},
+
+  {cat:"klagenfurt", code:"", title:"Autonomous Systems",
+   url:"", meta:"University of Klagenfurt, Austria · 2013–2022", desc:""},
+
+  {cat:"klagenfurt", code:"", title:"Robotics Fundamentals",
+   url:"", meta:"University of Klagenfurt, Austria", desc:""},
+
+  {cat:"klagenfurt", code:"", title:"Fundamentals of Image Processing",
+   url:"", meta:"University of Klagenfurt, Austria", desc:""},
+
+  {cat:"klagenfurt", code:"", title:"Practical Introduction to Neural Networks and Deep Learning",
+   url:"", meta:"University of Klagenfurt, Austria", desc:""},
+
+  {cat:"klagenfurt", code:"", title:"Data Mining and Neurocomputing",
+   url:"", meta:"University of Klagenfurt, Austria", desc:""},
+
+  {cat:"klagenfurt", code:"", title:"Machine Vision in Intelligent Transportation",
+   url:"", meta:"University of Klagenfurt, Austria", desc:""},
+
+  {cat:"klagenfurt", code:"", title:"Mobile Applications with Android",
+   url:"", meta:"University of Klagenfurt, Austria", desc:""},
+
+  {cat:"klagenfurt", code:"", title:"GIS — Expert Systems in Transportation",
+   url:"", meta:"University of Klagenfurt, Austria", desc:""},
+
+  {cat:"klagenfurt", code:"", title:"Data Mining in Intelligent Transportation and Logistics",
+   url:"", meta:"University of Klagenfurt, Austria", desc:""},
+
+  {cat:"klagenfurt", code:"", title:"Data, Network and Web Technology: Tools and Automation",
+   url:"", meta:"University of Klagenfurt, Austria", desc:""},
+
+  {cat:"klagenfurt", code:"", title:"Seminar on Data Mining and Pattern Recognition in Intelligent Vehicle Technologies",
+   url:"", meta:"University of Klagenfurt, Austria", desc:""},
+
+  {cat:"klagenfurt", code:"", title:"Seminar Neuro- und Bioinformatics — Machine Learning",
+   url:"", meta:"University of Klagenfurt, Austria", desc:""},
+
+  {cat:"klagenfurt", code:"", title:"Lab on Machine Vision",
+   url:"", meta:"University of Klagenfurt, Austria", desc:""},
+
+  {cat:"klagenfurt", code:"", title:"Lab on Machine Learning and Applications in Intelligent Vehicles",
+   url:"", meta:"University of Klagenfurt, Austria", desc:""},
+
+  {cat:"klagenfurt", code:"", title:"Lab on Robotics Fundamentals",
+   url:"", meta:"University of Klagenfurt, Austria", desc:""},
+];
+
+const CATS = {
+  all:        "All",
+  nmbu:       "NMBU (Current)",
+  klagenfurt: "University of Klagenfurt",
+  pedagogy:   "Pedagogical Training",
+  workshop:   "Workshops"
+};
+
+const CBADGE = {
+  nmbu:       "background:#E1F5EE;color:#085041",
+  klagenfurt: "background:#e8f1fb;color:#0c447c",
+  pedagogy:   "background:#EEEDFE;color:#3C3489",
+  workshop:   "background:#FAEEDA;color:#633806"
+};
+
+let activeCat = "all";
+
+function render() {
+  const filtered = COURSES.filter(i => activeCat === "all" || i.cat === activeCat);
+
+  const filters = Object.entries(CATS).map(([k,v]) => {
+    const on = activeCat === k;
+    const style = on
+      ? "background:#1a3a5c;color:white;border-color:#1a3a5c;"
+      : "background:white;color:#6c757d;border-color:#dde4ed;";
+    const count = k === "all" ? COURSES.length : COURSES.filter(i=>i.cat===k).length;
+    return `<span onclick="setCat('${k}')" style="font-size:11px;padding:4px 12px;border-radius:20px;border:1px solid;cursor:pointer;${style}">${v} <span style="opacity:0.7">(${count})</span></span>`;
+  }).join("");
+
+  const items = filtered.map(i => {
+    const badge = `<span style="font-size:9px;padding:2px 7px;border-radius:3px;font-weight:600;margin-right:6px;${CBADGE[i.cat]}">${CATS[i.cat]}</span>`;
+    const titleEl = i.url
+      ? `<a href="${i.url}" target="_blank" style="color:#1a3a5c;text-decoration:none;font-weight:600;">${i.code ? i.code+' — ' : ''}${i.title}</a>`
+      : `<span style="font-weight:600;color:#1a3a5c;">${i.title}</span>`;
+    return `<div style="padding:0.85rem 0;border-bottom:1px solid #eef0f4;">
+      <div style="font-size:0.93rem;margin-bottom:3px;">${badge}${titleEl}</div>
+      ${i.meta ? `<div style="font-size:0.82rem;color:#6c757d;margin-bottom:2px;">${i.meta}</div>` : ""}
+      ${i.desc ? `<div style="font-size:0.85rem;color:#6c757d;line-height:1.6;">${i.desc}</div>` : ""}
+    </div>`;
+  }).join("");
+
+  document.getElementById("teaching-app").innerHTML = `
+    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;">${filters}</div>
+    <div style="font-size:12px;color:#6c757d;margin-bottom:12px;">Showing <strong>${filtered.length}</strong> of <strong>${COURSES.length}</strong> courses</div>
+    ${items}
+  `;
+}
+
+function setCat(cat) { activeCat = cat; render(); }
+render();
+</script>

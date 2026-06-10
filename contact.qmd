@@ -1,0 +1,49 @@
+---
+title: "Contact"
+toc: false
+---
+
+```{=html}
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin:2rem 0;">
+  <div>
+    <h3>Get in Touch</h3>
+    <p>
+      <strong>Email</strong><br>
+      <a href="mailto:fadi.al.machot@nmbu.no">fadi.al.machot@nmbu.no</a>
+    </p>
+    <p>
+      <strong>Institution</strong><br>
+      Norwegian University of Life Sciences (NMBU)<br>
+      Faculty of Science and Technology (REALTEK)<br>
+      Department of Data Science<br>
+      Universitetstunet 3, 1433 Ås, Norway
+    </p>
+    <p>
+      <strong>NMBU Profile</strong><br>
+      <a href="https://www.nmbu.no/en/user/36818" target="_blank">nmbu.no — Staff Page</a>
+    </p>
+  </div>
+  <div>
+    <h3>Academic Profiles</h3>
+    <ul style="list-style:none;padding:0;line-height:2.2;">
+      <li><a href="https://scholar.google.com/citations?user=5ivk5WQAAAAJ&hl=en" target="_blank">🎓 Google Scholar</a></li>
+      <li><a href="https://www.researchgate.net/profile/Fadi-Al-Machot" target="_blank">🔬 ResearchGate</a></li>
+      <li><a href="https://www.linkedin.com/in/fadi-al-machot-10885835/" target="_blank">💼 LinkedIn</a></li>
+      <li><a href="https://orcid.org/0000-0002-1239-9261" target="_blank">🆔 ORCID 0000-0002-1239-9261</a></li>
+      <li><a href="https://www.scopus.com/authid/detail.uri?authorId=37010953300" target="_blank">📊 Scopus</a></li>
+      <li><a href="https://paperswithcode.com/search?q=author%3AFadi+Al+Machot&order_by=stars" target="_blank">💻 Papers with Code</a></li>
+      <li><a href="https://www.youtube.com/channel/UC82GJ66Ax6AEORXeGI4P6ig" target="_blank">▶ YouTube Channel</a></li>
+    </ul>
+  </div>
+</div>
+```
+
+---
+
+## Send a Message
+
+You can reach out directly by email or via the [NMBU staff page](https://www.nmbu.no/en/user/36818).
+
+For **student inquiries** (Master's or PhD supervision), please include a brief description of your research interest and a CV.
+
+For **collaboration inquiries**, please include your institutional affiliation and the topic you'd like to discuss.

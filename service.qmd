@@ -1,0 +1,154 @@
+---
+title: "Service & Activities"
+toc: true
+---
+
+<p style="font-size:0.9rem;color:#6c757d;margin-bottom:2rem;">
+Academic and professional service including leadership, peer review, programme committees, conference organisation, and examination roles.
+</p>
+
+<h2>Leadership Roles</h2>
+
+<p><strong>2023–2026 · Program Board Leader, Data Science Department — NMBU</strong><br>
+Oversaw development and implementation of the department's academic programmes. Coordinated with faculty, staff, and external stakeholders, and led programme meetings and departmental projects.</p>
+
+<p><strong>Memberships</strong></p>
+<ul>
+<li><a href="https://www.kg-alliance.org/kga-wg-xai-24-4/" target="_blank">Member, Knowledge Graph Alliance — Explainable-AI-Ready Data and Metadata Principles (XAIR)</a></li>
+<li>IEEE Member — Institute of Electrical and Electronics Engineers</li>
+<li>ASAI Member — Austrian Society for Artificial Intelligence</li>
+</ul>
+
+<h2>Reviewing</h2>
+
+<p><strong>Since 2013</strong> — Reviewer for leading journals and conferences, including:</p>
+<ul>
+<li>IEEE Transactions on Neural Networks and Learning Systems</li>
+<li>IEEE Transactions on Vehicular Technology</li>
+<li>IEEE Transactions on Circuits and Systems for Video Technology</li>
+<li>IEEE Transactions on Emerging Topics in Computational Intelligence</li>
+<li>Pattern Recognition Letters</li>
+<li>IEEE International Conference on Robotics and Automation (ICRA 2025)</li>
+<li>IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS 2026)</li>
+<li>The 13th European Workshop on Visual Information Processing (EUVIP 2025)</li>
+</ul>
+
+<h2>Track Chair & Programme Committee</h2>
+
+<div style="display:grid;gap:0.75rem;margin-bottom:1.5rem;">
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1rem 1.25rem;">
+<strong>Track Chair</strong> — <a href="https://coinsconf.com/" target="_blank">IEEE COINS 2026</a><br>
+<span style="font-size:0.85rem;color:#6c757d;">Track 10: Human-Centered AI, Interaction, and Visualization</span>
+</div>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1rem 1.25rem;">
+<strong>Programme Committee</strong> — <a href="http://www.inprodat.de/events/osetai-2026" target="_blank">OSETAI 2026 (part of JOWO 2026)</a><br>
+<span style="font-size:0.85rem;color:#6c757d;">Ontologies, Structured Explainability, and Trust in AI</span>
+</div>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1rem 1.25rem;">
+<strong>Programme Committee</strong> — 1st International Conference on Human-Centric Artificial Intelligence (ICHCAI 2026)<br>
+<span style="font-size:0.85rem;color:#6c757d;">Institute for Energy Technology, Halden, Norway</span>
+</div>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1rem 1.25rem;">
+<strong>Programme Committee</strong> — <a href="https://coinsconf.com/" target="_blank">IEEE COINS 2024, 2025, 2026</a><br>
+<span style="font-size:0.85rem;color:#6c757d;">International Conference on Omni-Layer Intelligent Systems</span>
+</div>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1rem 1.25rem;">
+<strong>Programme Committee</strong> — FAIEMA 2025<br>
+<span style="font-size:0.85rem;color:#6c757d;">3rd International Conference on Frontiers of AI, Ethics, and Multidisciplinary Applications — Research Track, PhD & Student Forum, PhD Symposium Track</span>
+</div>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1rem 1.25rem;">
+<strong>Programme Committee</strong> — <a href="https://delta.scitevents.org/" target="_blank">DELTA 2025</a><br>
+<span style="font-size:0.85rem;color:#6c757d;">International Conference on Deep Learning Theory and Applications</span>
+</div>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1rem 1.25rem;">
+<strong>Programme Committee</strong> — <a href="https://nordicaimeet.com/" target="_blank">Nordic AI Young Researcher Symposium (NAIM)</a>
+</div>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1rem 1.25rem;">
+<strong>Programme Committee</strong> — <a href="https://icdh.conferences.computer.org/2024/" target="_blank">IEEE International Conference on Digital Health (ICDH 2024)</a>
+</div>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1rem 1.25rem;">
+<strong>Programme Committee</strong> — <a href="https://services.conferences.computer.org/2024/" target="_blank">IEEE World Congress on SERVICES 2024</a>
+</div>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1rem 1.25rem;">
+<strong>Programme Committee / Co-Organiser</strong> — <a href="https://batcat.info/dclxvi/" target="_blank">DCLXVI Workshop 2024 & 2025</a><br>
+<span style="font-size:0.85rem;color:#6c757d;">Designing the Conceptual Landscape for an XAIR Validation Infrastructure</span>
+</div>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1rem 1.25rem;">
+<strong>Workshop Organiser</strong> — AHA 2016<br>
+<span style="font-size:0.85rem;color:#6c757d;">International Workshop on Conceptual Modeling for Ambient Assistance and Healthy Ageing (at ER 2016)</span>
+</div>
+
+</div>
+
+<h2>Conference Organisation</h2>
+
+<ul>
+<li><strong>2017, 2018, 2020</strong> — <a href="https://lipidomics-forum.fz-borstel.de/" target="_blank">Lipidomics Forum</a> — Organisation Committee</li>
+<li><strong>2016</strong> — <a href="https://www.ifipnews.org/informatik-2016-gi-conference-austria/" target="_blank">INFORMATIK 2016 — 46th Annual GI Conference</a>, Klagenfurt, Austria — Organisation Committee</li>
+</ul>
+
+<h2>Examination & Censor Roles</h2>
+
+<p>External examiner and academic censor for Bachelor's and Master's theses across Norwegian universities. Responsibilities include independent assessment, oral examination participation, grading, and feedback.</p>
+
+<p><strong>Institutional collaborations:</strong></p>
+<ul>
+<li>University of Oslo</li>
+<li>Simula Research Laboratory</li>
+<li>Akershus University Hospital</li>
+<li>University of Stavanger</li>
+<li>Norwegian University of Science and Technology (NTNU)</li>
+</ul>
+
+<h2>Editorial Roles</h2>
+
+<ul>
+<li><strong>Editor</strong> — <a href="https://link.springer.com/book/9783031892738" target="_blank"><em>Designing the Conceptual Landscape for a XAIR Validation Infrastructure</em></a>, Springer LNNS, 2025</li>
+<li><strong>Guest Editor</strong> — Special Issue on Conceptual Modelling in Honour of Heinrich C. Mayr, EMISAJ, 2018</li>
+</ul>
+
+<h2>Scientific Committees</h2>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1rem 1.25rem;margin-bottom:0.75rem;">
+<strong>Scientific Committee Member</strong> — <a href="https://www.nora.ai" target="_blank">NORA – The Norwegian Artificial Intelligence Research Consortium</a><br>
+<span style="font-size:0.85rem;color:#6c757d;">National consortium coordinating AI research across Norwegian universities and research institutions.</span>
+</div>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1rem 1.25rem;margin-bottom:0.75rem;">
+<strong>Scientific Committee Member</strong> — Battery Remaining Useful Life Estimation Competition<br>
+<span style="font-size:0.85rem;color:#6c757d;">In collaboration with Soundsensing and NMBU. Dataset competition using real battery sensor data from buildings across Norway. Cash prizes totalling 50,000 NOK. Committee: Fadi Al Machot (NMBU), Mina Farmanbar (UiS), Kyandoghere Kyamakya (University of Klagenfurt), Habib Ullah (NMBU), Ibrahim Abdelfattah Abdelhameed (NMBU).</span><br>
+<a href="https://lnkd.in/eBs8D2A3" target="_blank" style="font-size:0.85rem;">Sign up →</a>
+</div>
+
+<h2>Workshop Organisation & Calls</h2>
+
+<div style="background:white;border:1px solid #dde4ed;border-radius:8px;padding:1rem 1.25rem;margin-bottom:0.75rem;">
+<strong>Programme Committee & Co-Organiser</strong> — <a href="http://www.inprodat.de/events/osetai-2026" target="_blank">OSETAI 2026 — Workshop on Ontology and Semantics for Explainable and Trustworthy AI</a><br>
+<span style="font-size:0.85rem;color:#6c757d;">Part of JOWO 2026. As AI systems are increasingly deployed in real-world and safety-critical environments, explainability, trustworthiness, accountability, and interpretability are becoming foundational requirements.</span>
+
+<div style="margin-top:0.75rem;font-size:0.85rem;color:#1a3a5c;">
+<strong>Topics include:</strong>
+<ul style="margin:0.4rem 0 0 1rem;line-height:1.8;">
+<li>Causal reasoning and counterfactual explanations</li>
+<li>Explainable neural models</li>
+<li>Symbolic and neuro-symbolic reasoning</li>
+<li>Digital forensics and AI auditing</li>
+<li>Regulatory compliance and accountability</li>
+<li>Metadata and semantic standards for AI documentation</li>
+<li>Trust, provenance, and reproducibility in AI</li>
+</ul>
+</div>
+
+<p style="font-size:0.85rem;color:#6c757d;margin-top:0.75rem;margin-bottom:0;">A key perspective of OSETAI is that trustworthiness is not only a property of models, but also of the institutional, social, and epistemic contexts in which AI systems operate. <strong>Submission deadline: to be announced.</strong></p>
+</div>

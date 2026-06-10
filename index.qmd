@@ -1,0 +1,234 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+<div style="display:flex;gap:2.5rem;align-items:flex-start;padding:2rem 0 1.5rem;border-bottom:1px solid #dde4ed;margin-bottom:2rem;">
+<div style="flex-shrink:0;text-align:center;">
+<img src="assets/profile.png" alt="Fadi Al Machot" style="width:185px;height:185px;border-radius:50%;object-fit:cover;border:3px solid #2d7dd2;"/>
+</div>
+<div style="flex:1;">
+<h1 style="margin:0 0 0.2rem;font-size:2rem;">Fadi Al Machot</h1>
+<p style="font-size:0.92rem;color:#6c757d;font-style:italic;margin-bottom:0.9rem;">
+Assoc. Prof. PD. Dr. techn. habil. &middot; Norwegian University of Life Sciences (NMBU)<br>
+Faculty of Science and Technology (REALTEK) &middot; Ås, Norway
+</p>
+<div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:0.9rem;">
+<span style="background:#e8f1fb;color:#1a5a9c;border:1px solid #b8d4f0;border-radius:20px;padding:0.2rem 0.7rem;font-size:0.78rem;font-weight:500;">Machine Learning</span>
+<span style="background:#e8f1fb;color:#1a5a9c;border:1px solid #b8d4f0;border-radius:20px;padding:0.2rem 0.7rem;font-size:0.78rem;font-weight:500;">Zero/Few-Shot Learning</span>
+<span style="background:#e8f1fb;color:#1a5a9c;border:1px solid #b8d4f0;border-radius:20px;padding:0.2rem 0.7rem;font-size:0.78rem;font-weight:500;">Neural-Symbolic AI</span>
+<span style="background:#e8f1fb;color:#1a5a9c;border:1px solid #b8d4f0;border-radius:20px;padding:0.2rem 0.7rem;font-size:0.78rem;font-weight:500;">Explainable AI</span>
+<span style="background:#e8f1fb;color:#1a5a9c;border:1px solid #b8d4f0;border-radius:20px;padding:0.2rem 0.7rem;font-size:0.78rem;font-weight:500;">Temporal Data & Forecasting</span>
+<span style="background:#e8f1fb;color:#1a5a9c;border:1px solid #b8d4f0;border-radius:20px;padding:0.2rem 0.7rem;font-size:0.78rem;font-weight:500;">Lightweight Models</span>
+<span style="background:#e8f1fb;color:#1a5a9c;border:1px solid #b8d4f0;border-radius:20px;padding:0.2rem 0.7rem;font-size:0.78rem;font-weight:500;">Activity Recognition</span>
+<span style="background:#e8f1fb;color:#1a5a9c;border:1px solid #b8d4f0;border-radius:20px;padding:0.2rem 0.7rem;font-size:0.78rem;font-weight:500;">Smart Agriculture</span>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:0.5rem;">
+<a href="https://scholar.google.com/citations?user=5ivk5WQAAAAJ&hl=en" target="_blank" style="display:inline-flex;align-items:center;gap:0.3rem;font-size:0.82rem;color:#1a3a5c;border:1px solid #dde4ed;border-radius:4px;padding:0.25rem 0.6rem;text-decoration:none;">🎓 Google Scholar</a>
+<a href="https://www.researchgate.net/profile/Fadi-Al-Machot" target="_blank" style="display:inline-flex;align-items:center;gap:0.3rem;font-size:0.82rem;color:#1a3a5c;border:1px solid #dde4ed;border-radius:4px;padding:0.25rem 0.6rem;text-decoration:none;">🔬 ResearchGate</a>
+<a href="https://www.linkedin.com/in/fadi-al-machot-10885835/" target="_blank" style="display:inline-flex;align-items:center;gap:0.3rem;font-size:0.82rem;color:#1a3a5c;border:1px solid #dde4ed;border-radius:4px;padding:0.25rem 0.6rem;text-decoration:none;">💼 LinkedIn</a>
+<a href="https://orcid.org/0000-0002-1239-9261" target="_blank" style="display:inline-flex;align-items:center;gap:0.3rem;font-size:0.82rem;color:#1a3a5c;border:1px solid #dde4ed;border-radius:4px;padding:0.25rem 0.6rem;text-decoration:none;">🆔 ORCID</a>
+<a href="https://www.scopus.com/authid/detail.uri?authorId=37010953300" target="_blank" style="display:inline-flex;align-items:center;gap:0.3rem;font-size:0.82rem;color:#1a3a5c;border:1px solid #dde4ed;border-radius:4px;padding:0.25rem 0.6rem;text-decoration:none;">📊 Scopus</a>
+<a href="https://paperswithcode.com/search?q=author%3AFadi+Al+Machot&order_by=stars" target="_blank" style="display:inline-flex;align-items:center;gap:0.3rem;font-size:0.82rem;color:#1a3a5c;border:1px solid #dde4ed;border-radius:4px;padding:0.25rem 0.6rem;text-decoration:none;">💻 Papers with Code</a>
+<a href="https://www.youtube.com/channel/UC82GJ66Ax6AEORXeGI4P6ig" target="_blank" style="display:inline-flex;align-items:center;gap:0.3rem;font-size:0.82rem;color:#1a3a5c;border:1px solid #dde4ed;border-radius:4px;padding:0.25rem 0.6rem;text-decoration:none;">▶ YouTube</a>
+<a href="mailto:fadi.al.machot@nmbu.no" style="display:inline-flex;align-items:center;gap:0.3rem;font-size:0.82rem;color:#1a3a5c;border:1px solid #dde4ed;border-radius:4px;padding:0.25rem 0.6rem;text-decoration:none;">✉ Email</a>
+</div>
+</div>
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:2.5rem;">
+<div style="background:#f7f9fc;border-radius:8px;padding:1rem;text-align:center;">
+<div style="font-size:1.8rem;font-weight:700;color:#1a3a5c;" id="stat-pubs">106</div>
+<div style="font-size:0.78rem;color:#6c757d;margin-top:2px;">Publications</div>
+</div>
+<div style="background:#f7f9fc;border-radius:8px;padding:1rem;text-align:center;">
+<div style="font-size:1.8rem;font-weight:700;color:#1a3a5c;" id="stat-cites">2,020</div>
+<div style="font-size:0.78rem;color:#6c757d;margin-top:2px;">Citations</div>
+</div>
+<div style="background:#f7f9fc;border-radius:8px;padding:1rem;text-align:center;">
+<div style="font-size:1.8rem;font-weight:700;color:#1a3a5c;">9</div>
+<div style="font-size:0.78rem;color:#6c757d;margin-top:2px;">Active PhD students</div>
+</div>
+<div style="background:#f7f9fc;border-radius:8px;padding:1rem;text-align:center;">
+<div style="font-size:1.8rem;font-weight:700;color:#1a3a5c;">8</div>
+<div style="font-size:0.78rem;color:#6c757d;margin-top:2px;">Research projects</div>
+</div>
+</div>
+
+<div style="display:grid;grid-template-columns:1.2fr 1fr;gap:3rem;margin-bottom:2.5rem;">
+<div>
+
+## About
+
+I am Assoc. Prof. PD. Dr. techn. habil. **Fadi Al Machot**, specializing in Zero/Few-Shot Learning, Explainable AI, Temporal Data Analysis, and Neural-Symbolic Learning with Knowledge Representation. My research translates into impactful applications in healthcare and assisted living, automotive and ADAS, smart agriculture, and bioinformatics — developing lightweight and context-aware AI solutions that bridge logic, learning, and real-world needs.
+
+
+<div style="background:#e8f1fb;border:1px solid #b8d4f0;border-radius:8px;padding:1rem 1.25rem;margin:1rem 0;">
+<div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.4rem;">
+<span style="font-size:1.1rem;">🔬</span>
+<strong style="color:#1a3a5c;font-size:0.95rem;">Research Group Leader — TETRA AI</strong>
+</div>
+<p style="font-size:0.88rem;margin:0;color:#1a3a5c;line-height:1.6;">
+<a href="https://www.nmbu.no/en/research/groups/tetra-ai" target="_blank" style="font-weight:600;color:#1a3a5c;">Trustworthy and Efficient Transfer Learning AI (TETRA AI)</a> — a research group at NMBU dedicated to advancing methods that make AI models both trustworthy and highly efficient. Research focuses on zero/few-shot learning, neural-symbolic reasoning, and lightweight architectures for real-world deployment.
+</p>
+</div>
+
+> **Patent** &middot; European Research Patent No. EP2790165 — *Quality Determination in Data Acquisition* (2013), in collaboration with Swarco Traffic Systems, Germany.
+> **Award** &middot; Best Practice Project Award 2013 — Smart Resource-Aware Multi-Sensor Network (SRSnet).
+
+## Academic Timeline
+
+<div style="position:relative;padding-left:2rem;margin-top:1rem;">
+<div style="position:absolute;left:0.55rem;top:0;bottom:0;width:2px;background:#dde4ed;"></div>
+
+<div style="position:relative;padding-bottom:1.2rem;">
+<div style="position:absolute;left:-1.5rem;top:0.4rem;width:10px;height:10px;background:#2d7dd2;border:2px solid white;border-radius:50%;box-shadow:0 0 0 2px #2d7dd2;"></div>
+<div style="font-size:0.78rem;font-weight:700;color:#2d7dd2;text-transform:uppercase;letter-spacing:.05em;">2021 – present</div>
+<div style="font-size:0.92rem;"><strong>Associate Professor in Data Science (Machine Learning)</strong><br>Norwegian University of Life Sciences (NMBU), Department of Data Science (REALTEK)</div>
+</div>
+
+<div style="position:relative;padding-bottom:1.2rem;">
+<div style="position:absolute;left:-1.5rem;top:0.4rem;width:10px;height:10px;background:#2d7dd2;border:2px solid white;border-radius:50%;box-shadow:0 0 0 2px #2d7dd2;"></div>
+<div style="font-size:0.78rem;font-weight:700;color:#2d7dd2;text-transform:uppercase;letter-spacing:.05em;">2017 – 2021</div>
+<div style="font-size:0.92rem;"><strong>Senior Researcher</strong><br>Research Center Borstel – Leibniz Lung Center, Germany</div>
+</div>
+
+<div style="position:relative;padding-bottom:1.2rem;">
+<div style="position:absolute;left:-1.5rem;top:0.4rem;width:10px;height:10px;background:#2d7dd2;border:2px solid white;border-radius:50%;box-shadow:0 0 0 2px #2d7dd2;"></div>
+<div style="font-size:0.78rem;font-weight:700;color:#2d7dd2;text-transform:uppercase;letter-spacing:.05em;">2020</div>
+<div style="font-size:0.92rem;"><strong>Habilitation (PD) in Applied Computer Science</strong><br>University of Lübeck, Germany</div>
+</div>
+
+<div style="position:relative;padding-bottom:1.2rem;">
+<div style="position:absolute;left:-1.5rem;top:0.4rem;width:10px;height:10px;background:#2d7dd2;border:2px solid white;border-radius:50%;box-shadow:0 0 0 2px #2d7dd2;"></div>
+<div style="font-size:0.78rem;font-weight:700;color:#2d7dd2;text-transform:uppercase;letter-spacing:.05em;">2013</div>
+<div style="font-size:0.92rem;"><strong>Doctorate in Computer Science</strong><br>University of Klagenfurt, Austria</div>
+</div>
+
+<div style="position:relative;padding-bottom:0.5rem;">
+<div style="position:absolute;left:-1.5rem;top:0.4rem;width:10px;height:10px;background:#2d7dd2;border:2px solid white;border-radius:50%;box-shadow:0 0 0 2px #2d7dd2;"></div>
+<div style="font-size:0.78rem;font-weight:700;color:#2d7dd2;text-transform:uppercase;letter-spacing:.05em;">2010</div>
+<div style="font-size:0.92rem;"><strong>Diplom in Computer Science</strong><br>University of Potsdam, Germany</div>
+</div>
+
+</div>
+</div>
+
+<div>
+
+## News & Updates
+
+<div id="news-app"></div>
+
+</div>
+</div>
+
+<script>
+const NEWS = [
+  {d:"10.06.2026",cat:"role",t:"Scientific Committee Member for the <strong>Battery Remaining Useful Life Estimation Competition</strong> — in collaboration with Soundsensing and NMBU. Cash prizes totalling 50,000 NOK. <a href='https://lnkd.in/eBs8D2A3' target='_blank'>Sign up →</a>"},
+  {d:"10.06.2026",cat:"role",t:"Scientific Committee Member for <strong>NORA – The Norwegian Artificial Intelligence Research Consortium</strong>."},
+  {d:"10.06.2026",cat:"role",t:"Programme Committee & Co-Organiser for <strong>OSETAI 2026</strong> — Workshop on Ontology and Semantics for Explainable and Trustworthy AI, part of JOWO 2026. Topics: causal reasoning, explainable neural models, neuro-symbolic reasoning, AI auditing, regulatory compliance. <a href='http://www.inprodat.de/events/osetai-2026' target='_blank'>More info →</a>"},
+  {d:"25.05.2026",cat:"paper",t:"TETRA AI at ICML 2026! Tucker Attention — unifying Multi-Head, Group-Query, and Multi-Head Latent Attention — accepted at <strong>ICML 2026</strong>."},
+  {d:"20.05.2026",cat:"paper",t:"Paper accepted at <strong>TMLR</strong>: <em>Family Matters: A Systematic Study of Spatial vs. Frequency Masking for Continual Test-Time Adaptation</em>."},
+  {d:"15.02.2026",cat:"role",t:"Serving as Programme Committee member for <strong>OSETAI 2026</strong> (part of JOWO 2026) — Ontologies, Structured Explainability, and Trust in AI."},
+  {d:"28.01.2026",cat:"role",t:"Serving as Programme Committee member for the <strong>1st International Conference on Human-Centric AI (ICHCAI 2026)</strong>, Halden, Norway."},
+  {d:"26.01.2026",cat:"talk",t:"Presented at <strong>CRT-AI ML Week 2026</strong>, University of Limerick — talk: <em>From Seen to Unseen: Learning Beyond Data Abundance</em>. Focus on Zero-Shot Learning and energy-efficient AI generalization."},
+  {d:"23.01.2026",cat:"paper",t:"Paper <em>Towards Sustainable Universal Deepfake Detection with Frequency-Domain Masking</em> accepted in <strong>ACM Transactions on Multimedia Computing (TOMM)</strong>."},
+  {d:"15.01.2026",cat:"role",t:"Serving as <strong>Track Chair</strong> for Track 10: Human-Centered AI, Interaction, and Visualization at <strong>IEEE COINS 2026</strong>."},
+  {d:"29.12.2025",cat:"paper",t:"Paper <em>Genomic Prediction of Feed Efficiency in Boars by Deep Learning</em> published in <strong>G3: Genes, Genomes, Genetics</strong> (Oxford Academic)."},
+  {d:"30.11.2025",cat:"award",t:"Paper <em>FragFM: Fragmented Fourier Matrix for Multi-Seasonality Extraction</em> received the <strong>Best Paper Award at NIKT 2025</strong>, Halden."},
+  {d:"25.07.2025",cat:"paper",t:"Review article published in <strong>Renewable and Sustainable Energy Reviews</strong> (IF: 16.3, Q1): <em>Advances in Computational Intelligence for Floating Offshore Wind Turbines Aerodynamics</em>."},
+  {d:"12.06.2025",cat:"grant",t:"Research funding received for the <strong>Norwegian Centre on AI for Decisions (AID)</strong>, led by Sebastian Gros (NTNU) and Signe Riemer-Sørensen (SINTEF)."},
+  {d:"31.03.2025",cat:"role",t:"Serving as panel convenor at <strong>NorDev25</strong> (Sept 2025, NMBU). Panel: <em>AI and Sustainable Development: Opportunities, Challenges, and Ethical Considerations</em>."},
+  {d:"18.03.2025",cat:"role",t:"Serving as Programme Committee Member for <strong>DELTA 2025</strong> — International Conference on Deep Learning Theory and Applications."},
+  {d:"06.03.2025",cat:"paper",t:"Editor for Springer book <a href='https://link.springer.com/book/9783031892738' target='_blank'><em>Designing the Conceptual Landscape for a XAIR Validation Infrastructure</em></a> (LNNS)."},
+  {d:"15.03.2025",cat:"role",t:"Serving on Programme Committee of <strong>FAIEMA 2025</strong> — Research Track, PhD & Student Forum Track, and PhD Symposium Track."},
+  {d:"21.02.2025",cat:"paper",t:"Presented research <em>Predicting Battery Degradation Using Cellular Neural Network Model</em> at <strong>Digital Twin Technology for Battery Cell Manufacturing Symposium</strong>, DTE AICOMAS 2025."},
+  {d:"01.01.2025",cat:"paper",t:"Paper <a href='https://openaccess.thecvf.com/content/WACV2025W/CV4Small/papers/Heyden_SEER-ZSL_WACVW_2025_paper.pdf' target='_blank'><em>SEER-ZSL: Semantic Encoder-Enhanced Representations for Generalized Zero-Shot Learning</em></a> accepted at <strong>CV4Smalls Workshop, WACV 2025</strong>."},
+  {d:"23.12.2024",cat:"grant",t:"Application approved by <strong>Akershus Fylkeskommune</strong> for <em>Development of an AI-Based Image Analysis System for Monitoring Plant Status Using Few-Shot Learning</em>."},
+  {d:"22.11.2024",cat:"role",t:"Joined Programme Committee for <strong>IEEE COINS 2025</strong>."},
+  {d:"28.10.2024",cat:"paper",t:"Chapter <em>Recognizing Hand-Based Micro Activities Using Wrist-Worn Inertial Sensors: A Zero-Shot Learning Approach</em> contributed to Springer LNCS book <em>The Combined Power of Research, Education, and Dissemination</em>."},
+  {d:"25.10.2024",cat:"grant",t:"<strong>DIP-Farm Edu</strong> project approved in UTFORSK 2024 — ranked <strong>4th out of 198 applications</strong>. Norway–Brazil collaboration: NMBU, UFMT, IFMT, Graminor, AgriHub, FAPEMAT, and 14 companies."},
+  {d:"09.09.2024",cat:"grant",t:"Industrial PhD project <em>Advancing Controlled Environment Agriculture Using Artificial Intelligence</em> accepted by the <strong>Norwegian Research Council</strong>, in collaboration with RiftLabs and NMBU."},
+  {d:"11.08.2024",cat:"paper",t:"Upcoming release of <a href='https://link.springer.com/book/9783031718205' target='_blank'><em>Recent Advances in Machine Learning Techniques and Sensor Applications for Human Emotion, Activity Recognition and Support</em></a> (Springer SCI, Vol. 1175)."},
+  {d:"20.07.2024",cat:"paper",t:"Paper <em>Exploration of key concepts required for mid- and domain-level ontology development to facilitate explainable-AI-readiness</em> accepted at <strong>DAO-XAI IV 2024 @ ECAI 2024</strong>."},
+  {d:"19.06.2024",cat:"paper",t:"Paper <em>Deep Learning-based Models for Paddy Disease Identification and Classification: A Systematic Survey</em> accepted by <strong>IEEE Access</strong>."},
+  {d:"15.02.2024",cat:"role",t:"Became a member of <strong>Knowledge Graph Alliance</strong> — Explainable-AI-ready data and metadata principles (XAIR) working group."},
+  {d:"11.02.2024",cat:"paper",t:"Paper <em>A Graph Attention Network Based System for Robust Analog Circuits' Structure Recognition</em> accepted by <strong>IEEE Access</strong>."},
+  {d:"18.11.2023",cat:"paper",t:"Paper <em>Hydrodynamic Response of Semi-Submersible FOWT Floaters</em> accepted by the <strong>Journal of Physics (TORQUE)</strong>."},
+  {d:"27.07.2023",cat:"grant",t:"<strong>BATCAT</strong> (Battery Cell Assembly Twin) project approved under Horizon Europe (HORIZON-CL5-2023-D2-01), proposal no. 101137725."},
+  {d:"28.07.2023",cat:"grant",t:"<strong>DigiPass</strong> project approved under Horizon Europe (HORIZON-CL4-2023-RESILIENCE-01), proposal no. 101138510."},
+  {d:"08.02.2023",cat:"paper",t:"Paper <em>An Integral Projection-based Semantic Autoencoder for Zero-Shot Learning</em> accepted by <strong>IEEE Access</strong>."},
+  {d:"31.01.2023",cat:"grant",t:"<strong>Marie Curie Fellowship</strong> proposal approved — <em>Evaluation of Thermohydraulic Characteristics of Printed Circuit Heat Exchangers in the Pseudocritical Region for Supercritical CO₂ Cycle</em>, project no. 101106619."},
+  {d:"09.02.2022",cat:"grant",t:"<strong>ZSL++</strong> (Zero/Few-Shot Learning using Multimodal Sensors) project approved at NMBU."},
+];
+
+const CATS = {all:'All',paper:'Paper',grant:'Grant & Project',role:'PC / Role',award:'Award',talk:'Talk'};
+const CBADGE = {
+  paper:'background:#e8f1fb;color:#0c447c',
+  grant:'background:#eaf3de;color:#27500a',
+  role:'background:#EEEDFE;color:#3C3489',
+  award:'background:#FAEEDA;color:#633806',
+  talk:'background:#E1F5EE;color:#085041'
+};
+const CLABEL = {paper:'Paper',grant:'Grant',role:'Role',award:'Award',talk:'Talk'};
+
+let activeCat = 'all';
+let showAll = false;
+
+function renderNews() {
+  const filtered = NEWS.filter(n => activeCat === 'all' || n.cat === activeCat);
+  const visible = showAll ? filtered : filtered.slice(0, 6);
+
+  let filterHTML = Object.entries(CATS).map(([k,v]) => {
+    const active = activeCat === k;
+    const style = active
+      ? 'background:#1a3a5c;color:white;border-color:#1a3a5c;'
+      : 'background:white;color:#6c757d;border-color:#dde4ed;';
+    return `<span onclick="setNewsCat('${k}')" style="font-size:11px;padding:3px 9px;border-radius:20px;border:1px solid;cursor:pointer;${style}">${v}</span>`;
+  }).join('');
+
+  let itemsHTML = visible.map(n => {
+    const badge = `<span style="font-size:9px;padding:1px 6px;border-radius:3px;font-weight:600;margin-right:5px;${CBADGE[n.cat]}">${CLABEL[n.cat]}</span>`;
+    return `<div style="border-left:3px solid #2d7dd2;padding:0.5rem 0 0.5rem 0.8rem;margin-bottom:0.8rem;">
+      <div style="font-size:10px;font-weight:600;color:#6c757d;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px;">${n.d}</div>
+      <div style="font-size:0.88rem;line-height:1.5;">${badge}${n.t}</div>
+    </div>`;
+  }).join('');
+
+  const toggleBtn = filtered.length > 6
+    ? `<button onclick="toggleAllNews()" style="font-size:12px;color:#6c757d;background:none;border:1px solid #dde4ed;border-radius:20px;padding:4px 12px;cursor:pointer;margin-top:4px;">
+        ${showAll ? 'Show less ▴' : `Show all ${filtered.length} ▾`}
+      </button>` : '';
+
+  document.getElementById('news-app').innerHTML = `
+    <div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px;">${filterHTML}</div>
+    ${itemsHTML}
+    ${toggleBtn}
+  `;
+}
+
+function setNewsCat(cat) {
+  activeCat = cat;
+  showAll = false;
+  renderNews();
+}
+
+function toggleAllNews() {
+  showAll = !showAll;
+  renderNews();
+}
+
+renderNews();
+</script>
+
+<script>
+fetch('assets/stats.json')
+  .then(r => r.json())
+  .then(s => {
+    if(s.citations) document.getElementById('stat-cites').textContent = s.citations;
+    if(s.publications) document.getElementById('stat-pubs').textContent = s.publications;
+  })
+  .catch(() => {});
+</script>

@@ -125,7 +125,6 @@ I am Assoc. Prof. PD. Dr. techn. habil. **Fadi Al Machot**, specializing in Zero
 <script>
 const NEWS = [
   {d:"10.06.2026",cat:"role",t:"Scientific Committee Member for the <strong>Battery Remaining Useful Life Estimation Competition</strong> — in collaboration with Soundsensing and NMBU. Cash prizes totalling 50,000 NOK. <a href='https://lnkd.in/eBs8D2A3' target='_blank'>Sign up →</a>"},
-  {d:"10.06.2026",cat:"role",t:"Scientific Committee Member for <strong>NORA – The Norwegian Artificial Intelligence Research Consortium</strong>."},
   {d:"10.06.2026",cat:"role",t:"Programme Committee & Co-Organiser for <strong>OSETAI 2026</strong> — Workshop on Ontology and Semantics for Explainable and Trustworthy AI, part of JOWO 2026. Topics: causal reasoning, explainable neural models, neuro-symbolic reasoning, AI auditing, regulatory compliance. <a href='http://www.inprodat.de/events/osetai-2026' target='_blank'>More info →</a>"},
   {d:"25.05.2026",cat:"paper",t:"TETRA AI at ICML 2026! Tucker Attention — unifying Multi-Head, Group-Query, and Multi-Head Latent Attention — accepted at <strong>ICML 2026</strong>."},
   {d:"20.05.2026",cat:"paper",t:"Paper accepted at <strong>TMLR</strong>: <em>Family Matters: A Systematic Study of Spatial vs. Frequency Masking for Continual Test-Time Adaptation</em>."},

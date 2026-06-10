@@ -39,6 +39,11 @@ const SERVICE = [
 
   // ── PC & Review ────────────────────────────────────────
   {cat:"pc",
+   title:"Reviewer — ICRA 2025 · AVSS 2026 · EUVIP 2025",
+   detail:"IEEE International Conference on Robotics and Automation · Advanced Video and Signal-Based Surveillance · European Workshop on Visual Information Processing.",
+   url:""},
+
+  {cat:"pc",
    title:"Track Chair — IEEE COINS 2026",
    detail:"Track 10: Human-Centered AI, Interaction, and Visualization.",
    url:"https://coinsconf.com/"},
@@ -93,10 +98,7 @@ const SERVICE = [
    detail:"Since 2013.",
    url:""},
 
-  {cat:"pc",
-   title:"Reviewer — ICRA 2025 · AVSS 2026 · EUVIP 2025",
-   detail:"IEEE International Conference on Robotics and Automation · Advanced Video and Signal-Based Surveillance · European Workshop on Visual Information Processing.",
-   url:""},
+
 
 
   // ── Additional Examination roles ──────────────────────

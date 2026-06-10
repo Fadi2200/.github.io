@@ -4,7 +4,7 @@ toc: false
 ---
 
 <p style="font-size:0.9rem;color:#6c757d;margin-bottom:1.5rem;">
-Teaching at the Norwegian University of Life Sciences (NMBU) since 2021, and previously at the University of Klagenfurt, Austria.
+Teaching at the Norwegian University of Life Sciences (NMBU) since 2021, and previously at the University of Klagenfurt since 2011 in Austria.
 </p>
 
 <div id="teaching-app"></div>

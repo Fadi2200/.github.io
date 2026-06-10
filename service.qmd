@@ -1,0 +1,210 @@
+---
+title: "Service & Activities"
+toc: false
+---
+
+<p style="font-size:0.9rem;color:#6c757d;margin-bottom:1.5rem;">
+Formal academic service including leadership roles, programme committees, reviewing, examination, and editorial work.
+</p>
+
+<div id="service-app"></div>
+
+<script>
+const SERVICE = [
+  // ── Leadership ─────────────────────────────────────────
+  {cat:"leadership",
+   title:"Research Group Leader — TETRA AI",
+   detail:"Trustworthy and Efficient Transfer Learning AI (TETRA AI) · Norwegian University of Life Sciences (NMBU), Department of Data Science.",
+   url:"https://www.nmbu.no/en/research/groups/tetra-ai"},
+
+  {cat:"leadership",
+   title:"Program Board Leader — Data Science Department, NMBU",
+   detail:"2023–2026 · Oversaw development and implementation of academic programmes. Coordinated with faculty, staff, and external stakeholders.",
+   url:""},
+
+  {cat:"leadership",
+   title:"Member — Knowledge Graph Alliance (XAIR)",
+   detail:"Explainable-AI-Ready Data and Metadata Principles working group.",
+   url:"https://www.kg-alliance.org/kga-wg-xai-24-4/"},
+
+  {cat:"leadership",
+   title:"Scientific Committee Member — NORA Norwegian AI Research Consortium",
+   detail:"Member of the scientific committee for NORA – The Norwegian Artificial Intelligence Research Consortium, coordinating AI research across Norwegian universities.",
+   url:"https://www.nora.ai"},
+
+  {cat:"leadership",
+   title:"IEEE Member · ASAI Member",
+   detail:"Institute of Electrical and Electronics Engineers · Austrian Society for Artificial Intelligence.",
+   url:""},
+
+  // ── PC & Review ────────────────────────────────────────
+  {cat:"pc",
+   title:"Track Chair — IEEE COINS 2026",
+   detail:"Track 10: Human-Centered AI, Interaction, and Visualization.",
+   url:"https://coinsconf.com/"},
+
+  {cat:"pc",
+   title:"Programme Committee — OSETAI 2026 (part of JOWO 2026)",
+   detail:"Ontologies, Structured Explainability, and Trust in AI.",
+   url:"http://www.inprodat.de/events/osetai-2026"},
+
+  {cat:"pc",
+   title:"Programme Committee — ICHCAI 2026",
+   detail:"1st International Conference on Human-Centric Artificial Intelligence · Institute for Energy Technology, Halden, Norway.",
+   url:""},
+
+  {cat:"pc",
+   title:"Programme Committee — IEEE COINS 2024, 2025, 2026",
+   detail:"International Conference on Omni-Layer Intelligent Systems.",
+   url:"https://coinsconf.com/"},
+
+  {cat:"pc",
+   title:"Programme Committee — FAIEMA 2025",
+   detail:"3rd International Conference on Frontiers of AI, Ethics, and Multidisciplinary Applications · Research Track, PhD & Student Forum, PhD Symposium Track.",
+   url:""},
+
+  {cat:"pc",
+   title:"Programme Committee — DELTA 2025",
+   detail:"International Conference on Deep Learning Theory and Applications.",
+   url:"https://delta.scitevents.org/"},
+
+  {cat:"pc",
+   title:"Programme Committee — Nordic AI Young Researcher Symposium (NAIM)",
+   detail:"",
+   url:"https://nordicaimeet.com/"},
+
+  {cat:"pc",
+   title:"Programme Committee — IEEE International Conference on Digital Health (ICDH 2024)",
+   detail:"",
+   url:"https://icdh.conferences.computer.org/2024/"},
+
+  {cat:"pc",
+   title:"Programme Committee — IEEE World Congress on SERVICES 2024",
+   detail:"",
+   url:"https://services.conferences.computer.org/2024/"},
+
+  {cat:"pc",
+   title:"Reviewer — IEEE Transactions on Neural Networks and Learning Systems",
+   detail:"Since 2013.",
+   url:""},
+
+  {cat:"pc",
+   title:"Reviewer — IEEE Transactions on Vehicular Technology · IEEE TCSVT · IEEE TETCI · Pattern Recognition Letters",
+   detail:"Since 2013.",
+   url:""},
+
+  {cat:"pc",
+   title:"Reviewer — ICRA 2025 · AVSS 2026 · EUVIP 2025",
+   detail:"IEEE International Conference on Robotics and Automation · Advanced Video and Signal-Based Surveillance · European Workshop on Visual Information Processing.",
+   url:""},
+
+  // ── Organisation ───────────────────────────────────────
+  {cat:"org",
+   title:"Co-Organiser — DCLXVI Workshop 2024 & 2025",
+   detail:"Designing the Conceptual Landscape for an XAIR Validation Infrastructure · Kaiserslautern, Germany. Part of the BATCAT Horizon Europe project.",
+   url:"https://batcat.info/dclxvi/"},
+
+  {cat:"org",
+   title:"Organisation Committee — Lipidomics Forum 2017, 2018, 2020",
+   detail:"Annual conference on general lipidomics, bioinformatics in lipid research, and real-world applications · Research Center Borstel, Germany.",
+   url:"https://lipidomics-forum.fz-borstel.de/"},
+
+  {cat:"org",
+   title:"Organisation Committee — INFORMATIK 2016 (46th Annual GI Conference)",
+   detail:"Klagenfurt, Austria. Co-located with KI 2016, MATES 2016, D-A-CH Security, and Energy Informatics conferences.",
+   url:"https://www.ifipnews.org/informatik-2016-gi-conference-austria/"},
+
+  {cat:"org",
+   title:"Organiser — AHA Workshop at ER 2016",
+   detail:"International Workshop on Conceptual Modeling for Ambient Assistance and Healthy Ageing · co-located with ER 2016, Salzburg.",
+   url:""},
+
+  // ── Examination ────────────────────────────────────────
+  {cat:"exam",
+   title:"External Examiner & Censor — University of Oslo",
+   detail:"Bachelor's and Master's theses — independent assessment, oral examination, grading.",
+   url:""},
+
+  {cat:"exam",
+   title:"External Examiner & Censor — Simula Research Laboratory",
+   detail:"",
+   url:""},
+
+  {cat:"exam",
+   title:"External Examiner & Censor — Akershus University Hospital",
+   detail:"",
+   url:""},
+
+  {cat:"exam",
+   title:"External Examiner & Censor — University of Stavanger",
+   detail:"",
+   url:""},
+
+  {cat:"exam",
+   title:"External Examiner & Censor — NTNU",
+   detail:"Norwegian University of Science and Technology.",
+   url:""},
+
+  // ── Editorial ──────────────────────────────────────────
+  {cat:"editorial",
+   title:"Editor — Designing the Conceptual Landscape for a XAIR Validation Infrastructure",
+   detail:"Springer Lecture Notes in Networks and Systems (LNNS) · 2025.",
+   url:"https://link.springer.com/book/9783031892738"},
+
+  {cat:"editorial",
+   title:"Guest Editor — Special Issue on Conceptual Modelling in Honour of Heinrich C. Mayr",
+   detail:"Enterprise Modelling and Information Systems Architectures (EMISAJ) · GI · 2018.",
+   url:""},
+];
+
+const CATS = {
+  all:       "All",
+  leadership:"Leadership",
+  pc:        "PC & Review",
+  org:       "Organisation",
+  exam:      "Examination",
+  editorial: "Editorial"
+};
+
+const CBADGE = {
+  leadership:"background:#EEEDFE;color:#3C3489",
+  pc:        "background:#e8f1fb;color:#0c447c",
+  org:       "background:#E1F5EE;color:#085041",
+  exam:      "background:#f1efe8;color:#444441",
+  editorial: "background:#FAEEDA;color:#633806"
+};
+
+let activeCat = "all";
+
+function render() {
+  const filtered = SERVICE.filter(i => activeCat === "all" || i.cat === activeCat);
+
+  const filters = Object.entries(CATS).map(([k,v]) => {
+    const on = activeCat === k;
+    const style = on
+      ? "background:#1a3a5c;color:white;border-color:#1a3a5c;"
+      : "background:white;color:#6c757d;border-color:#dde4ed;";
+    const count = k === "all" ? SERVICE.length : SERVICE.filter(i=>i.cat===k).length;
+    return `<span onclick="setCat('${k}')" style="font-size:11px;padding:4px 12px;border-radius:20px;border:1px solid;cursor:pointer;${style}">${v} <span style="opacity:0.7">(${count})</span></span>`;
+  }).join("");
+
+  const items = filtered.map(i => {
+    const badge = `<span style="font-size:9px;padding:2px 7px;border-radius:3px;font-weight:600;margin-right:6px;${CBADGE[i.cat]}">${CATS[i.cat]}</span>`;
+    const link = i.url ? `<a href="${i.url}" target="_blank" style="font-size:0.82rem;color:#2d7dd2;">More info →</a>` : "";
+    return `<div style="padding:0.85rem 0;border-bottom:1px solid #eef0f4;">
+      <div style="font-size:0.93rem;font-weight:600;color:#1a3a5c;margin-bottom:3px;">${badge}${i.title}</div>
+      ${i.detail ? `<div style="font-size:0.85rem;color:#6c757d;line-height:1.5;margin-bottom:3px;">${i.detail}</div>` : ""}
+      ${link}
+    </div>`;
+  }).join("");
+
+  document.getElementById("service-app").innerHTML = `
+    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;">${filters}</div>
+    <div style="font-size:12px;color:#6c757d;margin-bottom:12px;">Showing <strong>${filtered.length}</strong> of <strong>${SERVICE.length}</strong> items</div>
+    ${items}
+  `;
+}
+
+function setCat(cat) { activeCat = cat; render(); }
+render();
+</script>

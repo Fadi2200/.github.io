@@ -61,7 +61,7 @@ const PROJECTS = [
    title:"ZSL++ — Zero/Few-Shot Learning using Multimodal Sensors",
    role:"Principal Investigator",
    funder:"NMBU · 2022–2026",
-   url:"https://github.com/william-heyden/IP-SAE",
+   url:"https://nva.sikt.no/projects/2755109",
    desc:"Research into zero- and few-shot learning approaches leveraging multimodal sensor data for activity and event recognition."},
 
   {cat:"active",
@@ -73,7 +73,7 @@ const PROJECTS = [
 
   {cat:"active",
    title:"UTFORSK DIP-Farm Edu",
-   role:"Lead",
+   role:"Co-applicant",
    funder:"Research Council of Norway · UTFORSK 2024 · Ranked 4th of 198 applications",
    url:"https://www.cge.mt.gov.br/web/sedec/w/governo-de-mt-integra-projeto-com-pesquisadores-da-noruega-para-impulsionar-rob%C3%B3tica-e-ia-no-agro",
    desc:"Digital Innovation Program for Research-based Education in Agricultural Robotics, Plant Breeding and Sustainable Food Production. Norway–Brazil collaboration: NMBU, UFMT, IFMT, Graminor, AgriHub, FAPEMAT, and 14 companies."},
@@ -169,7 +169,7 @@ const PROJECTS = [
    role:"Research Partner & Co-supervisor",
    funder:"Brazil",
    url:"https://www.ufrgs.br",
-   desc:"International co-supervision and research collaboration on AI and ambient assistance systems. Partner in the UTFORSK DIP-Farm Edu project."},
+   desc:"Research collaboration on AI and ambient assistance systems. Partner in the UTFORSK DIP-Farm Edu project."},
 
   {cat:"collab",
    title:"University of Vienna",
@@ -183,7 +183,7 @@ const PROJECTS = [
    role:"Research Partner & Examination Committee",
    funder:"Italy",
    url:"https://www.uniud.it",
-   desc:"Collaboration on AI research and member of MSc/PhD graduation committees."},
+   desc:"Collaboration on AI research"},
 
   {cat:"collab",
    title:"University of Klagenfurt (AAU)",

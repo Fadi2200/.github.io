@@ -5,12 +5,13 @@ project:
     - assets/stats.json
     - assets/profile.png
     - googlea6f953236800d40d.html
+    - sitemap.xml
 
 website:
   title: "Fadi Al Machot"
   description: "Associate Professor in Machine Learning — NMBU"
   site-url: "https://fadi2200.github.io"
-
+  google-analytics: "G-C2DVMKF3PY"
   navbar:
     title: "Fadi Al Machot"
     left:
@@ -40,7 +41,6 @@ website:
       - icon: github
         href: "https://github.com/Fadi2200"
         aria-label: GitHub
-
   page-footer:
     left: "© 2026 Fadi Al Machot · Norwegian University of Life Sciences (NMBU)"
     right:
@@ -59,9 +59,3 @@ format:
     page-layout: article
     grid:
       body-width: 900px
-
-resources:
-    - assets/stats.json
-    - assets/profile.png
-    - googlea6f953236800d40d.html
-    - sitemap.xml      

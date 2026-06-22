@@ -361,7 +361,7 @@ const PUBS = [
   {y:2018,t:"Special Issue on Conceptual Modelling in Honour of Heinrich C. Mayr",
    au:"Michael J., Steinberger C., Shekhovtsov V.A., Ranasinghe S., Al Machot F.",
    v:"Enterprise Modelling and Information Systems Architectures (EMISAJ)",
-   url:"#",r:["trust"],a:[],tp:"B"},
+   url:"https://emisa-journal.org/emisa/article/view/168",r:["trust"],a:[],tp:"B"},
 
   {y:2018,t:"Probabilistic Ontology Reasoning in Ambient Assistance: Predicting Human Actions",
    au:"Lunardi G.M., Machado G.M., Al Machot F., Maran V., Machado A., Mayr H., Shekhovtsov V., Palazzo J.",

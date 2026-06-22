@@ -183,9 +183,15 @@ const SERVICE = [
    url:"https://link.springer.com/book/9783031892738"},
 
   {cat:"editorial",
+   title:"Editor — Recent Advances in Machine Learning Techniques and Sensor Applications for Human Emotion, Activity Recognition and Support",
+   detail:"Studies in Computational Intelligence (SCI Vol.1175) · Springer. 2024",
+   url:"https://link.springer.com/book/10.1007/978-3-031-71821-2"},
+
+  {cat:"editorial",
    title:"Guest Editor — Special Issue on Conceptual Modelling in Honour of Heinrich C. Mayr",
    detail:"Enterprise Modelling and Information Systems Architectures (EMISAJ) · GI · 2018.",
-   url:""},
+   url:"https://emisa-journal.org/emisa/article/view/168"},
+
 ];
 
 const CATS = {

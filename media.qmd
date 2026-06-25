@@ -23,11 +23,6 @@ const ITEMS = [
    url:""},
 
   // ── Open Calls & Competitions ──────────────────────────
-  {cat:"calls", date:"2026", venue:"Part of JOWO 2026",
-   title:"Call for Papers — OSETAI 2026: Ontology and Semantics for Explainable and Trustworthy AI",
-   desc:"As AI systems are increasingly deployed in real-world and safety-critical environments, explainability, trustworthiness, accountability, and interpretability are becoming foundational requirements. Topics: causal reasoning, counterfactual explanations, explainable neural models, symbolic and neuro-symbolic reasoning, digital forensics, AI auditing, regulatory compliance, metadata and semantic standards, trust, provenance, and reproducibility in AI. Submission deadline: to be announced.",
-   url:"http://www.inprodat.de/events/osetai-2026"},
-
   {cat:"calls", date:"2026", venue:"NMBU & Soundsensing",
    title:"Open Competition — Battery RUL Estimation, 50,000 NOK in Prizes",
    desc:"Competition for estimation of remaining useful life of batteries with cash prizes totalling 50,000 NOK. Datasets from real battery sensors deployed across buildings in Norway. Open for participation.",

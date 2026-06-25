@@ -56,7 +56,7 @@ const SERVICE = [
   {cat:"pc",
    title:"Programme Committee — OSETAI 2026 (part of JOWO 2026)",
    detail:"Ontologies, Structured Explainability, and Trust in AI.",
-   url:"http://www.inprodat.de/events/osetai-2026"},
+   url:"http://www.inprodat.de/events/osetai-2026/"},
 
   {cat:"pc",
    title:"Programme Committee — ICHCAI 2026",
@@ -117,7 +117,7 @@ const SERVICE = [
   {cat:"org",
    title:"Co-Organiser — OSETAI 2026 (part of JOWO 2026)",
    detail:"Workshop on Ontology and Semantics for Explainable and Trustworthy AI. As AI systems are increasingly deployed in real-world and safety-critical environments, explainability, trustworthiness, accountability, and interpretability are becoming foundational requirements.",
-   url:"http://www.inprodat.de/events/osetai-2026"},
+   url:"http://www.inprodat.de/events/osetai-2026/"},
 
   {cat:"org",
    title:"Co-Organiser — DCLXVI Workshop 2024 & 2025",

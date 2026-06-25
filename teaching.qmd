@@ -21,7 +21,7 @@ const COURSES = [
    meta:"NMBU · Autumn semester · Annual",
    desc:"Builds on DAT200. Covers foundations of artificial neural networks, deep CNNs, RNNs, autoencoders, variational autoencoders, GANs, and transformers. Heavy focus on applications and real-data modelling."},
 
-  {cat:"nmbu", code:"INF221", title:"Computer Science for Data Scientists",
+  {cat:"nmbu-prev", code:"INF221", title:"Computer Science for Data Scientists",
    url:"https://gammel.nmbu.no/emne/INF221",
    meta:"NMBU · Previous course",
    desc:"Foundations of computer science tailored for data science students — algorithms, data structures, and programming paradigms relevant to ML workflows."},
@@ -80,12 +80,14 @@ const COURSES = [
 const CATS = {
   all:        "All",
   nmbu:       "NMBU (Current)",
+  "nmbu-prev":"NMBU (Previous)",
   klagenfurt: "University of Klagenfurt",
   workshop:   "Workshops Delivered"
 };
 
 const CBADGE = {
   nmbu:       "background:#E1F5EE;color:#085041",
+  "nmbu-prev":"background:#f1efe8;color:#444441",
   klagenfurt: "background:#e8f1fb;color:#0c447c",
   workshop:   "background:#FAEEDA;color:#633806"
 };

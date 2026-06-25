@@ -4,76 +4,22 @@ toc: false
 ---
 
 <p style="font-size:0.9rem;color:#6c757d;margin-bottom:1.5rem;">
-Teaching at the Norwegian University of Life Sciences (NMBU) since 2021, and previously at the University of Klagenfurt, Austria.
+Teaching at the Norwegian University of Life Sciences (NMBU) since 2021, and previously at the University of Klagenfurt, Austria since 2011.
 </p>
 
 <div id="teaching-app"></div>
 
 <script>
 const COURSES = [
-
-  // ── Pedagogical Training ───────────────────────────────
-  {cat:"pedagogy", code:"", title:"Basic Course in Higher Education Pedagogies",
-   url:"https://www.uis.no",
-   meta:"University of Stavanger · 200 hours · 2022–2023",
-   desc:"Formal training in university pedagogy covering theoretical perspectives on teaching and learning, curriculum design, digital tools for education, and assessment methods."},
-
-  {cat:"pedagogy", code:"PPVE400", title:"Master and PhD Supervision",
-   url:"https://www.nmbu.no",
-   meta:"NMBU · 5 ECTS · Spring 2023",
-   desc:"Structured competence in supervising graduate and doctoral research, including milestone planning, feedback strategies, and research integrity."},
-
-  // ── Workshops ──────────────────────────────────────────
-  {cat:"workshop", code:"", title:"Annual Lipidomics Workshop — de.NBI / LIFS Network",
-   url:"https://www.denbi.de",
-   meta:"Research Center Borstel – Leibniz Lung Center · 2017–2021 (annual)",
-   desc:"Annual international workshops training postdoctoral fellows, researchers, and PhD candidates in advanced machine learning tools for bioinformatics and lipidomics applications. Part of the German BMBF-funded LIFS project and the de.NBI network."},
-
   {cat:"nmbu", code:"DAT200", title:"Applied Machine Learning",
    url:"https://gammel.nmbu.no/course/DAT200",
    meta:"NMBU · Spring semester · Annual",
    desc:"Introduction to machine learning methodology using modern computing tools. Topics: preprocessing, feature extraction (PCA, LDA), feature selection, visualisation, scaling, and data formatting. Heavy focus on practical applications."},
 
-
-  // ── Pedagogical Training ───────────────────────────────
-  {cat:"pedagogy", code:"", title:"Basic Course in Higher Education Pedagogies",
-   url:"https://www.uis.no",
-   meta:"University of Stavanger · 200 hours · 2022–2023",
-   desc:"Formal training in university pedagogy covering theoretical perspectives on teaching and learning, curriculum design, digital tools for education, and assessment methods."},
-
-  {cat:"pedagogy", code:"PPVE400", title:"Master and PhD Supervision",
-   url:"https://www.nmbu.no",
-   meta:"NMBU · 5 ECTS · Spring 2023",
-   desc:"Structured competence in supervising graduate and doctoral research, including milestone planning, feedback strategies, and research integrity."},
-
-  // ── Workshops ──────────────────────────────────────────
-  {cat:"workshop", code:"", title:"Annual Lipidomics Workshop — de.NBI / LIFS Network",
-   url:"https://www.denbi.de",
-   meta:"Research Center Borstel – Leibniz Lung Center · 2017–2021 (annual)",
-   desc:"Annual international workshops training postdoctoral fellows, researchers, and PhD candidates in advanced machine learning tools for bioinformatics and lipidomics applications. Part of the German BMBF-funded LIFS project and the de.NBI network."},
-
   {cat:"nmbu", code:"DAT300", title:"Applied Deep Learning",
    url:"https://gammel.nmbu.no/course/DAT300",
    meta:"NMBU · Autumn semester · Annual",
    desc:"Builds on DAT200. Covers foundations of artificial neural networks, deep CNNs, RNNs, autoencoders, variational autoencoders, GANs, and transformers. Heavy focus on applications and real-data modelling."},
-
-
-  // ── Pedagogical Training ───────────────────────────────
-  {cat:"pedagogy", code:"", title:"Basic Course in Higher Education Pedagogies",
-   url:"https://www.uis.no",
-   meta:"University of Stavanger · 200 hours · 2022–2023",
-   desc:"Formal training in university pedagogy covering theoretical perspectives on teaching and learning, curriculum design, digital tools for education, and assessment methods."},
-
-  {cat:"pedagogy", code:"PPVE400", title:"Master and PhD Supervision",
-   url:"https://www.nmbu.no",
-   meta:"NMBU · 5 ECTS · Spring 2023",
-   desc:"Structured competence in supervising graduate and doctoral research, including milestone planning, feedback strategies, and research integrity."},
-
-  // ── Workshops ──────────────────────────────────────────
-  {cat:"workshop", code:"", title:"Annual Lipidomics Workshop — de.NBI / LIFS Network",
-   url:"https://www.denbi.de",
-   meta:"Research Center Borstel – Leibniz Lung Center · 2017–2021 (annual)",
-   desc:"Annual international workshops training postdoctoral fellows, researchers, and PhD candidates in advanced machine learning tools for bioinformatics and lipidomics applications. Part of the German BMBF-funded LIFS project and the de.NBI network."},
 
   {cat:"nmbu", code:"INF221", title:"Computer Science for Data Scientists",
    url:"https://gammel.nmbu.no/emne/INF221",
@@ -124,20 +70,23 @@ const COURSES = [
 
   {cat:"klagenfurt", code:"", title:"Lab on Robotics Fundamentals",
    url:"", meta:"University of Klagenfurt, Austria", desc:""},
+
+  {cat:"workshop", code:"", title:"Annual Lipidomics Workshop — de.NBI / LIFS Network",
+   url:"https://www.denbi.de",
+   meta:"Research Center Borstel – Leibniz Lung Center · 2017–2021 (annual)",
+   desc:"Annual international workshops training postdoctoral fellows, researchers, and PhD candidates in advanced machine learning tools for bioinformatics and lipidomics applications. Part of the German BMBF-funded LIFS project and the de.NBI network."},
 ];
 
 const CATS = {
   all:        "All",
   nmbu:       "NMBU (Current)",
   klagenfurt: "University of Klagenfurt",
-  pedagogy:   "Pedagogical Training",
-  workshop:   "Workshops"
+  workshop:   "Workshops Delivered"
 };
 
 const CBADGE = {
   nmbu:       "background:#E1F5EE;color:#085041",
   klagenfurt: "background:#e8f1fb;color:#0c447c",
-  pedagogy:   "background:#EEEDFE;color:#3C3489",
   workshop:   "background:#FAEEDA;color:#633806"
 };
 

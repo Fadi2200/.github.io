@@ -4,7 +4,7 @@ toc: false
 ---
 
 <p style="font-size:0.9rem;color:#6c757d;margin-bottom:1.5rem;">
-Formal academic service including leadership roles, programme committees, reviewing, examination, and editorial work.
+Formal academic service including leadership roles, programme committees, reviewing, examination, editorial work, and professional development.
 </p>
 
 <div id="service-app"></div>
@@ -33,16 +33,21 @@ const SERVICE = [
    url:"https://www.nora.ai"},
 
   {cat:"leadership",
+   title:"Scientific Committee Member — Battery Remaining Useful Life Estimation Competition",
+   detail:"In collaboration with Soundsensing and NMBU. Cash prizes totalling 50,000 NOK. Dataset competition using real battery sensor data from buildings across Norway. Committee: Fadi Al Machot (NMBU), Mina Farmanbar (UiS), Kyandoghere Kyamakya (University of Klagenfurt), Habib Ullah (NMBU), Ibrahim Abdelfattah Abdelhameed (NMBU).",
+   url:"https://lnkd.in/eBs8D2A3"},
+
+  {cat:"leadership",
+   title:"Selection Committee Member — Academic Appointments, NMBU",
+   detail:"Member of selection and expert committees for Associate Professor positions in Data Science (Data Management, Machine Learning, Scientific Computing) and a Postdoctoral position in Robotics (2021–2022, 2025).",
+   url:""},
+
+  {cat:"leadership",
    title:"IEEE Member · ASAI Member",
    detail:"Institute of Electrical and Electronics Engineers · Austrian Society for Artificial Intelligence.",
    url:""},
 
   // ── PC & Review ────────────────────────────────────────
-  {cat:"pc",
-   title:"Reviewer — ICRA 2025 · AVSS 2026 · EUVIP 2025",
-   detail:"IEEE International Conference on Robotics and Automation · Advanced Video and Signal-Based Surveillance · European Workshop on Visual Information Processing.",
-   url:""},
-
   {cat:"pc",
    title:"Track Chair — IEEE COINS 2026",
    detail:"Track 10: Human-Centered AI, Interaction, and Visualization.",
@@ -89,6 +94,11 @@ const SERVICE = [
    url:"https://services.conferences.computer.org/2024/"},
 
   {cat:"pc",
+   title:"Programme Committee — IEEE MATES (German Conference on Multiagent System Technologies)",
+   detail:"",
+   url:""},
+
+  {cat:"pc",
    title:"Reviewer — IEEE Transactions on Neural Networks and Learning Systems",
    detail:"Since 2013.",
    url:""},
@@ -98,38 +108,17 @@ const SERVICE = [
    detail:"Since 2013.",
    url:""},
 
-
-
-
-  // ── Additional Examination roles ──────────────────────
-  {cat:"exam",
-   title:"External PhD Examiner — University of Johannesburg, South Africa",
-   detail:"T. Paepae (200830140) — PhD in Electrical and Electronic Engineering, 2023. A.K. Kayisu (201207061) — PhD in Electrical and Electronic Engineering, 2025.",
-   url:"https://www.uj.ac.za"},
-
-  {cat:"exam",
-   title:"PhD Examination Committee — University of Verona, Italy",
-   detail:"Cristian Turetta — PhD in Computer Science, 2025.",
-   url:"https://www.univr.it"},
-
-  {cat:"exam",
-   title:"MSc/PhD Graduation Committees — University of Udine & University of Klagenfurt",
-   detail:"Member of graduation committees for MSc and PhD candidates at the University of Udine (Italy) and University of Klagenfurt (Austria).",
-   url:""},
-
-  // ── Additional Leadership ──────────────────────────────
-  {cat:"leadership",
-   title:"Selection Committee Member — Academic Appointments, NMBU",
-   detail:"Member of selection and expert committees for Associate Professor positions in Data Science (Data Management, Machine Learning, Scientific Computing) and a Postdoctoral position in Robotics (2021–2022, 2025).",
-   url:""},
-
-  // ── Additional PC ──────────────────────────────────────
   {cat:"pc",
-   title:"Programme Committee — IEEE MATES (German Conference on Multiagent System Technologies)",
-   detail:"",
+   title:"Reviewer — ICRA 2025 · AVSS 2026 · EUVIP 2025",
+   detail:"IEEE International Conference on Robotics and Automation · Advanced Video and Signal-Based Surveillance · European Workshop on Visual Information Processing.",
    url:""},
 
-  // ── Organisation ───────────────────────────────────────
+  // ── Organisation & Workshops ───────────────────────────
+  {cat:"org",
+   title:"Co-Organiser — OSETAI 2026 (part of JOWO 2026)",
+   detail:"Workshop on Ontology and Semantics for Explainable and Trustworthy AI. As AI systems are increasingly deployed in real-world and safety-critical environments, explainability, trustworthiness, accountability, and interpretability are becoming foundational requirements.",
+   url:"http://www.inprodat.de/events/osetai-2026"},
+
   {cat:"org",
    title:"Co-Organiser — DCLXVI Workshop 2024 & 2025",
    detail:"Designing the Conceptual Landscape for an XAIR Validation Infrastructure · Kaiserslautern, Germany. Part of the BATCAT Horizon Europe project.",
@@ -151,6 +140,21 @@ const SERVICE = [
    url:""},
 
   // ── Examination ────────────────────────────────────────
+  {cat:"exam",
+   title:"External PhD Examiner — University of Johannesburg, South Africa",
+   detail:"T. Paepae (200830140) — PhD in Electrical and Electronic Engineering, 2023. A.K. Kayisu (201207061) — PhD in Electrical and Electronic Engineering, 2025.",
+   url:"https://www.uj.ac.za"},
+
+  {cat:"exam",
+   title:"PhD Examination Committee — University of Verona, Italy",
+   detail:"Cristian Turetta — PhD in Computer Science, 2025.",
+   url:"https://www.univr.it"},
+
+  {cat:"exam",
+   title:"MSc/PhD Graduation Committees — University of Udine & University of Klagenfurt",
+   detail:"Member of graduation committees for MSc and PhD candidates at the University of Udine (Italy) and University of Klagenfurt (Austria).",
+   url:""},
+
   {cat:"exam",
    title:"External Examiner & Censor — University of Oslo",
    detail:"Bachelor's and Master's theses — independent assessment, oral examination, grading.",
@@ -183,24 +187,30 @@ const SERVICE = [
    url:"https://link.springer.com/book/9783031892738"},
 
   {cat:"editorial",
-   title:"Editor — Recent Advances in Machine Learning Techniques and Sensor Applications for Human Emotion, Activity Recognition and Support",
-   detail:"Studies in Computational Intelligence (SCI Vol.1175) · Springer. 2024",
-   url:"https://link.springer.com/book/10.1007/978-3-031-71821-2"},
-
-  {cat:"editorial",
    title:"Guest Editor — Special Issue on Conceptual Modelling in Honour of Heinrich C. Mayr",
    detail:"Enterprise Modelling and Information Systems Architectures (EMISAJ) · GI · 2018.",
-   url:"https://emisa-journal.org/emisa/article/view/168"},
+   url:""},
 
+  // ── Professional Development ───────────────────────────
+  {cat:"devel",
+   title:"Basic Course in Higher Education Pedagogies",
+   detail:"University of Stavanger · 200 hours · 2022–2023. Formal training in university pedagogy covering theoretical perspectives on teaching and learning, curriculum design, digital tools for education, and assessment methods.",
+   url:"https://www.uis.no"},
+
+  {cat:"devel",
+   title:"PPVE400 — Master and PhD Supervision",
+   detail:"NMBU · 5 ECTS · Spring 2023. Structured competence in supervising graduate and doctoral research, including milestone planning, feedback strategies, and research integrity.",
+   url:"https://www.nmbu.no"},
 ];
 
 const CATS = {
   all:       "All",
   leadership:"Leadership",
   pc:        "PC & Review",
-  org:       "Organisation",
+  org:       "Organisation & Workshops",
   exam:      "Examination",
-  editorial: "Editorial"
+  editorial: "Editorial",
+  devel:     "Professional Development"
 };
 
 const CBADGE = {
@@ -208,7 +218,8 @@ const CBADGE = {
   pc:        "background:#e8f1fb;color:#0c447c",
   org:       "background:#E1F5EE;color:#085041",
   exam:      "background:#f1efe8;color:#444441",
-  editorial: "background:#FAEEDA;color:#633806"
+  editorial: "background:#FAEEDA;color:#633806",
+  devel:     "background:#fbeaf0;color:#72243e"
 };
 
 let activeCat = "all";

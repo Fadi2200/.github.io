@@ -16,6 +16,12 @@ All publications with links to full text. Filter by research theme, application 
 <script>
 const PUBS = [
   // ── 2026 ──────────────────────────────────────────────
+{y:2026,t:"Learning Across Formation Regimes: Surrogate Modelling for Solid–Electrolyte Interphase Growth and Battery Thermal Optimization",
+   au:"Dey A., Petit M., Boccardo G., Fleck N., Liu L., Horsch M.T., Al Machot F.",
+   v:"40th ECMS International Conference on Modelling and Simulation · University of Agder (UiA) · June 2026",
+   url:"https://lnkd.in/eA3KXxxC",
+   r:["eff"],a:["energy"],tp:"C",award:"Best Presentation Award"},
+
   {y:2026,t:"Genomic Prediction of Feed Efficiency in Boars by Deep Learning",
    au:"Onabanjo O., Meuwissen T., Gjøen H.M., Al Machot F., van Son M., Berg P.",
    v:"G3: Genes, Genomes, Genetics · Oxford Academic",

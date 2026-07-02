@@ -16,6 +16,12 @@ All publications with links to full text. Filter by research theme, application 
 <script>
 const PUBS = [
   // ── 2026 ──────────────────────────────────────────────
+{y:2026,t:"Simulating Moving-Boundary Flows with Neural Surrogates: Latent Dynamics vs Operator Learning",
+   au:"Mian H.H., Al Machot F., Franchina N., Kouaissah O., Saeed M., Siddiqui M.S.",
+   v:"40th ECMS International Conference on Modelling and Simulation · University of Agder (UiA) · June 2026",
+   url:"https://doi.org/10.7148/2026-0411",
+   r:["eff","dl"],a:["energy"],tp:"C"},
+
 {y:2026,t:"Learning Across Formation Regimes: Surrogate Modelling for Solid–Electrolyte Interphase Growth and Battery Thermal Optimization",
    au:"Dey A., Petit M., Boccardo G., Fleck N., Liu L., Horsch M.T., Al Machot F.",
    v:"40th ECMS International Conference on Modelling and Simulation · University of Agder (UiA) · June 2026",

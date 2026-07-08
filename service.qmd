@@ -48,6 +48,10 @@ const SERVICE = [
    url:""},
 
   // ── PC & Review ────────────────────────────────────────
+{cat:"review",
+   title:"Reviewer",
+   detail:"The British Machine Vision Conference (BMVC) - 2026",
+   url:"https://bmvc2026.bmva.org/"},
   {cat:"pc",
    title:"Track Chair — IEEE COINS 2026",
    detail:"Track 10: Human-Centered AI, Interaction, and Visualization.",

@@ -48,7 +48,7 @@ const SERVICE = [
    url:""},
 
   // ── PC & Review ────────────────────────────────────────
-{cat:"review",
+{cat:"pc",
    title:"Reviewer",
    detail:"The British Machine Vision Conference (BMVC) - 2026",
    url:"https://bmvc2026.bmva.org/"},

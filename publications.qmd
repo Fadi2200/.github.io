@@ -131,12 +131,12 @@ const PUBS = [
   {y:2025,t:"Towards Explainable Ensemble Learning: Adaptive Feature Space Pruning and Optimized Classifier Selection",
    au:"Uzair M., Jan Z., Khan S.D., Al Machot F., Ullah H.",
    v:"DCLXVI 2025 · Springer Chapter",
-   url:"#",r:["trust"],a:[],tp:"Ch"},
+   url:"#",r:["trust"],a:[],tp:"C"},
 
   {y:2025,t:"Scope of Physics-Based Simulation Artefacts",
    au:"Horsch M.T., Al Machot F., Vrabec J.",
    v:"DCLXVI 2025 · Springer Chapter",
-   url:"https://arxiv.org/pdf/2412.06077",r:["trust"],a:["energy"],tp:"Ch"},
+   url:"https://arxiv.org/pdf/2412.06077",r:["trust"],a:["energy"],tp:"C"},
 
   // ── 2024 ──────────────────────────────────────────────
   {y:2024,t:"Recent Advances in Machine Learning Techniques and Sensor Applications for Human Emotion, Activity Recognition and Support",
@@ -237,7 +237,7 @@ const PUBS = [
 
   {y:2023,t:"A Robust Automated Analog Circuits Classification Involving a Graph Neural Network and a Novel Data Augmentation Strategy",
    au:"Deeb A., Ibrahim A., Salem M., Pichler J., Tkachov S., Karaj A., Al Machot F., Kyamakya K.",
-   v:"Sensors · MDPI",
+   v:"Sensors",
    url:"https://www.mdpi.com/1424-8220/23/6/2989/pdf",r:["dl"],a:["auto"],tp:"J"},
 
   {y:2023,t:"Deep Learning Based Speech Emotion Recognition for Parkinson Patient",
@@ -247,7 +247,7 @@ const PUBS = [
 
   {y:2023,t:"Modeling and Simulation of Shared Electric Automated and Connected Mobility Systems with Autonomous Repositioning",
    au:"Benarbia T., Kyamakya K., Al Machot F., Kambale W.V.",
-   v:"Sustainability · MDPI",
+   v:"Sustainability",
    url:"https://www.mdpi.com/2071-1050/15/1/881/pdf",r:["eff"],a:["auto"],tp:"J"},
 
   {y:2023,t:"Sensitivity Analysis for an Ensemble Transfer Learning Scheme for Time Series Forecasting — Case-Study of a Shallow Neural Network Architecture",
@@ -298,7 +298,7 @@ const PUBS = [
   // ── 2022 ──────────────────────────────────────────────
   {y:2022,t:"HFM: A Hybrid Feature Model Based on Conditional Auto Encoders for Zero-Shot Learning",
    au:"Al Machot F., Ullah M., Ullah H.",
-   v:"Journal of Imaging · MDPI",
+   v:"Journal of Imaging",
    url:"https://www.mdpi.com/2313-433X/8/6/171/pdf",r:["trust","dl"],a:[],tp:"J"},
 
   {y:2022,t:"Toward Authentication of Videos: Integer Transform Based Motion Vector Watermarking",
@@ -308,7 +308,7 @@ const PUBS = [
 
   {y:2022,t:"A Current Encyclopedia of Bioinformatics Tools, Data Formats and Resources for Mass Spectrometry Lipidomics",
    au:"Hoffmann N., Mayer G., Has C., Kopczynski D., Al Machot F., Schwudke D., Ahrends R. et al.",
-   v:"Metabolites · MDPI",
+   v:"Metabolites",
    url:"https://www.mdpi.com/2218-1989/12/7/584/pdf",r:["dl"],a:["bio"],tp:"J"},
 
   {y:2022,t:"Human Emotion: A Survey Focusing on Languages, Ontologies, Datasets, and Systems",
@@ -324,34 +324,34 @@ const PUBS = [
 
   {y:2021,t:"Document-Image Related Visual Sensors and Machine Learning Techniques",
    au:"Kyamakya K., Haj Mosa A., Al Machot F., Chedjou J.C.",
-   v:"Sensors · MDPI Books",
+   v:"Sensors",
    url:"https://www.mdpi.com/books/book/6885",r:["dl"],a:[],tp:"B"},
 
   {y:2021,t:"Intelligent Transportation-Related Complex Systems and Sensors",
    au:"Kyamakya K., Chedjou J.C., Al Machot F., Haj Mosa A., Bagula A.",
-   v:"Sensors · MDPI Books",
+   v:"Sensors",
    url:"https://www.mdpi.com/books/book/4071",r:["eff","dl"],a:["auto"],tp:"B"},
 
   {y:2021,t:"Emotion and Stress Recognition Related Sensors and Machine Learning Technologies",
    au:"Kyamakya K., Al Machot F., Haj Mosa A., Bouchachia H., Chedjou J.C., Bagula A.",
-   v:"Sensors · MDPI Books",
+   v:"Sensors",
    url:"https://www.mdpi.com/books/book/3959",r:["dl"],a:["health"],tp:"B"},
 
   // ── 2020 ──────────────────────────────────────────────
   {y:2020,t:"Zero-Shot Human Activity Recognition Using Non-Visual Sensors",
    au:"Al Machot F., Elkobaisi M.R., Kyamakya K.",
-   v:"Sensors · MDPI",
+   v:"Sensors",
    url:"https://www.mdpi.com/1424-8220/20/3/825/pdf",r:["trust"],a:["health"],tp:"J"},
 
   {y:2020,t:"A Domain-Independent Classification Model for Sentiment Analysis Using Neural Models",
    au:"Jnoub N., Al Machot F., Klas W.",
-   v:"Applied Sciences · MDPI",
+   v:"Applied Sciences",
    url:"https://www.mdpi.com/2076-3417/10/18/6221/pdf",r:["trust","dl"],a:[],tp:"J"},
 
   // ── 2019 ──────────────────────────────────────────────
   {y:2019,t:"A Deep-Learning Model for Subject-Independent Human Emotion Recognition Using Electrodermal Activity Sensors",
    au:"Al Machot F., Elmachot A., Ali M., Al Machot E., Kyamakya K.",
-   v:"Sensors · MDPI",
+   v:"Sensors",
    url:"https://www.mdpi.com/1424-8220/19/7/1659/pdf",r:["dl"],a:["health"],tp:"J"},
 
   // ── 2018 ──────────────────────────────────────────────
@@ -367,7 +367,7 @@ const PUBS = [
 
   {y:2018,t:"A Globally Generalized Emotion Recognition System Involving Different Physiological Signals",
    au:"Ali M., Al Machot F., Haj Mosa A., Jdeed M., Al Machot E., Kyamakya K.",
-   v:"Sensors · MDPI",
+   v:"Sensors",
    url:"https://www.mdpi.com/1424-8220/18/6/1905/pdf",r:["dl"],a:["health"],tp:"J"},
 
   {y:2018,t:"Special Issue on Conceptual Modelling in Honour of Heinrich C. Mayr",
@@ -545,7 +545,7 @@ const PUBS = [
   // ── Additional papers from ResearchGate ──────────────────────
   {y:2024,t:"A Robust Automated Analog Circuits Classification Involving a GNN and Novel Data Augmentation Strategy",
    au:"Kambale W.V., Salem M., Benarbia T., Al Machot F., Kyamakya K.",
-   v:"Symmetry · MDPI",
+   v:"Symmetry",
    url:"https://www.mdpi.com/2073-8994/16/2/241",r:["dl"],a:["auto"],tp:"J"},
 
   {y:2023,t:"Ensemble Transfer Learning for Time Series Forecasting: A Sensitivity Analysis Framework for a Shallow Neural Network",

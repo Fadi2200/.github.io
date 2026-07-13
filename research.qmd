@@ -64,7 +64,7 @@ const PROJECTS = [
 
   {cat:"active",
    title:"DigiPass — Digital Materials & Product Passport",
-   role:"Co-applicant",
+   role:"Principal Investigator",
    funder:"Horizon Europe CSA · GA 101138510 · 2024–2027",
    url:"https://ms.hereon.de/digipass/",
    desc:"Establishing a digital materials and product passport to support strategic innovation by harmonising advanced material ecosystems."},
@@ -85,7 +85,7 @@ const PROJECTS = [
 
   {cat:"active",
    title:"UTFORSK DIP-Farm Edu",
-   role:"Co-applicant",
+   role:"Principal Investigator",
    funder:"Research Council of Norway · UTFORSK 2024 · Ranked 4th of 198 applications",
    url:"https://www.cge.mt.gov.br/web/sedec/w/governo-de-mt-integra-projeto-com-pesquisadores-da-noruega-para-impulsionar-rob%C3%B3tica-e-ia-no-agro",
    desc:"Digital Innovation Program for Research-based Education in Agricultural Robotics, Plant Breeding and Sustainable Food Production. Norway–Brazil collaboration: NMBU, UFMT, IFMT, Graminor, AgriHub, FAPEMAT, and 14 companies."},

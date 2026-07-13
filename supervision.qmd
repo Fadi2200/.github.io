@@ -71,6 +71,18 @@ const STUDENTS = [
    inst:"University of Johannesburg (South Africa) · UFRGS Brazil · University of Klagenfurt (Austria) · University of Vienna (Austria) · University of Udine (Italy)", role:"Co-supervisor", period:"Ongoing"},
 
   // ── Master ─────────────────────────────────────────────
+  {cat:"master", name:"Sheikh Hasan Elahi", 
+  topic:"Predicting Plant Growth in Controlled Environments via Few-Shot Learning and Representative Sampling", 
+  inst:"Norwegian University of Life Sciences (NMBU)", role:"Main supervisor", period:"2026"}
+  
+  {cat:"master", name:"Taofik Muhriz", 
+  topic:"Automated Prediction of Mucus Plug Burden in Lung CT Scans", 
+  inst:"Norwegian University of Life Sciences (NMBU)", role:"Main supervisor", period:"2026"}
+  
+  {cat:"master", name:"Katarzyna Haland", 
+  topic:"Zero-Shot Learning for Wrist-Worn Micro-Activity Recognition: Evaluation, Pipeline Analysis, and Cross-Dataset Generalisation", 
+  inst:"Norwegian University of Life Sciences (NMBU)", role:"Main supervisor", period:"2026"}
+
   {cat:"master", name:"Siyi Hu",
    topic:"Hand-Based Micro-Activity Recognition Using Wearable Devices",
    inst:"Norwegian University of Life Sciences (NMBU)", role:"Main supervisor", period:"2025"},

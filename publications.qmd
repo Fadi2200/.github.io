@@ -22,6 +22,30 @@ const PUBS = [
    url:"https://doi.org/10.7148/2026-0411",
    r:["eff","dl"],a:["energy"],tp:"C"},
 
+{y:2026,t:"CAST: Closed-form Analytic Semantic Transfer for Zero-Shot Classifier Extension",
+   au:"Heyden W., Al Machot F. et al.",
+   v:"ECCV 2026 Workshop — CDEL",
+   url:"#",
+   r:["trust"],a:[],tp:"C"},
+
+  {y:2026,t:"PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations",
+   au:"Iakovets P., Samarathunga L.S.W., Horsch M.T., Al Machot F.",
+   v:"OSETAI 2026 @ JOWO 2026 · Co-organized by DigiPass CSA (Horizon Europe)",
+   url:"#",
+   r:["trust"],a:[],tp:"C"},
+
+  {y:2026,t:"Cyber-Physical GraphRAG: Safe, Real-Time, and Scalable Orchestration of Large-Scale Autonomous Fleets",
+   au:"Ibrahim A., Al Machot F., Kyamakya K.",
+   v:"IEEE Access",
+   url:"#",
+   r:["trust","dl"],a:["auto"],tp:"J"},
+
+  {y:2026,t:"Explainability-Oriented Semantic Validation for Digital Product Passports in Industrial Systems",
+   au:"Samarathunga L.S.W., Horsch M.T., Al Machot F.",
+   v:"1st International Conference on Human Centric Artificial Intelligence (ICHCAI 2026)",
+   url:"#",
+   r:["trust"],a:[],tp:"C"},
+
 {y:2026,t:"Learning Across Formation Regimes: Surrogate Modelling for Solid–Electrolyte Interphase Growth and Battery Thermal Optimization",
    au:"Dey A., Petit M., Boccardo G., Fleck N., Liu L., Horsch M.T., Al Machot F.",
    v:"40th ECMS International Conference on Modelling and Simulation · University of Agder (UiA) · June 2026",

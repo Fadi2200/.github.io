@@ -54,10 +54,6 @@ const STUDENTS = [
    topic:"The Cognitive Stack: Bridging Topological Perception and Semantic Reasoning for Grounded Embodied Intelligence",
    inst:"University of Klagenfurt, Austria", role:"Co-supervisor", period:"Current"},
 
-  {cat:"phd-co", name:"Eliska Sieglova",
-   topic:"The Cognitive Stack: Bridging Topological Perception and Semantic Reasoning for Grounded Embodied Intelligence",
-   inst:"Norwegian University of Life Sciences (NMBU)", role:"Co-supervisor", period:"Current"},
-
 
   // ── Postdocs ───────────────────────────────────────────
   // ── Visiting Researchers ───────────────────────────────
